@@ -1,0 +1,42 @@
+{
+  "originHash" : "87eaa2db2fb957ce0757ca8dfdf3564887135c982b30f0bd430748c79fd2ca6b",
+  "pins" : [
+    {
+      "identity" : "waadmobimpl_spm",
+      "kind" : "remoteSourceControl",
+      "location" : "http://repo.wingsdk.cn:8082/r/WAAdmobImpl_spm.git",
+      "state" : {
+        "revision" : "121b0125c466952be748bbca4ca034edefdad68c",
+        "version" : "4.5.0"
+      }
+    },
+    {
+      "identity" : "waghglimpl_spm",
+      "kind" : "remoteSourceControl",
+      "location" : "http://repo.wingsdk.cn:8082/r/WAGhglImpl_spm.git",
+      "state" : {
+        "revision" : "83cc8c182f05556ed1b36278e10351495b850f83",
+        "version" : "4.4.0"
+      }
+    },
+    {
+      "identity" : "waghgpimpl_spm",
+      "kind" : "remoteSourceControl",
+      "location" : "http://repo.wingsdk.cn:8082/r/WAGhgpImpl_spm.git",
+      "state" : {
+        "revision" : "fda477c762797afa028a490f4214cbda7c334deb",
+        "version" : "4.5.0"
+      }
+    },
+    {
+      "identity" : "wingsdkios_spm",
+      "kind" : "remoteSourceControl",
+      "location" : "http://repo.wingsdk.cn:8082/r/wingsdkios_spm.git",
+      "state" : {
+        "revision" : "2c5f32c04bc2ffa09c098a5c214acfc450de8feb",
+        "version" : "4.5.0"
+      }
+    }
+  ],
+  "version" : 3
+}

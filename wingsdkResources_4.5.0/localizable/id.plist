@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>wasdk_install_btn</key>
+	<string>Instal</string>
+	<key>wasdk_play_btn</key>
+	<string>Main</string>
+	<key>wasdk_info_btn</key>
+	<string>Info</string>
+	<key>wasdk_app_btn</key>
+	<string>APP</string>
+	<key>wasdk_apw_guide_words</key>
+	<string>Klik di sini untuk menu popup</string>
+	<key>wasdk_sdk_version</key>
+	<string>Versi SDK</string>
+	<key>wasdk_pat_version</key>
+	<string>Versi Patch</string>
+	<key>wasdk_has_no_pat</key>
+	<string>Tidak ada</string>
+	<key>wasdk_login</key>
+	<string>Login</string>
+	<key>wasdk_login_facebook</key>
+	<string>Facebook</string>
+	<key>wasdk_login_game_center</key>
+	<string>Game Center</string>
+	<key>wasdk_login_vk</key>
+	<string>VK</string>
+	<key>wasdk_confirm</key>
+	<string>Konfirmasi</string>
+	<key>wasdk_login_signinwithapple</key>
+	<string>Sign in with Apple</string>
+	<key>wasdk_cancel</key>
+	<string>Batal</string>
+	<key>wasdk_loading</key>
+	<string>Memuat</string>
+	<key>wasdk_visitor</key>
+	<string>Pengunjung</string>
+	<key>wasdk_bind</key>
+	<string>Tautkan</string>
+	<key>wasdk_unbind</key>
+	<string>Hapus tautan</string>
+	<key>wasdk_bound</key>
+	<string>Sudah ditautkan</string>
+	<key>wasdk_unbound</key>
+	<string>Belum ditautkan</string>
+	<key>wasdk_create_ccount</key>
+	<string>Buat Akun</string>
+	<key>wasdk_account_management</key>
+	<string>Manajemen Akun</string>
+	<key>wasdk_change_account</key>
+	<string>Ganti Akun</string>
+	<key>wasdk_unbind_account</key>
+	<string>Hapus Tautan Akun</string>
+	<key>wasdk_tip_warning</key>
+	<string>Peringatan</string>
+	<key>wasdk_tip_unbind_unique_third_party</key>
+	<string>Jika kamu menghapus tautan akun platform pihak ketiga, datamu akan hilang. Lanjutkan?</string>
+	<key>wasdk_tip_can_not_unbind</key>
+	<string>Kamu tidak bisa menghapus tautan akun.</string>
+	<key>wasdk_tip_create_account_lost_data</key>
+	<string>Jika kamu membuat akun lain tetapi tidak menautkannya ke akun pihak ketiga, data sebelumnya akan hilang permanen. Setelah pentautan akun, kamu bisa menggunakan akun platform pihak ketiga untuk login ke aplikasi.</string>
+	<key>wasdk_tip_fail_change_account</key>
+	<string>Gagal mengganti akun. Silahkan coba lagi nanti.</string>
+	<key>wasdk_tip_relog</key>
+	<string>Silahkan login ulang ke aplikasi.</string>
+	<key>wasdk_tip_fail_access_account_data</key>
+	<string>Gagal mengakses data akun. Silahkan coba lagi nanti.</string>
+	<key>wasdk_tip_bind_succ</key>
+	<string>Berhasil menautkan!</string>
+	<key>wasdk_tip_bind_fail</key>
+	<string>Gagal menautkan. Silahkan coba lagi nanti.</string>
+	<key>wasdk_tip_bind_fail_other_user</key>
+	<string>Akun ini sudah ditautkan ke pengguna lain.</string>
+	<key>wasdk_tip_unbind_succ</key>
+	<string>Berhasil menghapus tautan!</string>
+	<key>wasdk_tip_unbind_fail</key>
+	<string>Gagal menghapus tautan. Silahkan coba lagi nanti.</string>
+	<key>wasdk_tip_create_user_fail</key>
+	<string>Gagal membuat pengguna baru. Silahkan coba lagi nanti.</string>
+	<key>wasdk_drag_up_fresh</key>
+	<string>Klik atau geser ke atas untuk memuat lebih banyak</string>
+	<key>wasdk_no_more_data</key>
+	<string>Tidak ada lagi</string>
+	<key>wasdk_load_more</key>
+	<string>Memuat ...</string>
+	<key>wasdk_pull_down_refresh</key>
+	<string>Geser ke bawah untuk refresh</string>
+	<key>wasdk_release_refresh</key>
+	<string>Lepaskan untuk refresh</string>
+	<key>wasdk_purchase</key>
+	<string>Beli</string>
+	<key>wasdk_pay_exit_alert</key>
+	<string>Yakin hendak membatalkan pembelian?</string>
+	<key>wasdk_notice</key>
+	<string>Perhatian</string>
+	<key>wasdk_jailbreak_not_purchase</key>
+	<string>Kamu tidak bisa melakukan pembelian di perangkat jailbreak.</string>
+	<key>wasdk_copy</key>
+	<string>Salin</string>
+	<key>wasdk_login_twitter</key>
+	<string>Twitter</string>
+	<key>wasdk_login_instagram</key>
+	<string>Instagram</string>
+	<key>wasdk_tip_bind_closed</key>
+	<string>Gagal menautkan.</string>
+	<key>wasdk_tip_unbind_closed</key>
+	<string>Gagal menghapus tautan.</string>
+	<key>wasdk_loading_error</key>
+	<string>Jaringan error, silahkan coba lagi nanti.</string>
+	<key>wasdk_privacy_policy</key>
+	<string>Ketentuan Layanan dan Kebijakan Privasi</string>
+	<key>wasdk_privacy_reminder</key>
+	<string>Pengingat privasi</string>
+	<key>wasdk_privacy_policy_alert_content</key>
+	<string>Baca dan setujui Ketentuan Layanan dan Kebijakan Privasi kami.</string>
+	<key>wasdk_privacy_view details</key>
+	<string>Baca Ketentuan Layanan dan Kebijakan Privasi</string>
+	<key>wasdk_no_agree</key>
+	<string>Tidak setuju</string>
+	<key>wasdk_agree</key>
+	<string>Setuju</string>
+	<key>wasdk_privacy_policy_agree</key>
+	<string>Saya telah membaca dan menyetujui </string>
+	<key>wasdk_please_agree_privacy_policy</key>
+	<string>Silahkan menyetujui Ketentuan Layanan dan Kebijakan Privasi  terlebih dulu.</string>
+	<key>wasdk_user_center</key>
+	<string>User Center</string>
+	<key>wasdk_initial_account</key>
+	<string>Initial Account</string>
+	<key>wasdk_initial_password</key>
+	<string>Default Password</string>
+	<key>wasdk_i_know</key>
+	<string>OK</string>
+	<key>wasdk_copied</key>
+	<string>Copied</string>
+	<key>wasdk_payment_center</key>
+	<string>Payment Center</string>
+	<key>wasdk_payment_character_id</key>
+	<string>CharacterID</string>
+	<key>wasdk_pay_way_title</key>
+	<string>How to recharge</string>
+	<key>wasdk_pay_way_1</key>
+	<string>1. Press the button below to copy the url</string>
+	<key>wasdk_pay_way_2</key>
+	<string>2. Paste it on a mobile browser and visit the url
+Recharge with discount</string>
+	<key>wasdk_short_link_dated_alert</key>
+	<string>The link is only valid for 5 minutes. Please request a link again once it expires.</string>
+	<key>wasdk_gamereview_title</key>
+	<string>Beri Nilai Kami</string>
+	<key>wasdk_gamereview_content</key>
+	<string>Tunjukkan dukungan Anda dengan memberi kami 5 bintang atau berikan tanggapan Anda!</string>
+	<key>wasdk_gamereview_rateus</key>
+	<string>Beri nilai kami</string>
+	<key>wasdk_gamereview_feedback</key>
+	<string>Umpan balik</string>
+	<key>wasdk_gamereview_refuse</key>
+	<string>Tidak, terima kasih</string>
+	<key>wa_sdk_web_login_confirm_exit</key>
+	<string>Apakah kamu yakin ingin keluar?</string>
+	<key>wasdk_login_signup</key>
+	<string>Daftar</string>
+	<key>wasdk_login_email</key>
+	<string>Surat elektronik</string>
+	<key>wasdk_login_password</key>
+	<string>Kode sandi</string>
+	<key>wasdk_login_by_mobile</key>
+	<string>Gabung dengan nomer seluler</string>
+	<key>wasdk_login_by_email</key>
+	<string>Gabung dengan Surat elektronik</string>
+	<key>wasdk_login_forget_pass</key>
+	<string>Lupa kata sandi</string>
+	<key>wasdk_login_thirid_login</key>
+	<string>Cara lain bergabung</string>
+	<key>wasdk_login_mobile</key>
+	<string>Seluler</string>
+	<key>wasdk_login_search_country</key>
+	<string>Cari negara/daerah</string>
+	<key>wasdk_login_ver_code</key>
+	<string>Kode Verifikasi</string>
+	<key>wasdk_login_get_code</key>
+	<string>Dapatkan kode</string>
+	<key>wasdk_login_signinandup</key>
+	<string>Masuk/Daftar</string>
+	<key>wasdk_login_new_pass</key>
+	<string>Kode Sandi baru</string>
+	<key>wasdk_login_confirm_pass</key>
+	<string>mengonfirmasi Kata Sandi</string>
+	<key>wasdk_login_find_my_password</key>
+	<string>Cari kode sandi saya</string>
+	<key>wasdk_login_gotologin</key>
+	<string>Masuk ke</string>
+	<key>wasdk_login_next</key>
+	<string>berikutnya</string>
+	<key>wasdk_login_pass_reset_success</key>
+	<string>Kode Sandi berhasil diatur ulang</string>
+	<key>wasdk_login_pass_format</key>
+	<string>6-20 huruf, angka atau simbol</string>
+	<key>wasdk_login_fields_not_match</key>
+	<string>Bidang tidak sesuai</string>
+	<key>wasdk_login_ver_code_incorrect</key>
+	<string>Kode Verifikasi tidak sah</string>
+	<key>wasdk_login_ver_limit_reached</key>
+	<string>Batas Verifikasi tercapai</string>
+	<key>wasdk_login_email_registered</key>
+	<string>Alamat surat elektronik telah terdaftar</string>
+	<key>wasdk_login_too_many_attempt</key>
+	<string>Terlalu banyak percobaan</string>
+	<key>wasdk_login_invalid_email</key>
+	<string>Alamat surat elektronik tidak sah</string>
+	<key>wasdk_login_email_not_exist</key>
+	<string>Surat elektronik tidak ada</string>
+	<key>wasdk_login_mobile_not_exist</key>
+	<string>Nomer seluler tidak ada</string>
+	<key>wasdk_login_emailcodesend_mesage</key>
+	<string>Kode Verifikasi telah dikirim ke surat elektronik anda</string>
+	<key>wasdk_login_phonecodesend_mesage</key>
+	<string>Kode Verifikasi telah dikirim ke telepon pintar anda</string>
+	<key>wasdk_login_incorrect_account_password</key>
+	<string>Akun atau kode sandi salah</string>
+	<key>wasdk_login_enter_right_email</key>
+	<string>Tolong masukan surat elektronik yang sah</string>
+	<key>wasdk_login_enter_right_phone</key>
+	<string>Tolong masukan nomer seluler yang sah</string>
+	<key>wasdk_login_enter_right_code</key>
+	<string>Tolong masukan kode Verifikasi</string>
+	<key>wasdk_login_phone_invalid</key>
+	<string>Nomer seluler tidak sah</string>
+	<key>wasdk_login_code_has_expired</key>
+	<string>Kode Verifikasi telah lewat masa berlakunya</string>
+	<key>wasdk_login_userinfo_invalid</key>
+	<string>Informasi pengguna tidak sah</string>
+	<key>wasdk_login_repeat_failed_message</key>
+	<string>Percobaan untuk gabung telah mencapai batas maksimal, akun anda terkunci selama 2 jam, coba lagi setelah %@</string>
+	<key>wasdk_login_frozen_message</key>
+	<string>Login Anda akan dikunci selama 2 jam setelah %d kali percobaan login yang gagal.</string>
+	<key>wasdk_login_bind_email</key>
+	<string>Ikat surat elektronik</string>
+	<key>wasdk_login_bind_number</key>
+	<string>Ikat nomer seluler</string>
+	<key>wasdk_login_no_data</key>
+	<string>Tidak ada data</string>
+	<key>wasdk_login_read_agree_agreement</key>
+	<string>Saya telah membaca dan menyetujui Ketentuan Layanan dan Kebijakan Privasi.</string>
+	<key>wasdk_login_login_failed</key>
+	<string>Gagal login</string>
+	<key>wasdk_login_pass_cannout_empty</key>
+	<string>Kata sandi tidak boleh kosong</string>
+	<key>wasdk_login_signup_failed</key>
+	<string>Gagal mendaftar</string>
+	<key>wasdk_login_changepass_failed</key>
+	<string>Gagal mengubah kata sandi</string>
+	<key>wasdk_login_sendcode_failed</key>
+	<string>Gagal mengirim kode verifikasi</string>
+	<key>wasdk_login_mobile_exists</key>
+	<string>Nomor ponsel sudah ada!</string>
+	<key>wasdk_login_email_exists</key>
+	<string>Email sudah ada!</string>
+	<key>wasdk_more</key>
+	<string>Rincian</string>
+	<key>wasdk_login_signupbyemail</key>
+	<string>Daftar dengan Email</string>
+	<key>wasdk_login_eamillogin_title</key>
+	<string>Email</string>
+	<key>wasdk_login_phonelogin_title</key>
+	<string>Nomor Telepon</string>
+	<key>wa_sdk_graph_code</key>
+	<string>CAPTCHA</string>
+	<key>wa_sdk_please_input_correct_graph_code</key>
+	<string>Silakan masukkan CAPTCHA yang benar</string>
+</dict>
+</plist>

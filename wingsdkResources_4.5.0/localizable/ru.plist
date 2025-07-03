@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>wasdk_install_btn</key>
+	<string>Установка</string>
+	<key>wasdk_play_btn</key>
+	<string>Открыть</string>
+	<key>wasdk_info_btn</key>
+	<string>Инфо</string>
+	<key>wasdk_app_btn</key>
+	<string>Прилож</string>
+	<key>wasdk_apw_guide_words</key>
+	<string>Нажмите для вызова всплывающего меню</string>
+	<key>wasdk_sdk_version</key>
+	<string>Версия SDK</string>
+	<key>wasdk_pat_version</key>
+	<string>Версия патча</string>
+	<key>wasdk_has_no_pat</key>
+	<string>Нет</string>
+	<key>wasdk_login</key>
+	<string>Вход</string>
+	<key>wasdk_login_facebook</key>
+	<string>Facebook</string>
+	<key>wasdk_login_signinwithapple</key>
+	<string>Sign in with Apple</string>
+	<key>wasdk_login_game_center</key>
+	<string>Игровой Центр</string>
+	<key>wasdk_login_vk</key>
+	<string>VK</string>
+	<key>wasdk_confirm</key>
+	<string>Подтвердить</string>
+	<key>wasdk_cancel</key>
+	<string>Отмена</string>
+	<key>wasdk_loading</key>
+	<string>Загрузка</string>
+	<key>wasdk_visitor</key>
+	<string>Посетитель</string>
+	<key>wasdk_bind</key>
+	<string>Привяз</string>
+	<key>wasdk_unbind</key>
+	<string>Отвяз</string>
+	<key>wasdk_bound</key>
+	<string>Привяз</string>
+	<key>wasdk_unbound</key>
+	<string>Отвяз</string>
+	<key>wasdk_create_ccount</key>
+	<string>Созд аккаунт</string>
+	<key>wasdk_account_management</key>
+	<string>Управление аккаунтом</string>
+	<key>wasdk_change_account</key>
+	<string>Смен аккаунт</string>
+	<key>wasdk_unbind_account</key>
+	<string>Отвязать учетную запись</string>
+	<key>wasdk_tip_warning</key>
+	<string>Предупреждение</string>
+	<key>wasdk_tip_unbind_unique_third_party</key>
+	<string>Если вы отвяжете вашу уникальную учетную запись внешней платформы, ваши данные будут утеряны. Продолжить?</string>
+	<key>wasdk_tip_can_not_unbind</key>
+	<string>Вы не можете отвязать учетную запись.</string>
+	<key>wasdk_tip_create_account_lost_data</key>
+	<string>Если вы создадите другую учетную запись и не привяжете ее к внешней учетной записи, ваши предыдущие данные будут утеряны навсегда. После привязки вашей учетной записи, вы сможете осуществлять вход в приложения с помощью учетных данных внешних платформ.</string>
+	<key>wasdk_tip_fail_change_account</key>
+	<string>Не удалось сменить учетную запись. Пожалуйста, попробуйте позже.</string>
+	<key>wasdk_tip_relog</key>
+	<string>Пожалуйста, войдите в приложение заново.</string>
+	<key>wasdk_tip_fail_access_account_data</key>
+	<string>Не удалось получить доступ к данным вашей учетной записи. Пожалуйста, попробуйте позже.</string>
+	<key>wasdk_tip_bind_succ</key>
+	<string>Привязка прошла успешно!</string>
+	<key>wasdk_tip_bind_fail</key>
+	<string>Не удалось выполнить привязку. Пожалуйста, попробуйте позже.  </string>
+	<key>wasdk_tip_bind_fail_other_user</key>
+	<string>Эта учетная запись была привязана к другому пользователю.</string>
+	<key>wasdk_tip_unbind_succ</key>
+	<string>Отвязка прошла успешно!  </string>
+	<key>wasdk_tip_unbind_fail</key>
+	<string>Не удалось выполнить отвязку. Пожалуйста, попробуйте позже.</string>
+	<key>wasdk_tip_create_user_fail</key>
+	<string>Не удалось создать нового пользователя. Пожалуйста, попробуйте позже.</string>
+	<key>wasdk_drag_up_fresh</key>
+	<string>Нажмите или перетяните сюда, чтобы загрузить еще.</string>
+	<key>wasdk_no_more_data</key>
+	<string>Больше информации нет</string>
+	<key>wasdk_load_more</key>
+	<string>Загрузка ...</string>
+	<key>wasdk_pull_down_refresh</key>
+	<string>Опустите вниз для обновления</string>
+	<key>wasdk_release_refresh</key>
+	<string>Отпустите для обновления</string>
+	<key>wasdk_purchase</key>
+	<string>Купить</string>
+	<key>wasdk_pay_exit_alert</key>
+	<string>Вы уверены, что хотите отменить эту покупку?</string>
+	<key>wasdk_notice</key>
+	<string>Уведомление</string>
+	<key>wasdk_jailbreak_not_purchase</key>
+	<string>Вы не можете совершать покупки на взломанном устройстве</string>
+	<key>wasdk_copy</key>
+	<string>Копир</string>
+	<key>wasdk_login_twitter</key>
+	<string>Twitter</string>
+	<key>wasdk_login_instagram</key>
+	<string>Instagram</string>
+	<key>wasdk_tip_bind_closed</key>
+	<string>Не удалось выполнить привязку</string>
+	<key>wasdk_tip_unbind_closed</key>
+	<string>Не удалось выполнить отвязку</string>
+	<key>wasdk_loading_error</key>
+	<string>Ошибка сети, пожалуйста попробуйте позже.</string>
+	<key>wasdk_privacy_policy</key>
+	<string>Условиями предоставления услуг и Политикой конфиденциальности</string>
+	<key>wasdk_privacy_reminder</key>
+	<string>Напоминание о конфиденциальности</string>
+	<key>wasdk_privacy_policy_alert_content</key>
+	<string>Прочитайте и согласитесь с Условиями предоставления услуг и Политикой конфиденциальности.</string>
+	<key>wasdk_privacy_view details</key>
+	<string>Ознакомьтесь с Условиями предоставления услуг и Политикой конфиденциальности</string>
+	<key>wasdk_no_agree</key>
+	<string>Не согласен</string>
+	<key>wasdk_agree</key>
+	<string>Согласен</string>
+	<key>wasdk_privacy_policy_agree</key>
+	<string>Я прочитал и согласен с</string>
+	<key>wasdk_please_agree_privacy_policy</key>
+	<string>Пожалуйста, согласитесь с Условиями предоставления услуг и Политикой конфиденциальности.</string>
+	<key>wasdk_user_center</key>
+	<string>Личный кабинет</string>
+	<key>wasdk_initial_account</key>
+	<string>Первоначальный аккаунт</string>
+	<key>wasdk_initial_password</key>
+	<string>Пароль по умолчанию</string>
+	<key>wasdk_i_know</key>
+	<string>OK</string>
+	<key>wasdk_copied</key>
+	<string>Скопир</string>
+	<key>wasdk_payment_center</key>
+	<string>Мой кошелёк</string>
+	<key>wasdk_payment_character_id</key>
+	<string>ID персонажа</string>
+	<key>wasdk_pay_way_title</key>
+	<string>How to recharge</string>
+	<key>wasdk_pay_way_1</key>
+	<string>1. Press the button below to copy the url</string>
+	<key>wasdk_pay_way_2</key>
+	<string>2. Paste it on a mobile browser and visit the url
+Recharge with discount</string>
+	<key>wasdk_short_link_dated_alert</key>
+	<string>The link is only valid for 5 minutes. Please request a link again once it expires.</string>
+	<key>wasdk_gamereview_title</key>
+	<string>Оцените нас</string>
+	<key>wasdk_gamereview_content</key>
+	<string>Выразите свою поддержку, оценив нас на 5 звезд, или оставьте свой отзыв!</string>
+	<key>wasdk_gamereview_rateus</key>
+	<string>Оцените нас</string>
+	<key>wasdk_gamereview_feedback</key>
+	<string>Обратная связь</string>
+	<key>wasdk_gamereview_refuse</key>
+	<string>Нет, спасибо</string>
+	<key>wa_sdk_web_login_confirm_exit</key>
+	<string>Вы уверены, что хотите выйти из системы?</string>
+	<key>wasdk_login_signup</key>
+	<string>Зарегистрироваться</string>
+	<key>wasdk_login_email</key>
+	<string>Электронная почта</string>
+	<key>wasdk_login_password</key>
+	<string>Пароль</string>
+	<key>wasdk_login_by_mobile</key>
+	<string>Войти с помощью номера мобильного телефона</string>
+	<key>wasdk_login_by_email</key>
+	<string>Войти с помощью электронной почты</string>
+	<key>wasdk_login_forget_pass</key>
+	<string>Забыли пароль?</string>
+	<key>wasdk_login_thirid_login</key>
+	<string>Другие способы входа в систему</string>
+	<key>wasdk_login_mobile</key>
+	<string>Мобильный</string>
+	<key>wasdk_login_search_country</key>
+	<string>Поиск страны/региона</string>
+	<key>wasdk_login_ver_code</key>
+	<string>Верификационный код</string>
+	<key>wasdk_login_get_code</key>
+	<string>Получить код</string>
+	<key>wasdk_login_signinandup</key>
+	<string>Войти/Зарегистрироваться</string>
+	<key>wasdk_login_new_pass</key>
+	<string>Новый пароль</string>
+	<key>wasdk_login_confirm_pass</key>
+	<string>Подтверждение нового пароля</string>
+	<key>wasdk_login_find_my_password</key>
+	<string>Найти мой пароль</string>
+	<key>wasdk_login_gotologin</key>
+	<string>Перейти к входу в систему</string>
+	<key>wasdk_login_next</key>
+	<string>Следующий</string>
+	<key>wasdk_login_pass_reset_success</key>
+	<string>Сброс пароля прошел успешно!</string>
+	<key>wasdk_login_pass_format</key>
+	<string>6-20 букв, цифр или символов</string>
+	<key>wasdk_login_fields_not_match</key>
+	<string>Поля не совпадают.</string>
+	<key>wasdk_login_ver_code_incorrect</key>
+	<string>Неверный проверочный код.</string>
+	<key>wasdk_login_ver_limit_reached</key>
+	<string>Лимит верификации достигнут!</string>
+	<key>wasdk_login_email_registered</key>
+	<string>Адрес электронной почты был зарегистрирован.</string>
+	<key>wasdk_login_too_many_attempt</key>
+	<string>Слишком много попыток!</string>
+	<key>wasdk_login_invalid_email</key>
+	<string>Неверный адрес электронной почты.</string>
+	<key>wasdk_login_email_not_exist</key>
+	<string>Электронной почты не существует!</string>
+	<key>wasdk_login_mobile_not_exist</key>
+	<string>Номер мобильного телефона не существует!</string>
+	<key>wasdk_login_emailcodesend_mesage</key>
+	<string>Код верификации отправлен на ваш Email. </string>
+	<key>wasdk_login_phonecodesend_mesage</key>
+	<string>Проверочный код был отправлен на ваш телефон.</string>
+	<key>wasdk_login_incorrect_account_password</key>
+	<string>Неверный аккаунт или пароль</string>
+	<key>wasdk_login_enter_right_email</key>
+	<string>Пожалуйста, введите правильный адрес электронной почты.</string>
+	<key>wasdk_login_enter_right_phone</key>
+	<string>Пожалуйста, введите действительный номер телефона.</string>
+	<key>wasdk_login_enter_right_code</key>
+	<string>Пожалуйста, введите правильный код проверки.</string>
+	<key>wasdk_login_phone_invalid</key>
+	<string>Неверный номер мобильного телефона.</string>
+	<key>wasdk_login_code_has_expired</key>
+	<string>Срок действия проверочного кода истек.</string>
+	<key>wasdk_login_userinfo_invalid</key>
+	<string>Неверная информация о пользователе.</string>
+	<key>wasdk_login_repeat_failed_message</key>
+	<string>Максимальное количество неудачных попыток входа в систему достигнуто, и учетная запись заблокирована на 2 часа. Пожалуйста, повторите попытку после %@.</string>
+	<key>wasdk_login_frozen_message</key>
+	<string>Ваш логин будет заблокирован на 2 часа после еще %d неудачных попыток входа.</string>
+	<key>wasdk_login_bind_email</key>
+	<string>Привязать электронную почту</string>
+	<key>wasdk_login_bind_number</key>
+	<string>Привязать номер мобильного телефона</string>
+	<key>wasdk_login_no_data</key>
+	<string>Нет данных</string>
+	<key>wasdk_login_read_agree_agreement</key>
+	<string>Я прочитал и согласен с Условиями предоставления услуг и Политикой конфиденциальности.</string>
+	<key>wasdk_login_login_failed</key>
+	<string>Ошибка входа</string>
+	<key>wasdk_login_pass_cannout_empty</key>
+	<string>Пароль не может быть пустым</string>
+	<key>wasdk_login_signup_failed</key>
+	<string>Ошибка регистрации</string>
+	<key>wasdk_login_changepass_failed</key>
+	<string>Ошибка при изменении пароля</string>
+	<key>wasdk_login_sendcode_failed</key>
+	<string>Ошибка отправки кода подтверждения</string>
+	<key>wasdk_login_mobile_exists</key>
+	<string>Номер мобильного уже существует!</string>
+	<key>wasdk_login_email_exists</key>
+	<string>E-mail уже существует!</string>
+	<key>wasdk_more</key>
+	<string>Еще</string>
+	<key>wasdk_login_signupbyemail</key>
+	<string>Регистрация по электронной почте</string>
+	<key>wasdk_login_eamillogin_title</key>
+	<string>Электронная почта</string>
+	<key>wasdk_login_phonelogin_title</key>
+	<string>Номер телефона</string>
+	<key>wa_sdk_graph_code</key>
+	<string>CAPTCHA</string>
+	<key>wa_sdk_please_input_correct_graph_code</key>
+	<string>Пожалуйста, введите правильный CAPTCHA</string>
+</dict>
+</plist>

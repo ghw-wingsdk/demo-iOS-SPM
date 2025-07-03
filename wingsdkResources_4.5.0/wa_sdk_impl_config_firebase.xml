@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<config>
+	<version val="Firebase 4.5.0" />
+    <comps>
+
+        
+        <comp module="CORE" plaf="FIREBASE" mandatory="YES" value="WAFirebaseCore" desc="公共模块" />
+
+		<comp module="TRA" plaf="FIREBASE" mandatory="NO" value="WAFirebaseTrack" desc="FIREBASE数据统计" />
+
+    </comps>
+    <ops>
+    </ops>
+</config>
