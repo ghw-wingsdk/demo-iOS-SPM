@@ -20,12 +20,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+//    [WAAdMobProxy setTestMode:YES];
+
     UIViewController *initialViewController;
 
-
     
-//    [WAAdMobProxy setTestMode:YES];
     [WACoreProxy setDebugMode:YES];
     [WACoreProxy initWithCompletionHandler:^{
         [WACoreProxy initAppEventTracker];

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<config>
+	<version val="WAGHGL4.4.0" />
+    <comps>
+        
+        <comp module="CORE" plaf="WEB_LOGIN" mandatory="YES" value="WAGhglCore" desc="WebView登录核心类" />
+        
+        <comp module="USR" plaf="WEB_LOGIN" mandatory="NO" value="WAGhglUser" desc="WebView登录用户账户" />
+    </comps>
+</config>

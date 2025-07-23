@@ -37,26 +37,28 @@
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
-			<key>CFBundleURLName</key>
-			<string>vk5527303</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb1281771621973222</string>
-				<string>com.wing.sdkfo</string>
-				<string>watestlogin</string>
+				<string>fb1364242947762769</string>
+				<string>com.wing.sdkfo1</string>
+				<string>wa5aa99861d74611ed8e6202c85f0429f5</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>twitterkit-FXJ0BYeSakTGtm0Bh5OO62U9X</string>
 			</array>
 		</dict>
 	</array>
-	<key>ConsentNoticeId</key>
-	<string>3gFPBy7K</string>
 	<key>FIREBASE_ANALYTICS_COLLECTION_ENABLED</key>
 	<false/>
 	<key>FacebookAppID</key>
-	<string>1281771621973222</string>
+	<string>1364242947762769</string>
 	<key>FacebookAutoLogAppEventsEnabled</key>
 	<false/>
 	<key>FacebookClientToken</key>
-	<string>174b2fb60d44d4c62e74d3a6891fb1b8</string>
+	<string>74f2ba21c6705dd19fe27d5385cda9fa</string>
 	<key>FacebookDisplayName</key>
 	<string>WINSDKdemo</string>
 	<key>GADApplicationIdentifier</key>
@@ -93,6 +95,8 @@
 		<string>twitter</string>
 		<string>twitterauth</string>
 	</array>
+	<key>NSAdvertisingAttributionReportEndpoint</key>
+	<string>https://appsflyer-skadnetwork.com/</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -169,13 +173,9 @@
 	</dict>
 	<key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
 	<true/>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>Your info will be used for personalized ads.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
 	</array>
-	<key>NSAdvertisingAttributionReportEndpoint</key>
-	<string>https://appsflyer-skadnetwork.com/</string>
 </dict>
 </plist>

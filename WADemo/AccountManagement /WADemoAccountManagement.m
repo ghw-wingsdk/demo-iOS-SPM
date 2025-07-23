@@ -322,6 +322,7 @@
     WADemoAlertView* alert = [[WADemoAlertView alloc]initWithTitle:@"绑定成功" message:message cancelButtonTitle:@"Sure" otherButtonTitles:nil block:nil];
     [alert show];
     
+
     
 }
 

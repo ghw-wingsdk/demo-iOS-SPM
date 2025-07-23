@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<config>
+	<version val="GHGP4.5.0" />
+    <comps>
+        
+        <comp module="PAY" plaf="WEBPAY" mandatory="YES" value="WAGhgp" desc="WEB支付" />
+    </comps>
+    
+    <ops>
+        <op type="copy" category="res" isFile="NO" from="frameworks" to="wasdk/webpay/frameworks" />
+    </ops>
+</config>
