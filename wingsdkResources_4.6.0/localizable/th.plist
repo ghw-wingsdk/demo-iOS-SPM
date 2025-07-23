@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>wasdk_install_btn</key>
+	<string>ติดตั้ง</string>
+	<key>wasdk_play_btn</key>
+	<string>เล่น</string>
+	<key>wasdk_info_btn</key>
+	<string>ข้อมูล</string>
+	<key>wasdk_app_btn</key>
+	<string>แอปพลิเคชั่น</string>
+	<key>wasdk_apw_guide_words</key>
+	<string>แตะที่นี่เพื่อแสดงเมนู</string>
+	<key>wasdk_sdk_version</key>
+	<string>เวอร์ชั่น SDK</string>
+	<key>wasdk_pat_version</key>
+	<string>เวอร์ชั่นแพทช์</string>
+	<key>wasdk_has_no_pat</key>
+	<string>ไม่รู้จัก</string>
+	<key>wasdk_login</key>
+	<string>ล็อกอิน</string>
+	<key>wasdk_login_facebook</key>
+	<string>Facebook</string>
+	<key>wasdk_login_game_center</key>
+	<string>Game Center</string>
+	<key>wasdk_login_vk</key>
+	<string>VK</string>
+	<key>wasdk_login_signinwithapple</key>
+	<string>Sign in with Apple</string>
+	<key>wasdk_confirm</key>
+	<string>ยืนยัน</string>
+	<key>wasdk_cancel</key>
+	<string>ยกเลิก</string>
+	<key>wasdk_loading</key>
+	<string>กำลังโหลด</string>
+	<key>wasdk_visitor</key>
+	<string>ผู้เยี่ยมชม</string>
+	<key>wasdk_bind</key>
+	<string>ผูกมัด</string>
+	<key>wasdk_unbind</key>
+	<string>เลิกผูกมัด</string>
+	<key>wasdk_bound</key>
+	<string>ผูกมัดแล้ว</string>
+	<key>wasdk_unbound</key>
+	<string>ยังไม่ผูกมัด</string>
+	<key>wasdk_create_ccount</key>
+	<string>สร้างบัญชี</string>
+	<key>wasdk_account_management</key>
+	<string>จัดการบัญชี</string>
+	<key>wasdk_change_account</key>
+	<string>เปลี่ยนบัญชี</string>
+	<key>wasdk_unbind_account</key>
+	<string>เลิกผูกมัดบัญชี</string>
+	<key>wasdk_tip_warning</key>
+	<string>แจ้งเตือน</string>
+	<key>wasdk_tip_unbind_unique_third_party</key>
+	<string>หากคุณเลิกผูกมัดกับบัญชีแพลตฟอร์มภายนอกที่ผูกมัดไว้เพียงหนึ่งเดียวนี้ ข้อมูลของคุณจะหายไป ต้องการดำเนินการต่อหรือไม่?</string>
+	<key>wasdk_tip_can_not_unbind</key>
+	<string>คุณไม่สามารถเลิกผูกมัดบัญชีได้</string>
+	<key>wasdk_tip_create_account_lost_data</key>
+	<string>หากคุณยังไม่ได้ผูกมัดกับบัญชีภายนอก แต่สร้างบัญชีใหม่เพิ่ม จะทำให้ข้อมูลของบัญชีก่อนหน้านี้หายไปอย่างถาวร หลังผูกมัดบัญชี คุณสามารถใช้บัญชีของแพลตฟอร์มภายนอกที่ผูกมัดไว้ในการล็อกอินแอปพลิเคชั่นได้</string>
+	<key>wasdk_tip_fail_change_account</key>
+	<string>เปลี่ยนบัญชีล้มเหลว กรุณาลองใหม่อีกครั้ง</string>
+	<key>wasdk_tip_relog</key>
+	<string>กรุณาล็อกอินแอปพลิเคชั่นอีกครั้ง</string>
+	<key>wasdk_tip_fail_access_account_data</key>
+	<string>เข้าถึงข้อมูลบัญชีของคุณไม่สำเร็จ กรุณาลองใหม่อีกครั้ง</string>
+	<key>wasdk_tip_bind_succ</key>
+	<string>ผูกมัดสำเร็จ!</string>
+	<key>wasdk_tip_bind_fail</key>
+	<string>ผูกมัดล้มเหลว กรุณาลองใหม่อีกครั้ง</string>
+	<key>wasdk_tip_bind_fail_other_user</key>
+	<string>บัญชีนี้ถูกผูกมัดเข้ากับผู้ใช้งานอื่นแล้ว</string>
+	<key>wasdk_tip_unbind_succ</key>
+	<string>เลิกผูกมัดสำเร็จ!</string>
+	<key>wasdk_tip_unbind_fail</key>
+	<string>เลิกผูกมัดล้มเหลว กรุณาลองใหม่อีกครั้ง</string>
+	<key>wasdk_tip_create_user_fail</key>
+	<string>สร้างผู้ใช้งานใหม่ล้มเหลว กรุณาลองใหม่อีกครั้ง</string>
+	<key>wasdk_drag_up_fresh</key>
+	<string>แตะหรือเลื่อนขึ้นเพื่อโหลดเพิ่ม</string>
+	<key>wasdk_no_more_data</key>
+	<string>ไม่มีข้อมูลเพิ่มเติม</string>
+	<key>wasdk_load_more</key>
+	<string>กำลังโหลด ...</string>
+	<key>wasdk_pull_down_refresh</key>
+	<string>เลื่อนลงเพื่อรีเฟรช</string>
+	<key>wasdk_release_refresh</key>
+	<string>ปล่อยเพื่อรีเฟรช</string>
+	<key>wasdk_purchase</key>
+	<string>ซื้อ</string>
+	<key>wasdk_pay_exit_alert</key>
+	<string>คุณยืนยันจะยกเลิกการชำระเงินหรือไม่?</string>
+	<key>wasdk_notice</key>
+	<string>หมายเหตุ</string>
+	<key>wasdk_jailbreak_not_purchase</key>
+	<string>คุณไม่สามารถชำระเงินด้วยอุปกรณ์เจลเบรค (Jailbreak) ได้</string>
+	<key>wasdk_copy</key>
+	<string>คัดลอก</string>
+	<key>wasdk_login_twitter</key>
+	<string>Twitter</string>
+	<key>wasdk_login_instagram</key>
+	<string>Instagram</string>
+	<key>wasdk_tip_bind_closed</key>
+	<string>ผูกมัดล้มเหลว</string>
+	<key>wasdk_tip_unbind_closed</key>
+	<string>เลิกผูกมัดล้มเหลว</string>
+	<key>wasdk_loading_error</key>
+	<string>อินเทอร์เน็ตขัดข้อง กรุณาลองใหม่อีกครั้ง</string>
+	<key>wasdk_privacy_policy</key>
+	<string>ข้อกำหนดในการให้บริการและนโยบายความเป็นส่วนตัว</string>
+	<key>wasdk_privacy_reminder</key>
+	<string>แจ้งเตือนความเป็นส่วนตัว</string>
+	<key>wasdk_privacy_policy_alert_content</key>
+	<string>กรุณาอ่านและยอมรับข้อกำหนดในการให้บริการและนโยบายความเป็นส่วนตัวของเรา</string>
+	<key>wasdk_privacy_view details</key>
+	<string>อ่านข้อกำหนดในการให้บริการและนโยบายความเป็นส่วนตั</string>
+	<key>wasdk_no_agree</key>
+	<string>ปฏิเสธ</string>
+	<key>wasdk_agree</key>
+	<string>ยอมรับ</string>
+	<key>wasdk_privacy_policy_agree</key>
+	<string>ฉันได้อ่านและยอมรับ</string>
+	<key>wasdk_please_agree_privacy_policy</key>
+	<string>กรุณากดยอมรับข้อกำหนดในการให้บริการและนโยบายความเป็นส่วนตัวก่อน</string>
+	<key>wasdk_user_center</key>
+	<string>User Center</string>
+	<key>wasdk_initial_account</key>
+	<string>Initial Account</string>
+	<key>wasdk_initial_password</key>
+	<string>Default Password</string>
+	<key>wasdk_i_know</key>
+	<string>OK</string>
+	<key>wasdk_copied</key>
+	<string>Copied</string>
+	<key>wasdk_payment_center</key>
+	<string>Payment Center</string>
+	<key>wasdk_payment_character_id</key>
+	<string>CharacterID</string>
+	<key>wasdk_pay_way_title</key>
+	<string>How to recharge</string>
+	<key>wasdk_pay_way_1</key>
+	<string>1. Press the button below to copy the url</string>
+	<key>wasdk_pay_way_2</key>
+	<string>2. Paste it on a mobile browser and visit the url
+Recharge with discount</string>
+	<key>wasdk_short_link_dated_alert</key>
+	<string>The link is only valid for 5 minutes. Please request a link again once it expires.</string>
+	<key>wasdk_gamereview_title</key>
+	<string>ให้คะแนนเรา</string>
+	<key>wasdk_gamereview_content</key>
+	<string>แสดงการสนับสนุนของคุณโดยให้คะแนนเรา 5 ดาวหรือให้ข้อเสนอแนะกับเรา!</string>
+	<key>wasdk_gamereview_rateus</key>
+	<string>ให้คะแนนเรา</string>
+	<key>wasdk_gamereview_feedback</key>
+	<string>ข้อเสนอแนะ</string>
+	<key>wasdk_gamereview_refuse</key>
+	<string>ไม่เป็นไรขอบคุณ</string>
+	<key>wa_sdk_web_login_confirm_exit</key>
+	<string>คุณแน่ใจหรือไม่ว่าต้องการออกจากระบบ?</string>
+	<key>wasdk_login_signup</key>
+	<string>ลงชื่อ</string>
+	<key>wasdk_login_email</key>
+	<string>อีเมล</string>
+	<key>wasdk_login_password</key>
+	<string>รหัสผ่าน</string>
+	<key>wasdk_login_by_mobile</key>
+	<string>เข้าสู่ระบบด้วยหมายเลขโทรศัพท์มือถือ</string>
+	<key>wasdk_login_by_email</key>
+	<string>เข้าสู่ระบบด้วยอีเมล</string>
+	<key>wasdk_login_forget_pass</key>
+	<string>ลืมรหัสผ่าน?</string>
+	<key>wasdk_login_thirid_login</key>
+	<string>วิธีอื่นในการเข้าสู่ระบบ</string>
+	<key>wasdk_login_mobile</key>
+	<string>มือถือ</string>
+	<key>wasdk_login_search_country</key>
+	<string>ค้นหาประเทศ/ภูมิภาค</string>
+	<key>wasdk_login_ver_code</key>
+	<string>รหัสยืนยัน</string>
+	<key>wasdk_login_get_code</key>
+	<string>รับรหัส</string>
+	<key>wasdk_login_signinandup</key>
+	<string>ลงชื่อเข้าใช้ / ลงทะเบียน</string>
+	<key>wasdk_login_new_pass</key>
+	<string>รหัสผ่านใหม่</string>
+	<key>wasdk_login_confirm_pass</key>
+	<string>ยืนยันรหัสผ่านใหม่</string>
+	<key>wasdk_login_find_my_password</key>
+	<string>ค้นหารหัสผ่านของฉัน</string>
+	<key>wasdk_login_gotologin</key>
+	<string>ไปที่เข้าสู่ระบบ</string>
+	<key>wasdk_login_next</key>
+	<string>ต่อไป</string>
+	<key>wasdk_login_pass_reset_success</key>
+	<string>รีเซ็ตรหัสผ่านสำเร็จ!</string>
+	<key>wasdk_login_pass_format</key>
+	<string>ตัวอักษร ตัวเลข หรือสัญลักษณ์ 6-20 ตัว</string>
+	<key>wasdk_login_fields_not_match</key>
+	<string>ฟิลด์ไม่ตรงกัน</string>
+	<key>wasdk_login_ver_code_incorrect</key>
+	<string>รหัสยืนยันไม่ถูกต้อง</string>
+	<key>wasdk_login_ver_limit_reached</key>
+	<string>ถึงขีดจำกัดการยืนยันแล้ว!</string>
+	<key>wasdk_login_email_registered</key>
+	<string>ที่อยู่อีเมลได้รับการลงทะเบียนแล้ว</string>
+	<key>wasdk_login_too_many_attempt</key>
+	<string>พยายามมากเกินไป!</string>
+	<key>wasdk_login_invalid_email</key>
+	<string>ที่อยู่อีเมลที่ไม่ถูกต้อง.</string>
+	<key>wasdk_login_email_not_exist</key>
+	<string>ไม่มีอีเมล!</string>
+	<key>wasdk_login_mobile_not_exist</key>
+	<string>ไม่มีเบอร์มือถือ!</string>
+	<key>wasdk_login_emailcodesend_mesage</key>
+	<string>รหัสยืนยันถูกส่งไปยังอีเมลของคุณแล้ว</string>
+	<key>wasdk_login_phonecodesend_mesage</key>
+	<string>รหัสยืนยันถูกส่งไปยังโทรศัพท์ของคุณแล้ว</string>
+	<key>wasdk_login_incorrect_account_password</key>
+	<string>บัญชีหรือรหัสผ่านไม่ถูกต้อง</string>
+	<key>wasdk_login_enter_right_email</key>
+	<string>กรุณาใส่อีเมล์ที่ถูกต้อง.</string>
+	<key>wasdk_login_enter_right_phone</key>
+	<string>โปรดป้อนหมายเลขโทรศัพท์ที่ถูกต้อง</string>
+	<key>wasdk_login_enter_right_code</key>
+	<string>กรุณาใส่รหัสยืนยันที่ถูกต้อง</string>
+	<key>wasdk_login_phone_invalid</key>
+	<string>หมายเลขโทรศัพท์มือถือไม่ถูกต้อง</string>
+	<key>wasdk_login_code_has_expired</key>
+	<string>รหัสยืนยันหมดอายุ</string>
+	<key>wasdk_login_userinfo_invalid</key>
+	<string>ข้อมูลผู้ใช้ไม่ถูกต้อง</string>
+	<key>wasdk_login_repeat_failed_message</key>
+	<string>มีการพยายามเข้าสู่ระบบที่ล้มเหลวถึงขีดจำกัดสูงสุดแล้ว และบัญชีถูกล็อคเป็นเวลา 2 ชั่วโมง โปรดลองอีกครั้งหลังจากวันที่ %@ น.</string>
+	<key>wasdk_login_frozen_message</key>
+	<string>การเข้าสู่ระบบของคุณจะถูกล็อคเป็นเวลา 2 ชั่วโมงหลังจากการพยายามเข้าสู่ระบบที่ล้มเหลวอีก %d ครั้ง</string>
+	<key>wasdk_login_bind_email</key>
+	<string>ผูกอีเมล</string>
+	<key>wasdk_login_bind_number</key>
+	<string>ผูกเบอร์มือถือ</string>
+	<key>wasdk_login_no_data</key>
+	<string>ไม่มีข้อมูล</string>
+	<key>wasdk_login_read_agree_agreement</key>
+	<string>ฉันได้อ่านและยอมรับข้อกำหนดในการให้บริการและนโยบายความเป็นส่วนตัว</string>
+	<key>wasdk_more</key>
+	<string>เพิ่มเติม</string>
+	<key>wasdk_login_signupbyemail</key>
+	<string>ลงทะเบียนด้วยอีเมล</string>
+	<key>wasdk_login_eamillogin_title</key>
+	<string>อีเมล</string>
+	<key>wasdk_login_phonelogin_title</key>
+	<string>หมายเลขโทรศัพท์</string>
+	<key>wa_sdk_graph_code</key>
+	<string>หัสยืนยันภาพ</string>
+	<key>wa_sdk_please_input_correct_graph_code</key>
+	<string>กรุณากรอกรหัสยืนยันภาพที่ถูกต้อง</string>
+	<key>wa_sdk_settings_customer_center</key>
+	<string>ศูนย์ช่วยเหลือ</string>
+	<key>wa_sdk_settings_customer_services</key>
+	<string>การสนับสนุน</string>
+	<key>wa_sdk_settings_account_manager</key>
+	<string>จัดการบัญชี</string>
+	<key>wa_sdk_settings_account_delete</key>
+	<string>ลบบัญชี</string>
+	<key>wa_sdk_settings_user_center</key>
+	<string>ศูนย์ผู้ใช้</string>
+	<key>wa_sdk_settings_data_consent</key>
+	<string>ความยินยอม</string>
+</dict>
+</plist>

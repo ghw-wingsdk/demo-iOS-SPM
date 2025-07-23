@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>wasdk_install_btn</key>
+	<string>Install</string>
+	<key>wasdk_play_btn</key>
+	<string>Play</string>
+	<key>wasdk_info_btn</key>
+	<string>INFO</string>
+	<key>wasdk_app_btn</key>
+	<string>APP</string>
+	<key>wasdk_apw_guide_words</key>
+	<string>Click here to popup menu</string>
+	<key>wasdk_sdk_version</key>
+	<string>SDK Version</string>
+	<key>wasdk_pat_version</key>
+	<string>Pat Version</string>
+	<key>wasdk_has_no_pat</key>
+	<string>None</string>
+	<key>wasdk_login</key>
+	<string>Login</string>
+	<key>wasdk_login_signinwithapple</key>
+	<string>Sign in with Apple</string>
+	<key>wasdk_login_facebook</key>
+	<string>Facebook</string>
+	<key>wasdk_login_game_center</key>
+	<string>Game Center</string>
+	<key>wasdk_login_vk</key>
+	<string>VK</string>
+	<key>wasdk_confirm</key>
+	<string>Confirm</string>
+	<key>wasdk_cancel</key>
+	<string>Cancel</string>
+	<key>wasdk_loading</key>
+	<string>Loading</string>
+	<key>wasdk_visitor</key>
+	<string>Visitor</string>
+	<key>wasdk_bind</key>
+	<string>Bind</string>
+	<key>wasdk_unbind</key>
+	<string>Unbind</string>
+	<key>wasdk_bound</key>
+	<string>Bound</string>
+	<key>wasdk_unbound</key>
+	<string>Unbound</string>
+	<key>wasdk_create_ccount</key>
+	<string>Create Account</string>
+	<key>wasdk_account_management</key>
+	<string>Account Management</string>
+	<key>wasdk_change_account</key>
+	<string>Change Account</string>
+	<key>wasdk_unbind_account</key>
+	<string>Unbind Account</string>
+	<key>wasdk_tip_warning</key>
+	<string>Warning</string>
+	<key>wasdk_tip_unbind_unique_third_party</key>
+	<string>If you unbind your unique third-party platform account, your data will be lost. Continue?</string>
+	<key>wasdk_tip_can_not_unbind</key>
+	<string>You can’t unbind the account.</string>
+	<key>wasdk_tip_create_account_lost_data</key>
+	<string>If you create another account but don’t bind it to a third-party account, your previous one’s data will be lost permanently. After the account binding, you can use your third-party platform’s account to log into the applications.</string>
+	<key>wasdk_tip_fail_change_account</key>
+	<string>Failed to change your account. Please try again later.</string>
+	<key>wasdk_tip_relog</key>
+	<string>Please relog into the application.</string>
+	<key>wasdk_tip_fail_access_account_data</key>
+	<string>Failed to access your account data. Please try again later.</string>
+	<key>wasdk_tip_bind_succ</key>
+	<string>Binded successfully!</string>
+	<key>wasdk_tip_bind_fail</key>
+	<string>Failed to bind. Please try again later.</string>
+	<key>wasdk_tip_bind_fail_other_user</key>
+	<string>This account has been bound to another user.</string>
+	<key>wasdk_tip_unbind_succ</key>
+	<string>Unbinded successfully!</string>
+	<key>wasdk_tip_unbind_fail</key>
+	<string>Failed to unbind. Please try again later.</string>
+	<key>wasdk_tip_create_user_fail</key>
+	<string>Failed to create a new user. Please try again later.</string>
+	<key>wasdk_drag_up_fresh</key>
+	<string>Click or drag up to load more</string>
+	<key>wasdk_no_more_data</key>
+	<string>No more data</string>
+	<key>wasdk_load_more</key>
+	<string>Loading ...</string>
+	<key>wasdk_pull_down_refresh</key>
+	<string>Pull down to refresh</string>
+	<key>wasdk_release_refresh</key>
+	<string>Release to refresh</string>
+	<key>wasdk_purchase</key>
+	<string>Purchase</string>
+	<key>wasdk_pay_exit_alert</key>
+	<string>Are you sure you want to cancel this purchase?</string>
+	<key>wasdk_notice</key>
+	<string>Notice</string>
+	<key>wasdk_jailbreak_not_purchase</key>
+	<string>You can not do purchase in a jailbreak device.</string>
+	<key>wasdk_copy</key>
+	<string>Copy</string>
+	<key>wasdk_login_twitter</key>
+	<string>Twitter</string>
+	<key>wasdk_login_instagram</key>
+	<string>Instagram</string>
+	<key>wasdk_tip_bind_closed</key>
+	<string>Failed to bind.</string>
+	<key>wasdk_tip_unbind_closed</key>
+	<string>Failed to unbind. </string>
+	<key>wasdk_loading_error</key>
+	<string>Network error, please try again later.</string>
+	<key>wasdk_privacy_policy</key>
+	<string>Terms of Service and Privacy Policy</string>
+	<key>wasdk_privacy_reminder</key>
+	<string>A privacy reminder</string>
+	<key>wasdk_privacy_policy_alert_content</key>
+	<string>Read and agree to our Terms of Service and Privacy Policy.</string>
+	<key>wasdk_privacy_view details</key>
+	<string>Read Terms of Service and Privacy Policy</string>
+	<key>wasdk_no_agree</key>
+	<string>I do not agree</string>
+	<key>wasdk_agree</key>
+	<string>I agree</string>
+	<key>wasdk_privacy_policy_agree</key>
+	<string>I have read and agree to the </string>
+	<key>wasdk_please_agree_privacy_policy</key>
+	<string>Please agree to the Terms of Service and Privacy Policy first.</string>
+	<key>wasdk_user_center</key>
+	<string>User Center</string>
+	<key>wasdk_initial_account</key>
+	<string>Initial Account</string>
+	<key>wasdk_initial_password</key>
+	<string>Default Password</string>
+	<key>wasdk_i_know</key>
+	<string>OK</string>
+	<key>wasdk_copied</key>
+	<string>Copied</string>
+	<key>wasdk_payment_center</key>
+	<string>Payment Center</string>
+	<key>wasdk_payment_character_id</key>
+	<string>CharacterID</string>
+	<key>wasdk_pay_way_title</key>
+	<string>How to recharge</string>
+	<key>wasdk_pay_way_1</key>
+	<string>1. Press the button below to copy the url</string>
+	<key>wasdk_pay_way_2</key>
+	<string>2. Paste it on a mobile browser and visit the url
+Recharge with discount</string>
+	<key>wasdk_short_link_dated_alert</key>
+	<string>The link is only valid for 5 minutes. Please request a link again once it expires.</string>
+	<key>wasdk_ad_agreement_title</key>
+	<string>Account logout page text content and check text content</string>
+	<key>wasdk_ad_agreement_content</key>
+	<string>Dear user, please read and agree to the Game Account Cancellation Agreement (hereinafter referred to as the &quot;Agreement&quot;) carefully before you officially start the next step of the game account cancellation process. If you start the following cancellation process, you will be deemed to have agreed to and complied with all the contents of this Agreement. 
+Before you start the cancellation process, we would like to remind you: 
+Please handle the in-game items properly, including but not limited to the in-game currency, other game virtual items, etc. Otherwise, you will be deemed to have given up your rights and interests in the game. If you successfully submit your account cancellation application, your account will still be active for%d days from the day after you submit your account cancellation application. During this period, we will not delete any information related to this account (your profile picture, nickname and other account information will still be available for your friends to see), except as otherwise stipulated by laws and regulations or relevant policies. If you log into the account during this period of %ddays, the cancellation process will be canceled. If you do not log in to this account within %d  days, your account will be cancelled and your personal information deleted or anonymized.
+
+After you cancel your game account, your personal information will be deleted or anonymized unless otherwise stated by laws, regulations and this Agreement. You cannot retrieve, access, obtain or continue to use your personal information, and you have no right to ask us to retrieve your personal information. The aforementioned personal information includes but is not limited to: avatar, nickname, all game virtual items purchased or acquired in the game and other value services such as (but not limited to) texts, regions, chat records in the game and other content. For other detailed rules and notes on game account cancellation, please check the Game Account Cancellation  Agreement.
+
+</string>
+	<key>wasdk_ad_agreement_readalert</key>
+	<string>Please agree to the Game Account Cancellation Agreement first.</string>
+	<key>wasdk_ad_agreement_haveread</key>
+	<string>I have read and agree to the Game Account Cancellation Agreement.</string>
+	<key>wasdk_ad_agreement_match1</key>
+	<string>the Game Account Cancellation Agreement</string>
+	<key>wasdk_ad_agreement_match2</key>
+	<string>the Game Account Cancellation  Agreement</string>
+	<key>wasdk_ad_agreement_cancel</key>
+	<string>Cancel</string>
+	<key>wasdk_ad_agreement_next</key>
+	<string>Next</string>
+	<key>wasdk_ad_agreement_validation</key>
+	<string>Verify</string>
+	<key>wasdk_ad_agreement_finish</key>
+	<string>Complete</string>
+	<key>wasdk_ad_authorization_title</key>
+	<string>Verification of third-party authorization</string>
+	<key>wasdk_ad_authorization_content</key>
+	<string>The account is bound to a third-party account, please select the current third-party account for verification. Once the verification is completed, it will automatically proceed to the next step.</string>
+	<key>wasdk_ad_authorization_signinwithapple</key>
+	<string>SigninwithApple</string>
+	<key>wasdk_ad_finished_title</key>
+	<string>The application for canceling the game account has been submitted successfully</string>
+	<key>wasdk_ad_finished_content1</key>
+	<string>Thank you for supporting this game</string>
+	<key>wasdk_ad_finished_content2</key>
+	<string>Your account has been audited on%@(Server Time), and the application for deregistration has been successfully submitted. Except the circumstances stipulated by laws and regulations and cancellation agreement, we will hold the account for you until (server time)%@(%d  days from the day after you submit the cancellation application). If you do not log in to this account within %d  days, and your application for account cancellation is successful, we will delete or anonymize your personal information.
+
+</string>
+	<key>wasdk_ad_finished_content3</key>
+	<string>Please do not log in or use this account before %d days to ensure the completion of the cancellation, otherwise you will be deemed to have revoked the cancellation application.</string>
+	<key>wasdk_ad_login_alerttitle</key>
+	<string>Notice</string>
+	<key>wasdk_ad_login_alertcontent</key>
+	<string>This account has been applied for account cancellation, which will be completed by %d (server time). If you log in before that time, you will cancel the account cancellation process.</string>
+	<key>wasdk_ad_login_cancellogin</key>
+	<string>Cancel login</string>
+	<key>wasdk_ad_login_goonlogin</key>
+	<string>Continue login</string>
+	<key>wasdk_gamereview_title</key>
+	<string>Rate Us</string>
+	<key>wasdk_gamereview_content</key>
+	<string>Show your support by rating us 5 stars or give us your feedback!</string>
+	<key>wasdk_gamereview_rateus</key>
+	<string>Rate us</string>
+	<key>wasdk_gamereview_feedback</key>
+	<string>Feedback</string>
+	<key>wasdk_gamereview_refuse</key>
+	<string>No, thanks</string>
+	<key>wa_sdk_web_login_confirm_exit</key>
+	<string>Are you sure you want to log out?</string>
+	<key>wasdk_login_signup</key>
+	<string>Sign up</string>
+	<key>wasdk_login_email</key>
+	<string>Email</string>
+	<key>wasdk_login_password</key>
+	<string>Password</string>
+	<key>wasdk_login_by_mobile</key>
+	<string>Log in with mobile number</string>
+	<key>wasdk_login_by_email</key>
+	<string>Log in with email</string>
+	<key>wasdk_login_forget_pass</key>
+	<string>Forgot Password?</string>
+	<key>wasdk_login_thirid_login</key>
+	<string>Other ways to log in</string>
+	<key>wasdk_login_mobile</key>
+	<string>Mobile</string>
+	<key>wasdk_login_search_country</key>
+	<string>Search country/region</string>
+	<key>wasdk_login_ver_code</key>
+	<string>Verification Code</string>
+	<key>wasdk_login_get_code</key>
+	<string>Get code</string>
+	<key>wasdk_login_signinandup</key>
+	<string>Sign in/Sign up</string>
+	<key>wasdk_login_new_pass</key>
+	<string>New Password</string>
+	<key>wasdk_login_confirm_pass</key>
+	<string>Confirm New Password</string>
+	<key>wasdk_login_find_my_password</key>
+	<string>Find my password</string>
+	<key>wasdk_login_gotologin</key>
+	<string>Go to login</string>
+	<key>wasdk_login_next</key>
+	<string>Next</string>
+	<key>wasdk_login_pass_reset_success</key>
+	<string>Password reset successful!</string>
+	<key>wasdk_login_pass_format</key>
+	<string>6-20 letters, numbers or symbols</string>
+	<key>wasdk_login_fields_not_match</key>
+	<string>Fields do not match.</string>
+	<key>wasdk_login_ver_code_incorrect</key>
+	<string>Incorrect verification code.</string>
+	<key>wasdk_login_ver_limit_reached</key>
+	<string>Verification limit reached!</string>
+	<key>wasdk_login_email_registered</key>
+	<string>Email address has been registered.</string>
+	<key>wasdk_login_too_many_attempt</key>
+	<string>Too many attempts!</string>
+	<key>wasdk_login_invalid_email</key>
+	<string>Invalid email address.</string>
+	<key>wasdk_login_email_not_exist</key>
+	<string>Email does not exist!</string>
+	<key>wasdk_login_mobile_not_exist</key>
+	<string>Mobile number does not exist!</string>
+	<key>wasdk_login_emailcodesend_mesage</key>
+	<string>Verification Code has been sent to your Email. </string>
+	<key>wasdk_login_phonecodesend_mesage</key>
+	<string>Verification Code has been sent to your phone.</string>
+	<key>wasdk_login_incorrect_account_password</key>
+	<string>Incorrect account or password</string>
+	<key>wasdk_login_enter_right_email</key>
+	<string>Please enter a valid email address.</string>
+	<key>wasdk_login_enter_right_phone</key>
+	<string>Please enter a valid phone number.</string>
+	<key>wasdk_login_enter_right_code</key>
+	<string>Please enter the correct verification code.</string>
+	<key>wasdk_login_phone_invalid</key>
+	<string>Invalid mobile phone number.</string>
+	<key>wasdk_login_code_has_expired</key>
+	<string>The verification code has expired.</string>
+	<key>wasdk_login_userinfo_invalid</key>
+	<string>Invalid user information.</string>
+	<key>wasdk_login_repeat_failed_message</key>
+	<string>Max failed login attempts have been reached, and the account has been locked for 2 hours. Please try again after %@.</string>
+	<key>wasdk_login_frozen_message</key>
+	<string>Your login will be locked for 2 hours after %d more failed login attempts.</string>
+	<key>wasdk_login_bind_email</key>
+	<string>Bind email</string>
+	<key>wasdk_login_bind_number</key>
+	<string>Bind mobile</string>
+	<key>wasdk_login_no_data</key>
+	<string>No Data</string>
+	<key>wasdk_login_read_agree_agreement</key>
+	<string>I have read and agree to the Terms of Service and Privacy Policy.</string>
+	<key>wasdk_login_login_failed</key>
+	<string>Login failed</string>
+	<key>wasdk_login_pass_cannout_empty</key>
+	<string>Password cannot be empty</string>
+	<key>wasdk_login_signup_failed</key>
+	<string>Failed to sign up</string>
+	<key>wasdk_login_changepass_failed</key>
+	<string>Failed to change password</string>
+	<key>wasdk_login_sendcode_failed</key>
+	<string>Failed to send verification code</string>
+	<key>wasdk_login_mobile_exists</key>
+	<string>Mobile number already exists!</string>
+	<key>wasdk_login_email_exists</key>
+	<string>Email already exists!</string>
+	<key>wasdk_more</key>
+	<string>MORE</string>
+	<key>wasdk_login_signupbyemail</key>
+	<string>Register with Email</string>
+	<key>wasdk_login_eamillogin_title</key>
+	<string>Email</string>
+	<key>wasdk_login_phonelogin_title</key>
+	<string>Phone Number</string>
+	<key>wa_sdk_graph_code</key>
+	<string>CAPTCHA</string>
+	<key>wa_sdk_please_input_correct_graph_code</key>
+	<string>Please enter the correct CAPTCHA</string>
+	<key>wa_sdk_settings_customer_center</key>
+	<string>Support Center</string>
+	<key>wa_sdk_settings_customer_services</key>
+	<string>Support</string>
+	<key>wa_sdk_settings_account_manager</key>
+	<string>Manage Account</string>
+	<key>wa_sdk_settings_account_delete</key>
+	<string>Delete Account</string>
+	<key>wa_sdk_settings_user_center</key>
+	<string>User Center</string>
+	<key>wa_sdk_settings_data_consent</key>
+	<string>Data Consent</string>
+</dict>
+</plist>
