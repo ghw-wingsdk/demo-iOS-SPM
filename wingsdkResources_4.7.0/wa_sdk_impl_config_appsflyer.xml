@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<config>
+	<version val="AF4.7.0" />
+    <comps>
+        
+        <comp module="TRA" plaf="APPSFLYER" mandatory="YES" value="WAAFTrack" desc="APPSFLYER数据统计" />
+        
+        <comp module="PUSH" plaf="APPSFLYER" mandatory="NO" value="WAAFPush" desc="消息推送" />
+        
+        
+        <comp module="SOC" plaf="APPSFLYER" mandatory="NO" value="WAAFSocial" desc="社交" />
+    </comps>
+    <ops>
+        <op type="copy" category="res" isFile="NO" from="frameworks" to="wasdk/af/frameworks" />
+        <op type="ref" category="res" isFile="NO" from="System/Library/Frameworks/AdSupport.framework" />
+        <op type="ref" category="res" isFile="NO" from="System/Library/Frameworks/iAd.framework" />
+    </ops>
+</config>

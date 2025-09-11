@@ -290,7 +290,7 @@
 
         }
         
-        ;
+
 
     }else if ([buttonTitle isEqualToString:@"查看广告任务"]) {
         // 获取广告任务列表
@@ -338,7 +338,6 @@
             NSLog(@"tasks====%@",tasks);
             
         }];
-
 
     }else if ([buttonTitle isEqualToString:@"检查任务情况"]) {
         
@@ -428,14 +427,14 @@
 - (void)ad:(nonnull id<GADFullScreenPresentingAd>)ad didFailToPresentFullScreenContentWithError:(nonnull NSError *)error {
     WALog(@"didFailToPresentFullScreenContentWithError");
     
-    if ([ad isKindOfClass:[GADRewardedAd class]]) {
-        [self makeToast:[NSString stringWithFormat:@"激励广告加载失败:%@",error.description]];
-    }else if([ad isKindOfClass:[GADInterstitialAd class]]){
-        [self makeToast:[NSString stringWithFormat:@"插页广告加载失败:%@",error.description]];
-    }else if([ad isKindOfClass:[GADAppOpenAd class]]){
-        [self makeToast:[NSString stringWithFormat:@"开屏广告加载失败:%@",error.description]];
-
-    }
+//    if ([ad isKindOfClass:[GADRewardedAd class]]) {
+//        [self makeToast:[NSString stringWithFormat:@"激励广告加载失败:%@",error.description]];
+//    }else if([ad isKindOfClass:[GADInterstitialAd class]]){
+//        [self makeToast:[NSString stringWithFormat:@"插页广告加载失败:%@",error.description]];
+//    }else if([ad isKindOfClass:[GADAppOpenAd class]]){
+//        [self makeToast:[NSString stringWithFormat:@"开屏广告加载失败:%@",error.description]];
+//
+//    }
 }
 
 /// Tells the delegate that the ad will present full screen content.
@@ -451,13 +450,13 @@
 /// Tells the delegate that the ad dismissed full screen content.
 - (void)adDidDismissFullScreenContent:(nonnull id<GADFullScreenPresentingAd>)ad {
     WALog(@"adDidDismissFullScreenContent");
-    if ([ad isKindOfClass:[GADRewardedAd class]]) {
-        [self makeToast:@"激励广告隐藏"];
-    }else if([ad isKindOfClass:[GADAppOpenAd class]]){
-        [self makeToast:@"开屏广告隐藏"];
-    }else if([ad isKindOfClass:[GADInterstitialAd class]]){
-        [self makeToast:@"插页广告隐藏"];
-    }
+//    if ([ad isKindOfClass:[GADRewardedAd class]]) {
+//        [self makeToast:@"激励广告隐藏"];
+//    }else if([ad isKindOfClass:[GADAppOpenAd class]]){
+//        [self makeToast:@"开屏广告隐藏"];
+//    }else if([ad isKindOfClass:[GADInterstitialAd class]]){
+//        [self makeToast:@"插页广告隐藏"];
+//    }
 }
 
 

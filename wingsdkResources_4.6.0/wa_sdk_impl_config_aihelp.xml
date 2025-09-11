@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<config>
-	<version val="AIHELP4.5.0" />
-    <comps>
-        
-        <comp module="CORE" plaf="AIHELP" mandatory="YES" value="WAAIhelpCore" desc="公共模块" />
-        <comp module="CSC" plaf="AIHELP" mandatory="YES" value="WAAIhelpCsc" desc="客服系统模块" />
-    </comps>
-</config>

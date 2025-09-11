@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<config>
+	<version val="WA4.7.0" />
+    <comps>
+        
+        <comp module="USR" plaf="WINGA" mandatory="YES" value="WASdkUser" desc="WINGA用户账户" />
+        
+        <comp module="PAY" plaf="WINGA" value="WASdkPay" desc="基础支付" />
+        
+        <comp module="TRA" plaf="WINGA" mandatory="YES" value="WASdkTrack" desc="WINGA数据统计" />
+        
+        <comp module="SOC" plaf="WINGA" mandatory="YES" value="WASdkSocial" desc="WINGA社交" />
+        
+        
+        <comp module="CORE" plaf="WINGA" mandatory="YES" value="WASdkCore" desc="公共模块" />
+    </comps>
+</config>

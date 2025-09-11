@@ -42,6 +42,7 @@
 				<string>fb1364242947762769</string>
 				<string>com.wing.sdkfo1</string>
 				<string>wa5aa99861d74611ed8e6202c85f0429f5</string>
+				<string>waolf7f9a9d18da611e5a0be000d3a906774</string>
 			</array>
 		</dict>
 		<dict>
@@ -177,5 +178,7 @@
 	<array>
 		<string>remote-notification</string>
 	</array>
+	<key>needShowloginUIBackButton</key>
+	<true/>
 </dict>
 </plist>

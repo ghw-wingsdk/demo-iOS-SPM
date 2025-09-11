@@ -1,13 +1,13 @@
 {
-  "originHash" : "d03a517a08e10d6168067a589c9b3cd407b79e8b1f39d8a7a342c489debec0ea",
+  "originHash" : "87eaa2db2fb957ce0757ca8dfdf3564887135c982b30f0bd430748c79fd2ca6b",
   "pins" : [
     {
       "identity" : "waadmobimpl_spm",
       "kind" : "remoteSourceControl",
       "location" : "http://repo.wingsdk.cn:8082/r/WAAdmobImpl_spm.git",
       "state" : {
-        "revision" : "928e4cd37a61686b1c71ac2bb18458b4288a64cc",
-        "version" : "4.6.0"
+        "revision" : "1e5242aa56dd1c52c537335ee56d7127d09b24de",
+        "version" : "4.7.0"
       }
     },
     {
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "http://repo.wingsdk.cn:8082/r/wingsdkios_spm.git",
       "state" : {
-        "revision" : "29d165b5cde551cc952b730f5eff53b6edc63287",
-        "version" : "4.6.0"
+        "revision" : "3f21f1e4d3d5e22d57ec392c41098841e8b0784d",
+        "version" : "4.7.0"
       }
     }
   ],

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>wasdk_install_btn</key>
+	<string>Instalar</string>
+	<key>wasdk_play_btn</key>
+	<string>Jugar</string>
+	<key>wasdk_info_btn</key>
+	<string>INFO</string>
+	<key>wasdk_app_btn</key>
+	<string>APP</string>
+	<key>wasdk_apw_guide_words</key>
+	<string>Clic aquí para abrir el menú</string>
+	<key>wasdk_sdk_version</key>
+	<string>SDK Versión</string>
+	<key>wasdk_pat_version</key>
+	<string>Pat Versión</string>
+	<key>wasdk_has_no_pat</key>
+	<string>Ninguno</string>
+	<key>wasdk_login</key>
+	<string>Conectar</string>
+	<key>wasdk_login_facebook</key>
+	<string>Facebook</string>
+	<key>wasdk_login_signinwithapple</key>
+	<string>Sign in with Apple</string>
+	<key>wasdk_login_game_center</key>
+	<string>Centro de Juegos</string>
+	<key>wasdk_login_vk</key>
+	<string>VK</string>
+	<key>wasdk_confirm</key>
+	<string>Aceptar</string>
+	<key>wasdk_cancel</key>
+	<string>Cancelar</string>
+	<key>wasdk_loading</key>
+	<string>Cargando</string>
+	<key>wasdk_visitor</key>
+	<string>Visitante</string>
+	<key>wasdk_bind</key>
+	<string>Enlazar</string>
+	<key>wasdk_unbind</key>
+	<string>Desenlazar</string>
+	<key>wasdk_bound</key>
+	<string>Enlazado</string>
+	<key>wasdk_unbound</key>
+	<string>No Enlazado</string>
+	<key>wasdk_create_ccount</key>
+	<string>Crear Cuenta</string>
+	<key>wasdk_account_management</key>
+	<string>Gestionar Cuenta</string>
+	<key>wasdk_change_account</key>
+	<string>Cambiar Cuenta</string>
+	<key>wasdk_unbind_account</key>
+	<string>Desenlazar Cuenta</string>
+	<key>wasdk_tip_warning</key>
+	<string>Aviso</string>
+	<key>wasdk_tip_unbind_unique_third_party</key>
+	<string>Si desenlazas tu cuenta de la plataforma de terceros perderás tu progreso. ¿continuar?</string>
+	<key>wasdk_tip_can_not_unbind</key>
+	<string>No puedes desenlazar esta cuenta.</string>
+	<key>wasdk_tip_create_account_lost_data</key>
+	<string>Si creas una nueva cuenta pero no la enlazas a una cuenta de terceros, la información de tu cuenta anterior se perderá permanentemente. Tras enlazar tu cuenta podrás usar una plataforma de terceros para conectarte a la aplicación.</string>
+	<key>wasdk_tip_fail_change_account</key>
+	<string>Fallo al cambiar tu cuenta. Inténtalo de nuevo más tarde.</string>
+	<key>wasdk_tip_relog</key>
+	<string>Por favor, conéctate de nuevo a la aplicación.</string>
+	<key>wasdk_tip_fail_access_account_data</key>
+	<string>Fallo al acceder a la información de tu cuenta. Inténtalo de nuevo más tarde.</string>
+	<key>wasdk_tip_bind_succ</key>
+	<string>¡Enlazada con éxito!</string>
+	<key>wasdk_tip_bind_fail</key>
+	<string>Fallo al enlazar. Inténtalo de nuevo más tarde.</string>
+	<key>wasdk_tip_bind_fail_other_user</key>
+	<string>Esta cuenta está enlazada a otro usuario.</string>
+	<key>wasdk_tip_unbind_succ</key>
+	<string>¡Desenlazada con éxito!</string>
+	<key>wasdk_tip_unbind_fail</key>
+	<string>Fallo al desenlazar. Inténtalo de nuevo más tarde.</string>
+	<key>wasdk_tip_create_user_fail</key>
+	<string>Fallo al crear un nuevo usuario. Inténtalo de nuevo más tarde.</string>
+	<key>wasdk_drag_up_fresh</key>
+	<string>Arrastra hacia arriba para ver más.</string>
+	<key>wasdk_no_more_data</key>
+	<string>No hay más datos.</string>
+	<key>wasdk_load_more</key>
+	<string>Cargando ...</string>
+	<key>wasdk_pull_down_refresh</key>
+	<string>Arrastra hacia abajo para refrescar.</string>
+	<key>wasdk_release_refresh</key>
+	<string>Suelta para refrescar.</string>
+	<key>wasdk_purchase</key>
+	<string>Comprar</string>
+	<key>wasdk_pay_exit_alert</key>
+	<string>¿Quieres cancelar esta compra?</string>
+	<key>wasdk_notice</key>
+	<string>Aviso</string>
+	<key>wasdk_jailbreak_not_purchase</key>
+	<string>No puedes comprar en un sistema operativo pirata</string>
+	<key>wasdk_copy</key>
+	<string>copiar</string>
+	<key>wasdk_login_twitter</key>
+	<string>Twitter</string>
+	<key>wasdk_login_instagram</key>
+	<string>Instagram</string>
+	<key>wasdk_tip_bind_closed</key>
+	<string>Error al enlazar</string>
+	<key>wasdk_tip_unbind_closed</key>
+	<string>Error al desenlazar</string>
+	<key>wasdk_loading_error</key>
+	<string>Error de conexión. Inténtalo de nuevo más tarde.</string>
+	<key>wasdk_privacy_policy</key>
+	<string>Términos de Servicio y la Política de Privacidad</string>
+	<key>wasdk_privacy_reminder</key>
+	<string>Un recordatorio de privacidad</string>
+	<key>wasdk_privacy_policy_alert_content</key>
+	<string>He leído y estoy de acuerdo con la Términos de Servicio y la Política de Privacidad.</string>
+	<key>wasdk_privacy_view details</key>
+	<string>Leer la Términos de Servicio y la Política de Privacidad</string>
+	<key>wasdk_no_agree</key>
+	<string>No acepto</string>
+	<key>wasdk_agree</key>
+	<string>Sí acepto</string>
+	<key>wasdk_privacy_policy_agree</key>
+	<string>He leído y Acepto los</string>
+	<key>wasdk_please_agree_privacy_policy</key>
+	<string>Acepta la Política Términos de Servicio y la Política de Privacidad para continuar.</string>
+	<key>wasdk_user_center</key>
+	<string>Centro de Usuario</string>
+	<key>wasdk_initial_account</key>
+	<string>Cuenta inicial</string>
+	<key>wasdk_initial_password</key>
+	<string>Contraseña por defecto</string>
+	<key>wasdk_i_know</key>
+	<string>OK</string>
+	<key>wasdk_copied</key>
+	<string>Copiado</string>
+	<key>wasdk_payment_center</key>
+	<string>Centro de Pago</string>
+	<key>wasdk_payment_character_id</key>
+	<string>ID de Personaje</string>
+	<key>wasdk_pay_way_2</key>
+	<string>2. Paste it on a mobile browser and visit the url
+Recharge with discount</string>
+	<key>wasdk_pay_way_1</key>
+	<string>1. Press the button below to copy the url</string>
+	<key>wasdk_pay_way_title</key>
+	<string>How to recharge</string>
+	<key>wasdk_short_link_dated_alert</key>
+	<string>The link is only valid for 5 minutes. Please request a link again once it expires.</string>
+	<key>wasdk_ad_agreement_title</key>
+	<string>Acuerdo de Cancelación de Cuenta</string>
+	<key>wasdk_ad_agreement_content</key>
+	<string>Querido usuario, lee atentamente y acepta el Acuerdo de Cancelación de Cuenta de Juego (a partir de ahora el &quot;Acuerdo&quot;) antes de continuar oficialmente con el siguiente paso del proceso de la cancelación de la cuenta de juego. Si empiezas el proceso de cancelación, se dará por hecho que aceptas y cumples con los contenidos de este Acuerdo. 
+Antes de empezar con el proceso de cancelación, nos gustaría recordarte: 
+Por favor recuerda gestionar tu moneda virtual, objetos y otros bienes virtuales asociados a tu cuenta. En caso de no gestionarlo, se dará por hecho que has cedido tus derechos e intereses sobre el juego. Si entregas tu solicitud de cancelación de cuenta con éxito, tu cuenta seguirá activa durante%d días tras haber entregado tu solicitud de cancelación. Durante este periodo de tiempo, no eliminaremos la información relacionada con tu cuenta (tu imagen de perfil, tu nombre de usuario y otra información de tu cuenta aun podrá ser visualizada por tus amigos), excepto la estipulada por las leyes y reglamentos relevantes. Si entras en tu cuenta durante este periodo de %ddías, el proceso de cancelación será cancelado. Si no entras en tu cuenta durante este periodo de %d  días, tu cuenta será cancelada y tu información personal será eliminada o hecha anónima.
+
+Tras cancelar tu cuenta de juego, tu información personal será eliminada o hecha anónima a no ser que se estipule lo contrario por las leyes, reglamentos y este Acuerdo. No podrás recuperar, acceder, conseguir o continuar usando tu información personal, no tendrás derecho a reclamar la recuperación de tu información personal. La información personal citada anteriormente incluye pero no está limitada a: avatar, nombre de usuario, todos los objetos virtuales comprados o adquiridos en el juego y otros servicios valorados como (pero no limitado a) textos, regiones, historial de chat y otros contenidos del juego. Para saber más detalles sobre la cancelación de cuenta de juego, por favor lee el Acuerdo de Cancelación de  Cuenta.</string>
+	<key>wasdk_ad_agreement_readalert</key>
+	<string>Por favor, acepta el Acuerdo de Cancelación de Cuenta de Juego primero.</string>
+	<key>wasdk_ad_agreement_haveread</key>
+	<string>He leído y acepto el Acuerdo de Cancelación de Cuenta.</string>
+	<key>wasdk_ad_agreement_match1</key>
+	<string>Acuerdo de Cancelación de Cuenta</string>
+	<key>wasdk_ad_agreement_match2</key>
+	<string>Acuerdo de Cancelación de  Cuenta</string>
+	<key>wasdk_ad_agreement_cancel</key>
+	<string>Cancelar</string>
+	<key>wasdk_ad_agreement_validation</key>
+	<string>Verificar</string>
+	<key>wasdk_ad_agreement_next</key>
+	<string>Siguiente</string>
+	<key>wasdk_ad_agreement_finish</key>
+	<string>Completado</string>
+	<key>wasdk_ad_authorization_title</key>
+	<string>Autorización de Verificación de terceros</string>
+	<key>wasdk_ad_authorization_content</key>
+	<string>Esta cuenta está unida a una cuenta de terceros, por favor, elige la cuenta de terceros para verificar. Una vez se complete la verificación, pasará automáticamente al próximo paso.</string>
+	<key>wasdk_ad_authorization_signinwithapple</key>
+	<string>SigninwithApple</string>
+	<key>wasdk_ad_finished_title</key>
+	<string>La solicitud para cancelar la cuenta de juego ha sido enviada con éxito</string>
+	<key>wasdk_ad_finished_content1</key>
+	<string>Gracias por apoyar este juego</string>
+	<key>wasdk_ad_finished_content2</key>
+	<string>Tu cuenta ha sido registrada el%@(Hora del servidor), y la solicitud para su cancelación ha sido enviada con éxito. Exceptuando las circunstancias estipuladas por la ley, regulaciones y el Acuerdo de Cancelación, conservaremos tu cuenta hasta el%@(Hora del servidor). %d días desde el día que enviaste tu solicitud de cancelación. Si no entras en tu cuenta durante este periodo de %d  días, y tu solicitud de cancelación es exitosa, tu información personal será eliminada o hecha anónima. </string>
+	<key>wasdk_ad_finished_content3</key>
+	<string>Por favor, no entres ni uses esta cuenta durante los siguientes %d días para asegurar su cancelación. En caso contrario se considerará que la solicitud de cancelación ha sido anulada.</string>
+	<key>wasdk_ad_login_alerttitle</key>
+	<string>Aviso</string>
+	<key>wasdk_ad_login_alertcontent</key>
+	<string>Esta cuenta ha solicitado una cancelación, que se completará el %@ (Hora del servidor). Si entras antes de esa fecha, se anulará el proceso de cancelación de la cuenta.</string>
+	<key>wasdk_ad_login_cancellogin</key>
+	<string>Cancelar ingreso</string>
+	<key>wasdk_ad_login_goonlogin</key>
+	<string>Continuar ingreso</string>
+	<key>wasdk_gamereview_title</key>
+	<string>Valóranos</string>
+	<key>wasdk_gamereview_content</key>
+	<string>Muéstranos tu apoyo calificándonos con 5 estrellas o danos tu opinión.</string>
+	<key>wasdk_gamereview_rateus</key>
+	<string>Valóranos</string>
+	<key>wasdk_gamereview_feedback</key>
+	<string>Comentarios</string>
+	<key>wasdk_gamereview_refuse</key>
+	<string>No, gracias</string>
+	<key>wa_sdk_web_login_confirm_exit</key>
+	<string>¿Estás seguro/a de que quieres cerrar sesión?</string>
+	<key>wasdk_login_signup</key>
+	<string>Registro</string>
+	<key>wasdk_login_email</key>
+	<string>E-mail</string>
+	<key>wasdk_login_password</key>
+	<string>Contraseña</string>
+	<key>wasdk_login_by_mobile</key>
+	<string>Entra con número de teléfono</string>
+	<key>wasdk_login_by_email</key>
+	<string>Entra con correo</string>
+	<key>wasdk_login_forget_pass</key>
+	<string>¿Contraseña olvidada?</string>
+	<key>wasdk_login_thirid_login</key>
+	<string>Otras formas de conectarse:</string>
+	<key>wasdk_login_mobile</key>
+	<string>Móvil</string>
+	<key>wasdk_login_search_country</key>
+	<string>Busca país/región</string>
+	<key>wasdk_login_ver_code</key>
+	<string>Código de Verificación</string>
+	<key>wasdk_login_get_code</key>
+	<string>Consigue Código</string>
+	<key>wasdk_login_signinandup</key>
+	<string>Entra/Regístrate</string>
+	<key>wasdk_login_new_pass</key>
+	<string>Nueva Contraseña</string>
+	<key>wasdk_login_confirm_pass</key>
+	<string>Confirmar nueva contraseña</string>
+	<key>wasdk_login_find_my_password</key>
+	<string>Encontrar mi contraseña</string>
+	<key>wasdk_login_gotologin</key>
+	<string>Ir a conexión</string>
+	<key>wasdk_login_next</key>
+	<string>Siguiente</string>
+	<key>wasdk_login_pass_reset_success</key>
+	<string>¡Contraseña cambiada!</string>
+	<key>wasdk_login_pass_format</key>
+	<string>6-20 letras, números o símbolos</string>
+	<key>wasdk_login_fields_not_match</key>
+	<string>Los campos no coinciden.</string>
+	<key>wasdk_login_ver_code_incorrect</key>
+	<string>Código de Verificación incorrecto.</string>
+	<key>wasdk_login_ver_limit_reached</key>
+	<string>¡Límite de verificación alcanzado!</string>
+	<key>wasdk_login_email_registered</key>
+	<string>Correo electrónico ha sido registrado.</string>
+	<key>wasdk_login_too_many_attempt</key>
+	<string>¡Demasiados intentos!</string>
+	<key>wasdk_login_invalid_email</key>
+	<string>Correo electrónico incorrecto.</string>
+	<key>wasdk_login_email_not_exist</key>
+	<string>¡El correo no existe!</string>
+	<key>wasdk_login_mobile_not_exist</key>
+	<string>¡El número de teléfono no existe!</string>
+	<key>wasdk_login_emailcodesend_mesage</key>
+	<string>Se ha enviado el código de verificación a tu correo. </string>
+	<key>wasdk_login_phonecodesend_mesage</key>
+	<string>El código de verificación ha sido enviado a tu teléfono.</string>
+	<key>wasdk_login_incorrect_account_password</key>
+	<string>Cuenta o contraseña incorrectas</string>
+	<key>wasdk_login_enter_right_email</key>
+	<string>Escribe una dirección de correo válida.</string>
+	<key>wasdk_login_enter_right_phone</key>
+	<string>Escribe un número de teléfono válido.</string>
+	<key>wasdk_login_enter_right_code</key>
+	<string>Escribe el código de verificación correcto.</string>
+	<key>wasdk_login_phone_invalid</key>
+	<string>Número de teléfono inválido</string>
+	<key>wasdk_login_code_has_expired</key>
+	<string>El código de verificación ha caducado.</string>
+	<key>wasdk_login_userinfo_invalid</key>
+	<string>Información de usuario inválida.</string>
+	<key>wasdk_login_repeat_failed_message</key>
+	<string>Has alcanzado el máximo intentos de conexión. La cuenta ha sido bloqueada durante 2h. Puedes intentarlo de nuevo tras %@.</string>
+	<key>wasdk_login_frozen_message</key>
+	<string>Tu cuenta se bloqueará durante 2 horas tras %d intentos fallidos más.</string>
+	<key>wasdk_login_bind_email</key>
+	<string>Enlaza correo</string>
+	<key>wasdk_login_bind_number</key>
+	<string>Enlaza número de teléfono</string>
+	<key>wasdk_login_no_data</key>
+	<string>Sin Datos</string>
+	<key>wasdk_login_read_agree_agreement</key>
+	<string>He leído y Acepto los Términos de Servicio y la Política de Privacidad</string>
+	<key>wasdk_login_login_failed</key>
+	<string>Error al iniciar sesión</string>
+	<key>wasdk_login_pass_cannout_empty</key>
+	<string>La contraseña no puede estar vacía</string>
+	<key>wasdk_login_signup_failed</key>
+	<string>Error al registrarse</string>
+	<key>wasdk_login_changepass_failed</key>
+	<string>Error al cambiar la contraseña</string>
+	<key>wasdk_login_sendcode_failed</key>
+	<string>Error al enviar el código de verificación</string>
+	<key>wasdk_login_mobile_exists</key>
+	<string>¡El número de celular ya existe!</string>
+	<key>wasdk_login_email_exists</key>
+	<string>¡El correo electrónico ya existe!</string>
+	<key>wasdk_more</key>
+	<string>MÁS</string>
+	<key>wasdk_login_signupbyemail</key>
+	<string>Registrarse con Email</string>
+	<key>wasdk_login_eamillogin_title</key>
+	<string>Email</string>
+	<key>wasdk_login_phonelogin_title</key>
+	<string>Número de teléfono</string>
+	<key>wa_sdk_graph_code</key>
+	<string>CAPTCHA</string>
+	<key>wa_sdk_please_input_correct_graph_code</key>
+	<string>Por favor, ingresa el CAPTCHA correcto</string>
+	<key>wa_sdk_settings_customer_services</key>
+	<string>Soporte</string>
+	<key>wa_sdk_settings_account_manager</key>
+	<string>Administrar Cuenta</string>
+	<key>wa_sdk_settings_account_delete</key>
+	<string>Eliminar Cuenta</string>
+	<key>wa_sdk_settings_customer_center</key>
+	<string>Centro de Soporte</string>
+	<key>wa_sdk_settings_user_center</key>
+	<string>Centro de Usuario</string>
+	<key>wa_sdk_settings_data_consent</key>
+	<string>Consentimiento</string>
+	<key>wa_sdk_not_remind_next_time</key>
+	<string>No volver a recordarme</string>
+</dict>
+</plist>
