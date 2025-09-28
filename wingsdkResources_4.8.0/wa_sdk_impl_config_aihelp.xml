@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <config>
-	<version val="AIHELP4.7.0" />
+	<version val="AIHELP4.8.0" />
     <comps>
         
         <comp module="CORE" plaf="AIHELP" mandatory="YES" value="WAAIhelpCore" desc="公共模块" />

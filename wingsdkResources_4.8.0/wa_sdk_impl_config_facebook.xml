@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <config>
-	<version val="FB4.7.0" />
+	<version val="FB4.8.0" />
     <comps>
         
         <comp module="USR" plaf="FACEBOOK" mandatory="NO" value="WAFBUser" desc="FACEBOOK用户账户" />

@@ -23,10 +23,41 @@
 //    [WAAdMobProxy setTestMode:YES];
 
     UIViewController *initialViewController;
+    [WAAdMobProxy isOpenBannerAdWithCompletion:^(BOOL isOpen, NSError * _Nonnull error) {
+        
+        NSLog(@"BannerAd检测广告开关，初始化前调用====%d",isOpen);
+        
+    }];
+    
+    [WAAdMobProxy isOpenInterstitialAdWithCompletion:^(BOOL isOpen, NSError * _Nonnull error) {
+        
+        NSLog(@"InterstitialAd检测广告开关，初始化前调用=====%d",isOpen);
+        
+    }];
+    
+    [WAAdMobProxy isOpenAppOpenAdWithCompletion:^(BOOL isOpen, NSError * _Nonnull error) {
+        
+        NSLog(@"AppOpenAd检测广告开关，初始化前调用=====%d",isOpen);
+        
+    }];
 
+                              
+    [WAAdMobProxy isOpenRewardedWithAdName:@"admob1" completion:^(BOOL isOpen, NSError * _Nonnull error) {
+        
+        NSLog(@"Rewarded-admob1-检测广告开关，初始化前调用=====%d",isOpen);
+
+    }];
+    
+    [WAAdMobProxy isOpenRewardedWithAdName:@"admob2" completion:^(BOOL isOpen, NSError * _Nonnull error) {
+        
+        NSLog(@"Rewarded-admob2-检测广告开关，初始化前调用=====%d",isOpen);
+
+    }];
     
     [WACoreProxy setDebugMode:YES];
+
     [WACoreProxy initWithCompletionHandler:^{
+
         [WACoreProxy initAppEventTracker];
         [WAPayProxy init4Iap];
         [WACoreProxy setLevel:10];
@@ -59,12 +90,8 @@
     
 }
 
-/*
-- (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings
-{
-    [WACoreProxy application:application didRegisterUserNotificationSettings:notificationSettings];
-}
- */
+
+
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     NSLog(@"能够获取到token===============");
@@ -75,11 +102,7 @@
 }
 
 
-//#pragma mark IOS8 IOS9 Push Notification Receive
-//-(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
-//{
-//    [WACoreProxy application:application didReceiveLocalNotification:notification];
-//}
+
 
 
 
@@ -90,7 +113,7 @@
 
 
 
-#pragma mark IOS10 Push Notification Receive
+#pragma mark IOS10 or later Push Notification Receive
 //App处于前台接收通知时
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler{
     
@@ -123,25 +146,22 @@
     NSLog(@"applicationDidBecomeActive===");
     [WACoreProxy applicationDidBecomeActive:application];
     
-    [WAAdMobProxy showAppOpenAdWithViewController:[WADemoUtil getCurrentVC] withDelegate:self];
+    [WAAdMobProxy showInterstitialAdWithViewController:[WADemoUtil getCurrentVC] withDelegate:self];
 
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-//
-//- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-//    
-//    return [WACoreProxy application:application openURL:url sourceApplication:sourceApplication annotation:annotation];
-//}
+
+
 
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
 {
     return [WACoreProxy application:app openURL:url options:options];
 }
 
-- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray<id<UIUserActivityRestoring>> * _Nullable))restorationHandler
 {
     return [WACoreProxy application:application continueUserActivity:userActivity restorationHandler:restorationHandler];
 }
