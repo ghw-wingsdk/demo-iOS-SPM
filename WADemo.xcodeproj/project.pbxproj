@@ -143,27 +143,6 @@
 		B29279B72E88D7CC00153A90 /* WAPushImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B29279B62E88D7CC00153A90 /* WAPushImpl */; };
 		B29279B92E88D7CC00153A90 /* WASdkImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B29279B82E88D7CC00153A90 /* WASdkImpl */; };
 		B29279BB2E88D7CC00153A90 /* WASdkIntf in Frameworks */ = {isa = PBXBuildFile; productRef = B29279BA2E88D7CC00153A90 /* WASdkIntf */; };
-		B29279D42E88D7F500153A90 /* zh-Hans.plist in Resources */ = {isa = PBXBuildFile; fileRef = B29279C32E88D7F500153A90 /* zh-Hans.plist */; };
-		B29279D52E88D7F500153A90 /* wa_sdk_impl_config_facebook.xml in Resources */ = {isa = PBXBuildFile; fileRef = B29279CC2E88D7F500153A90 /* wa_sdk_impl_config_facebook.xml */; };
-		B29279D62E88D7F500153A90 /* wa_sdk_impl_config_apple.xml in Resources */ = {isa = PBXBuildFile; fileRef = B29279CA2E88D7F500153A90 /* wa_sdk_impl_config_apple.xml */; };
-		B29279D72E88D7F500153A90 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B29279C72E88D7F500153A90 /* FacebookSDKStrings.bundle */; };
-		B29279D82E88D7F500153A90 /* ru.plist in Resources */ = {isa = PBXBuildFile; fileRef = B29279C12E88D7F500153A90 /* ru.plist */; };
-		B29279D92E88D7F500153A90 /* en.plist in Resources */ = {isa = PBXBuildFile; fileRef = B29279BD2E88D7F500153A90 /* en.plist */; };
-		B29279DA2E88D7F500153A90 /* wa_sdk_impl_config_aihelp.xml in Resources */ = {isa = PBXBuildFile; fileRef = B29279C92E88D7F500153A90 /* wa_sdk_impl_config_aihelp.xml */; };
-		B29279DB2E88D7F500153A90 /* wa_sdk_impl_config_appsflyer.xml in Resources */ = {isa = PBXBuildFile; fileRef = B29279CB2E88D7F500153A90 /* wa_sdk_impl_config_appsflyer.xml */; };
-		B29279DC2E88D7F500153A90 /* wa_sdk_impl_config_firebase.xml in Resources */ = {isa = PBXBuildFile; fileRef = B29279CD2E88D7F500153A90 /* wa_sdk_impl_config_firebase.xml */; };
-		B29279DD2E88D7F500153A90 /* base.plist in Resources */ = {isa = PBXBuildFile; fileRef = B29279BC2E88D7F500153A90 /* base.plist */; };
-		B29279DE2E88D7F500153A90 /* wa_sdk.plist in Resources */ = {isa = PBXBuildFile; fileRef = B29279C82E88D7F500153A90 /* wa_sdk.plist */; };
-		B29279DF2E88D7F500153A90 /* id.plist in Resources */ = {isa = PBXBuildFile; fileRef = B29279BF2E88D7F500153A90 /* id.plist */; };
-		B29279E02E88D7F500153A90 /* AIHelpSupportSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B29279C62E88D7F500153A90 /* AIHelpSupportSDK.bundle */; };
-		B29279E12E88D7F500153A90 /* pt.plist in Resources */ = {isa = PBXBuildFile; fileRef = B29279C02E88D7F500153A90 /* pt.plist */; };
-		B29279E22E88D7F500153A90 /* th.plist in Resources */ = {isa = PBXBuildFile; fileRef = B29279C22E88D7F500153A90 /* th.plist */; };
-		B29279E32E88D7F500153A90 /* zh-Hant.plist in Resources */ = {isa = PBXBuildFile; fileRef = B29279C42E88D7F500153A90 /* zh-Hant.plist */; };
-		B29279E42E88D7F500153A90 /* wa_sdk_impl_config_winga.xml in Resources */ = {isa = PBXBuildFile; fileRef = B29279CF2E88D7F500153A90 /* wa_sdk_impl_config_winga.xml */; };
-		B29279E52E88D7F500153A90 /* es.plist in Resources */ = {isa = PBXBuildFile; fileRef = B29279BE2E88D7F500153A90 /* es.plist */; };
-		B29279E62E88D7F500153A90 /* wa_sdk_impl_config_push.xml in Resources */ = {isa = PBXBuildFile; fileRef = B29279CE2E88D7F500153A90 /* wa_sdk_impl_config_push.xml */; };
-		B29279E72E88D7F500153A90 /* WASDK-Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B29279D12E88D7F500153A90 /* WASDK-Resource.bundle */; };
-		B2927A142E88EAA800153A90 /* wa_sdk_track_config.plist in Resources */ = {isa = PBXBuildFile; fileRef = B29279D02E88D7F500153A90 /* wa_sdk_track_config.plist */; };
 		B2927AB42E89303D00153A90 /* WAAfImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B2927AB32E89303D00153A90 /* WAAfImpl */; };
 		B2927AB62E89303D00153A90 /* WAAiHelpImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B2927AB52E89303D00153A90 /* WAAiHelpImpl */; };
 		B2927AB82E89303D00153A90 /* WAApImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B2927AB72E89303D00153A90 /* WAApImpl */; };
@@ -172,6 +151,35 @@
 		B2927ABE2E89303D00153A90 /* WAPushImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B2927ABD2E89303D00153A90 /* WAPushImpl */; };
 		B2927AC02E89303D00153A90 /* WASdkImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B2927ABF2E89303D00153A90 /* WASdkImpl */; };
 		B2927AC22E89303D00153A90 /* WASdkIntf in Frameworks */ = {isa = PBXBuildFile; productRef = B2927AC12E89303D00153A90 /* WASdkIntf */; };
+		B292F1A52EB39B5500BB5F4C /* WAAfImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B292F1A42EB39B5500BB5F4C /* WAAfImpl */; };
+		B292F1A72EB39B5500BB5F4C /* WAAiHelpImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B292F1A62EB39B5500BB5F4C /* WAAiHelpImpl */; };
+		B292F1A92EB39B5500BB5F4C /* WAApImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B292F1A82EB39B5500BB5F4C /* WAApImpl */; };
+		B292F1AB2EB39B5500BB5F4C /* WAFbImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B292F1AA2EB39B5500BB5F4C /* WAFbImpl */; };
+		B292F1AD2EB39B5500BB5F4C /* WAFirebaseImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B292F1AC2EB39B5500BB5F4C /* WAFirebaseImpl */; };
+		B292F1AF2EB39B5500BB5F4C /* WAPushImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B292F1AE2EB39B5500BB5F4C /* WAPushImpl */; };
+		B292F1B12EB39B5500BB5F4C /* WASdkImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B292F1B02EB39B5500BB5F4C /* WASdkImpl */; };
+		B292F1B32EB39B5500BB5F4C /* WASdkIntf in Frameworks */ = {isa = PBXBuildFile; productRef = B292F1B22EB39B5500BB5F4C /* WASdkIntf */; };
+		B292F1CB2EB39B7900BB5F4C /* ru.plist in Resources */ = {isa = PBXBuildFile; fileRef = B292F1B92EB39B7900BB5F4C /* ru.plist */; };
+		B292F1CC2EB39B7900BB5F4C /* th.plist in Resources */ = {isa = PBXBuildFile; fileRef = B292F1BA2EB39B7900BB5F4C /* th.plist */; };
+		B292F1CD2EB39B7900BB5F4C /* wa_sdk_impl_config_push.xml in Resources */ = {isa = PBXBuildFile; fileRef = B292F1C62EB39B7900BB5F4C /* wa_sdk_impl_config_push.xml */; };
+		B292F1CE2EB39B7900BB5F4C /* en.plist in Resources */ = {isa = PBXBuildFile; fileRef = B292F1B52EB39B7900BB5F4C /* en.plist */; };
+		B292F1CF2EB39B7900BB5F4C /* zh-Hans.plist in Resources */ = {isa = PBXBuildFile; fileRef = B292F1BB2EB39B7900BB5F4C /* zh-Hans.plist */; };
+		B292F1D02EB39B7900BB5F4C /* AIHelpSupportSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B292F1BE2EB39B7900BB5F4C /* AIHelpSupportSDK.bundle */; };
+		B292F1D12EB39B7900BB5F4C /* WASDK-Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B292F1C92EB39B7900BB5F4C /* WASDK-Resource.bundle */; };
+		B292F1D22EB39B7900BB5F4C /* pt.plist in Resources */ = {isa = PBXBuildFile; fileRef = B292F1B82EB39B7900BB5F4C /* pt.plist */; };
+		B292F1D32EB39B7900BB5F4C /* wa_sdk_impl_config_winga.xml in Resources */ = {isa = PBXBuildFile; fileRef = B292F1C72EB39B7900BB5F4C /* wa_sdk_impl_config_winga.xml */; };
+		B292F1D42EB39B7900BB5F4C /* wa_sdk_impl_config_appsflyer.xml in Resources */ = {isa = PBXBuildFile; fileRef = B292F1C32EB39B7900BB5F4C /* wa_sdk_impl_config_appsflyer.xml */; };
+		B292F1D52EB39B7900BB5F4C /* zh-Hant.plist in Resources */ = {isa = PBXBuildFile; fileRef = B292F1BC2EB39B7900BB5F4C /* zh-Hant.plist */; };
+		B292F1D62EB39B7900BB5F4C /* wa_sdk_track_config.plist in Resources */ = {isa = PBXBuildFile; fileRef = B292F1C82EB39B7900BB5F4C /* wa_sdk_track_config.plist */; };
+		B292F1D72EB39B7900BB5F4C /* wa_sdk_impl_config_facebook.xml in Resources */ = {isa = PBXBuildFile; fileRef = B292F1C42EB39B7900BB5F4C /* wa_sdk_impl_config_facebook.xml */; };
+		B292F1D82EB39B7900BB5F4C /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B292F1BF2EB39B7900BB5F4C /* FacebookSDKStrings.bundle */; };
+		B292F1D92EB39B7900BB5F4C /* wa_sdk_impl_config_aihelp.xml in Resources */ = {isa = PBXBuildFile; fileRef = B292F1C12EB39B7900BB5F4C /* wa_sdk_impl_config_aihelp.xml */; };
+		B292F1DA2EB39B7900BB5F4C /* es.plist in Resources */ = {isa = PBXBuildFile; fileRef = B292F1B62EB39B7900BB5F4C /* es.plist */; };
+		B292F1DB2EB39B7900BB5F4C /* wa_sdk_impl_config_apple.xml in Resources */ = {isa = PBXBuildFile; fileRef = B292F1C22EB39B7900BB5F4C /* wa_sdk_impl_config_apple.xml */; };
+		B292F1DC2EB39B7900BB5F4C /* wa_sdk_impl_config_firebase.xml in Resources */ = {isa = PBXBuildFile; fileRef = B292F1C52EB39B7900BB5F4C /* wa_sdk_impl_config_firebase.xml */; };
+		B292F1DD2EB39B7900BB5F4C /* base.plist in Resources */ = {isa = PBXBuildFile; fileRef = B292F1B42EB39B7900BB5F4C /* base.plist */; };
+		B292F1DE2EB39B7900BB5F4C /* wa_sdk.plist in Resources */ = {isa = PBXBuildFile; fileRef = B292F1C02EB39B7900BB5F4C /* wa_sdk.plist */; };
+		B292F1DF2EB39B7900BB5F4C /* id.plist in Resources */ = {isa = PBXBuildFile; fileRef = B292F1B72EB39B7900BB5F4C /* id.plist */; };
 		B294C2162A68C59400B1CB1B /* WADemoClientidSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = B294C2142A68C59400B1CB1B /* WADemoClientidSetting.m */; };
 		B296DD222C2417A500DF909D /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B296DD212C2417A500DF909D /* SplashViewController.m */; };
 		B296DD262C2418F800DF909D /* WADemoAdMobView.m in Sources */ = {isa = PBXBuildFile; fileRef = B296DD252C2418F800DF909D /* WADemoAdMobView.m */; };
@@ -411,27 +419,27 @@
 		B27ED4F62A172E9600DB1772 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		B27ED4F82A172EA200DB1772 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		B27ED5002A1730AB00DB1772 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		B29279BC2E88D7F500153A90 /* base.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = base.plist; sourceTree = "<group>"; };
-		B29279BD2E88D7F500153A90 /* en.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = en.plist; sourceTree = "<group>"; };
-		B29279BE2E88D7F500153A90 /* es.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = es.plist; sourceTree = "<group>"; };
-		B29279BF2E88D7F500153A90 /* id.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = id.plist; sourceTree = "<group>"; };
-		B29279C02E88D7F500153A90 /* pt.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = pt.plist; sourceTree = "<group>"; };
-		B29279C12E88D7F500153A90 /* ru.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ru.plist; sourceTree = "<group>"; };
-		B29279C22E88D7F500153A90 /* th.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = th.plist; sourceTree = "<group>"; };
-		B29279C32E88D7F500153A90 /* zh-Hans.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zh-Hans.plist"; sourceTree = "<group>"; };
-		B29279C42E88D7F500153A90 /* zh-Hant.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zh-Hant.plist"; sourceTree = "<group>"; };
-		B29279C62E88D7F500153A90 /* AIHelpSupportSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AIHelpSupportSDK.bundle; sourceTree = "<group>"; };
-		B29279C72E88D7F500153A90 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKStrings.bundle; sourceTree = "<group>"; };
-		B29279C82E88D7F500153A90 /* wa_sdk.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = wa_sdk.plist; sourceTree = "<group>"; };
-		B29279C92E88D7F500153A90 /* wa_sdk_impl_config_aihelp.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wa_sdk_impl_config_aihelp.xml; sourceTree = "<group>"; };
-		B29279CA2E88D7F500153A90 /* wa_sdk_impl_config_apple.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wa_sdk_impl_config_apple.xml; sourceTree = "<group>"; };
-		B29279CB2E88D7F500153A90 /* wa_sdk_impl_config_appsflyer.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wa_sdk_impl_config_appsflyer.xml; sourceTree = "<group>"; };
-		B29279CC2E88D7F500153A90 /* wa_sdk_impl_config_facebook.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wa_sdk_impl_config_facebook.xml; sourceTree = "<group>"; };
-		B29279CD2E88D7F500153A90 /* wa_sdk_impl_config_firebase.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wa_sdk_impl_config_firebase.xml; sourceTree = "<group>"; };
-		B29279CE2E88D7F500153A90 /* wa_sdk_impl_config_push.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wa_sdk_impl_config_push.xml; sourceTree = "<group>"; };
-		B29279CF2E88D7F500153A90 /* wa_sdk_impl_config_winga.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wa_sdk_impl_config_winga.xml; sourceTree = "<group>"; };
-		B29279D02E88D7F500153A90 /* wa_sdk_track_config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = wa_sdk_track_config.plist; sourceTree = "<group>"; };
-		B29279D12E88D7F500153A90 /* WASDK-Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "WASDK-Resource.bundle"; sourceTree = "<group>"; };
+		B292F1B42EB39B7900BB5F4C /* base.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = base.plist; sourceTree = "<group>"; };
+		B292F1B52EB39B7900BB5F4C /* en.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = en.plist; sourceTree = "<group>"; };
+		B292F1B62EB39B7900BB5F4C /* es.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = es.plist; sourceTree = "<group>"; };
+		B292F1B72EB39B7900BB5F4C /* id.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = id.plist; sourceTree = "<group>"; };
+		B292F1B82EB39B7900BB5F4C /* pt.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = pt.plist; sourceTree = "<group>"; };
+		B292F1B92EB39B7900BB5F4C /* ru.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ru.plist; sourceTree = "<group>"; };
+		B292F1BA2EB39B7900BB5F4C /* th.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = th.plist; sourceTree = "<group>"; };
+		B292F1BB2EB39B7900BB5F4C /* zh-Hans.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zh-Hans.plist"; sourceTree = "<group>"; };
+		B292F1BC2EB39B7900BB5F4C /* zh-Hant.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zh-Hant.plist"; sourceTree = "<group>"; };
+		B292F1BE2EB39B7900BB5F4C /* AIHelpSupportSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AIHelpSupportSDK.bundle; sourceTree = "<group>"; };
+		B292F1BF2EB39B7900BB5F4C /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		B292F1C02EB39B7900BB5F4C /* wa_sdk.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = wa_sdk.plist; sourceTree = "<group>"; };
+		B292F1C12EB39B7900BB5F4C /* wa_sdk_impl_config_aihelp.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wa_sdk_impl_config_aihelp.xml; sourceTree = "<group>"; };
+		B292F1C22EB39B7900BB5F4C /* wa_sdk_impl_config_apple.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wa_sdk_impl_config_apple.xml; sourceTree = "<group>"; };
+		B292F1C32EB39B7900BB5F4C /* wa_sdk_impl_config_appsflyer.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wa_sdk_impl_config_appsflyer.xml; sourceTree = "<group>"; };
+		B292F1C42EB39B7900BB5F4C /* wa_sdk_impl_config_facebook.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wa_sdk_impl_config_facebook.xml; sourceTree = "<group>"; };
+		B292F1C52EB39B7900BB5F4C /* wa_sdk_impl_config_firebase.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wa_sdk_impl_config_firebase.xml; sourceTree = "<group>"; };
+		B292F1C62EB39B7900BB5F4C /* wa_sdk_impl_config_push.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wa_sdk_impl_config_push.xml; sourceTree = "<group>"; };
+		B292F1C72EB39B7900BB5F4C /* wa_sdk_impl_config_winga.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = wa_sdk_impl_config_winga.xml; sourceTree = "<group>"; };
+		B292F1C82EB39B7900BB5F4C /* wa_sdk_track_config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = wa_sdk_track_config.plist; sourceTree = "<group>"; };
+		B292F1C92EB39B7900BB5F4C /* WASDK-Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "WASDK-Resource.bundle"; sourceTree = "<group>"; };
 		B294C1FB2A64EE3F00B1CB1B /* WADemoRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WADemoRelease.entitlements; sourceTree = "<group>"; };
 		B294C2142A68C59400B1CB1B /* WADemoClientidSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WADemoClientidSetting.m; sourceTree = "<group>"; };
 		B294C2152A68C59400B1CB1B /* WADemoClientidSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WADemoClientidSetting.h; sourceTree = "<group>"; };
@@ -490,6 +498,7 @@
 				B27ED4F72A172E9600DB1772 /* libresolv.tbd in Frameworks */,
 				B2A6E0692E725DE800FAB634 /* WAGhglImpl in Frameworks */,
 				B212D4412E6EAF820027C8D7 /* WASdkIntf in Frameworks */,
+				B292F1AB2EB39B5500BB5F4C /* WAFbImpl in Frameworks */,
 				B29279B12E88D7CC00153A90 /* WAApImpl in Frameworks */,
 				B2927AB62E89303D00153A90 /* WAAiHelpImpl in Frameworks */,
 				B2976B0E2E15064600384D7F /* WASdkIntf in Frameworks */,
@@ -519,6 +528,7 @@
 				B2C160512E16194A00BBE28D /* WASdkIntf in Frameworks */,
 				B26976692E13C81B009B56D5 /* WASdkIntf in Frameworks */,
 				B2EFDFB82E0E45F0000231BD /* WAGhgpImpl in Frameworks */,
+				B292F1A52EB39B5500BB5F4C /* WAAfImpl in Frameworks */,
 				B269765B2E13C81B009B56D5 /* WAAfImpl in Frameworks */,
 				B2A6E0512E712DD700FAB634 /* WASdkIntf in Frameworks */,
 				B2A808C42E727CA10002A1FD /* WAApImpl in Frameworks */,
@@ -543,6 +553,7 @@
 				B253D6812E1521B6008A42C9 /* WASdkIntf in Frameworks */,
 				B2ABFDE72E2F854000894F67 /* WAApImpl in Frameworks */,
 				B27ED4ED2A172DD100DB1772 /* UIKit.framework in Frameworks */,
+				B292F1B12EB39B5500BB5F4C /* WASdkImpl in Frameworks */,
 				B2A6E0632E725DA800FAB634 /* WASdkIntf in Frameworks */,
 				B2ABFDFC2E2F859F00894F67 /* WAGhglImpl in Frameworks */,
 				B26976652E13C81B009B56D5 /* WAPushImpl in Frameworks */,
@@ -554,6 +565,7 @@
 				B2A1D3462E1529310034AF5E /* WAApImpl in Frameworks */,
 				B2EFDFA92E0E45D4000231BD /* WAAiHelpImpl in Frameworks */,
 				B2ABFDE32E2F854000894F67 /* WAAfImpl in Frameworks */,
+				B292F1A92EB39B5500BB5F4C /* WAApImpl in Frameworks */,
 				B212D4332E6EAF820027C8D7 /* WAAfImpl in Frameworks */,
 				B2927ABA2E89303D00153A90 /* WAFbImpl in Frameworks */,
 				B24503702E29F56C001721F9 /* WAGhglImpl in Frameworks */,
@@ -574,6 +586,8 @@
 				B26976552E13C785009B56D5 /* WAGhglImpl in Frameworks */,
 				B2C15FEE2E16130700BBE28D /* WAPushImpl in Frameworks */,
 				B2C1600E2E16177E00BBE28D /* WAFirebaseImpl in Frameworks */,
+				B292F1AF2EB39B5500BB5F4C /* WAPushImpl in Frameworks */,
+				B292F1A72EB39B5500BB5F4C /* WAAiHelpImpl in Frameworks */,
 				B20E85B22E7AAD3C00F8E0F9 /* WAAfImpl in Frameworks */,
 				B212D4352E6EAF820027C8D7 /* WAAiHelpImpl in Frameworks */,
 				B24503592E29F4E2001721F9 /* WAAfImpl in Frameworks */,
@@ -590,6 +604,7 @@
 				B20E85D12E7AB17C00F8E0F9 /* WASdkIntf in Frameworks */,
 				B2C1600A2E16177E00BBE28D /* WAApImpl in Frameworks */,
 				B2C1604D2E16194A00BBE28D /* WAPushImpl in Frameworks */,
+				B292F1B32EB39B5500BB5F4C /* WASdkIntf in Frameworks */,
 				B253D67D2E1521B6008A42C9 /* WAPushImpl in Frameworks */,
 				B20E85BA2E7AAD3C00F8E0F9 /* WAFirebaseImpl in Frameworks */,
 				B245035B2E29F4E2001721F9 /* WAAiHelpImpl in Frameworks */,
@@ -607,6 +622,7 @@
 				B29279B52E88D7CC00153A90 /* WAFirebaseImpl in Frameworks */,
 				B2A6E0612E725DA800FAB634 /* WASdkImpl in Frameworks */,
 				B2C1604B2E16194A00BBE28D /* WAFirebaseImpl in Frameworks */,
+				B292F1AD2EB39B5500BB5F4C /* WAFirebaseImpl in Frameworks */,
 				B2ABFDEB2E2F854000894F67 /* WAFirebaseImpl in Frameworks */,
 				B2A1D3422E1529310034AF5E /* WAAfImpl in Frameworks */,
 				B2ABFDAA2E2F71C000894F67 /* WAApImpl in Frameworks */,
@@ -654,7 +670,7 @@
 		B27ED32B2A17196E00DB1772 = {
 			isa = PBXGroup;
 			children = (
-				B29279D22E88D7F500153A90 /* wingsdkResources_4.8.0 */,
+				B292F1CA2EB39B7900BB5F4C /* wingsdkResources_4.8.1 */,
 				B2ABFE002E2F867A00894F67 /* admob&webResources */,
 				B26B633B2A6A1A51007C46DB /* WADemo-Bridging-Header.h */,
 				B26B63392A6A1A29007C46DB /* File.swift */,
@@ -962,40 +978,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B29279C52E88D7F500153A90 /* localizable */ = {
+		B292F1BD2EB39B7900BB5F4C /* localizable */ = {
 			isa = PBXGroup;
 			children = (
-				B29279BC2E88D7F500153A90 /* base.plist */,
-				B29279BD2E88D7F500153A90 /* en.plist */,
-				B29279BE2E88D7F500153A90 /* es.plist */,
-				B29279BF2E88D7F500153A90 /* id.plist */,
-				B29279C02E88D7F500153A90 /* pt.plist */,
-				B29279C12E88D7F500153A90 /* ru.plist */,
-				B29279C22E88D7F500153A90 /* th.plist */,
-				B29279C32E88D7F500153A90 /* zh-Hans.plist */,
-				B29279C42E88D7F500153A90 /* zh-Hant.plist */,
+				B292F1B42EB39B7900BB5F4C /* base.plist */,
+				B292F1B52EB39B7900BB5F4C /* en.plist */,
+				B292F1B62EB39B7900BB5F4C /* es.plist */,
+				B292F1B72EB39B7900BB5F4C /* id.plist */,
+				B292F1B82EB39B7900BB5F4C /* pt.plist */,
+				B292F1B92EB39B7900BB5F4C /* ru.plist */,
+				B292F1BA2EB39B7900BB5F4C /* th.plist */,
+				B292F1BB2EB39B7900BB5F4C /* zh-Hans.plist */,
+				B292F1BC2EB39B7900BB5F4C /* zh-Hant.plist */,
 			);
 			path = localizable;
 			sourceTree = "<group>";
 		};
-		B29279D22E88D7F500153A90 /* wingsdkResources_4.8.0 */ = {
+		B292F1CA2EB39B7900BB5F4C /* wingsdkResources_4.8.1 */ = {
 			isa = PBXGroup;
 			children = (
-				B29279C52E88D7F500153A90 /* localizable */,
-				B29279C62E88D7F500153A90 /* AIHelpSupportSDK.bundle */,
-				B29279C72E88D7F500153A90 /* FacebookSDKStrings.bundle */,
-				B29279C82E88D7F500153A90 /* wa_sdk.plist */,
-				B29279C92E88D7F500153A90 /* wa_sdk_impl_config_aihelp.xml */,
-				B29279CA2E88D7F500153A90 /* wa_sdk_impl_config_apple.xml */,
-				B29279CB2E88D7F500153A90 /* wa_sdk_impl_config_appsflyer.xml */,
-				B29279CC2E88D7F500153A90 /* wa_sdk_impl_config_facebook.xml */,
-				B29279CD2E88D7F500153A90 /* wa_sdk_impl_config_firebase.xml */,
-				B29279CE2E88D7F500153A90 /* wa_sdk_impl_config_push.xml */,
-				B29279CF2E88D7F500153A90 /* wa_sdk_impl_config_winga.xml */,
-				B29279D02E88D7F500153A90 /* wa_sdk_track_config.plist */,
-				B29279D12E88D7F500153A90 /* WASDK-Resource.bundle */,
+				B292F1BD2EB39B7900BB5F4C /* localizable */,
+				B292F1BE2EB39B7900BB5F4C /* AIHelpSupportSDK.bundle */,
+				B292F1BF2EB39B7900BB5F4C /* FacebookSDKStrings.bundle */,
+				B292F1C02EB39B7900BB5F4C /* wa_sdk.plist */,
+				B292F1C12EB39B7900BB5F4C /* wa_sdk_impl_config_aihelp.xml */,
+				B292F1C22EB39B7900BB5F4C /* wa_sdk_impl_config_apple.xml */,
+				B292F1C32EB39B7900BB5F4C /* wa_sdk_impl_config_appsflyer.xml */,
+				B292F1C42EB39B7900BB5F4C /* wa_sdk_impl_config_facebook.xml */,
+				B292F1C52EB39B7900BB5F4C /* wa_sdk_impl_config_firebase.xml */,
+				B292F1C62EB39B7900BB5F4C /* wa_sdk_impl_config_push.xml */,
+				B292F1C72EB39B7900BB5F4C /* wa_sdk_impl_config_winga.xml */,
+				B292F1C82EB39B7900BB5F4C /* wa_sdk_track_config.plist */,
+				B292F1C92EB39B7900BB5F4C /* WASDK-Resource.bundle */,
 			);
-			path = wingsdkResources_4.8.0;
+			path = wingsdkResources_4.8.1;
 			sourceTree = "<group>";
 		};
 		B294C2132A68C59400B1CB1B /* clientidsetting */ = {
@@ -1074,7 +1090,7 @@
 				B2A6E0642E725DD800FAB634 /* XCRemoteSwiftPackageReference "WAAdmobImpl_spm" */,
 				B2A6E0672E725DE800FAB634 /* XCRemoteSwiftPackageReference "WAGhglImpl_spm" */,
 				B2A6E06A2E725DF500FAB634 /* XCRemoteSwiftPackageReference "WAGhgpImpl_spm" */,
-				B2927AB22E89303D00153A90 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */,
+				B292F1A32EB39B5500BB5F4C /* XCRemoteSwiftPackageReference "wingsdkios_spm" */,
 			);
 			productRefGroup = B27ED3352A17196E00DB1772 /* Products */;
 			projectDirPath = "";
@@ -1093,27 +1109,27 @@
 				B2ABFE012E2F867A00894F67 /* wa_sdk_impl_config_ghgp.xml in Resources */,
 				B2ABFE022E2F867A00894F67 /* wa_sdk_impl_config_ghgl.xml in Resources */,
 				B2ABFE032E2F867A00894F67 /* wa_sdk_impl_config_admob.xml in Resources */,
-				B29279D42E88D7F500153A90 /* zh-Hans.plist in Resources */,
-				B29279D52E88D7F500153A90 /* wa_sdk_impl_config_facebook.xml in Resources */,
-				B29279D62E88D7F500153A90 /* wa_sdk_impl_config_apple.xml in Resources */,
-				B29279D72E88D7F500153A90 /* FacebookSDKStrings.bundle in Resources */,
-				B29279D82E88D7F500153A90 /* ru.plist in Resources */,
-				B29279D92E88D7F500153A90 /* en.plist in Resources */,
-				B29279DA2E88D7F500153A90 /* wa_sdk_impl_config_aihelp.xml in Resources */,
-				B29279DB2E88D7F500153A90 /* wa_sdk_impl_config_appsflyer.xml in Resources */,
-				B29279DC2E88D7F500153A90 /* wa_sdk_impl_config_firebase.xml in Resources */,
-				B29279DD2E88D7F500153A90 /* base.plist in Resources */,
-				B29279DE2E88D7F500153A90 /* wa_sdk.plist in Resources */,
-				B29279DF2E88D7F500153A90 /* id.plist in Resources */,
-				B29279E02E88D7F500153A90 /* AIHelpSupportSDK.bundle in Resources */,
-				B29279E12E88D7F500153A90 /* pt.plist in Resources */,
-				B29279E22E88D7F500153A90 /* th.plist in Resources */,
-				B29279E32E88D7F500153A90 /* zh-Hant.plist in Resources */,
-				B29279E42E88D7F500153A90 /* wa_sdk_impl_config_winga.xml in Resources */,
-				B29279E52E88D7F500153A90 /* es.plist in Resources */,
-				B2927A142E88EAA800153A90 /* wa_sdk_track_config.plist in Resources */,
-				B29279E62E88D7F500153A90 /* wa_sdk_impl_config_push.xml in Resources */,
-				B29279E72E88D7F500153A90 /* WASDK-Resource.bundle in Resources */,
+				B292F1CB2EB39B7900BB5F4C /* ru.plist in Resources */,
+				B292F1CC2EB39B7900BB5F4C /* th.plist in Resources */,
+				B292F1CD2EB39B7900BB5F4C /* wa_sdk_impl_config_push.xml in Resources */,
+				B292F1CE2EB39B7900BB5F4C /* en.plist in Resources */,
+				B292F1CF2EB39B7900BB5F4C /* zh-Hans.plist in Resources */,
+				B292F1D02EB39B7900BB5F4C /* AIHelpSupportSDK.bundle in Resources */,
+				B292F1D12EB39B7900BB5F4C /* WASDK-Resource.bundle in Resources */,
+				B292F1D22EB39B7900BB5F4C /* pt.plist in Resources */,
+				B292F1D32EB39B7900BB5F4C /* wa_sdk_impl_config_winga.xml in Resources */,
+				B292F1D42EB39B7900BB5F4C /* wa_sdk_impl_config_appsflyer.xml in Resources */,
+				B292F1D52EB39B7900BB5F4C /* zh-Hant.plist in Resources */,
+				B292F1D62EB39B7900BB5F4C /* wa_sdk_track_config.plist in Resources */,
+				B292F1D72EB39B7900BB5F4C /* wa_sdk_impl_config_facebook.xml in Resources */,
+				B292F1D82EB39B7900BB5F4C /* FacebookSDKStrings.bundle in Resources */,
+				B292F1D92EB39B7900BB5F4C /* wa_sdk_impl_config_aihelp.xml in Resources */,
+				B292F1DA2EB39B7900BB5F4C /* es.plist in Resources */,
+				B292F1DB2EB39B7900BB5F4C /* wa_sdk_impl_config_apple.xml in Resources */,
+				B292F1DC2EB39B7900BB5F4C /* wa_sdk_impl_config_firebase.xml in Resources */,
+				B292F1DD2EB39B7900BB5F4C /* base.plist in Resources */,
+				B292F1DE2EB39B7900BB5F4C /* wa_sdk.plist in Resources */,
+				B292F1DF2EB39B7900BB5F4C /* id.plist in Resources */,
 				B27ED4E12A1720CA00DB1772 /* Main.storyboard in Resources */,
 				B27ED4BE2A1720CA00DB1772 /* Assets.xcassets in Resources */,
 				B27ED4E02A1720CA00DB1772 /* LaunchScreen.storyboard in Resources */,
@@ -1378,7 +1394,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1512,7 +1528,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1768,7 +1784,15 @@
 			repositoryURL = "http://repo.wingsdk.cn:8082/r/wingsdkios_spm.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 4.8.0;
+				minimumVersion = 4.8.1;
+			};
+		};
+		B292F1A32EB39B5500BB5F4C /* XCRemoteSwiftPackageReference "wingsdkios_spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://repo.wingsdk.cn:8082/r/wingsdkios_spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.8.1;
 			};
 		};
 		B2976AFE2E15064600384D7F /* XCRemoteSwiftPackageReference "wingsdk-ios" */ = {
@@ -2335,6 +2359,46 @@
 		B2927AC12E89303D00153A90 /* WASdkIntf */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B2927AB22E89303D00153A90 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WASdkIntf;
+		};
+		B292F1A42EB39B5500BB5F4C /* WAAfImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B292F1A32EB39B5500BB5F4C /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAAfImpl;
+		};
+		B292F1A62EB39B5500BB5F4C /* WAAiHelpImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B292F1A32EB39B5500BB5F4C /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAAiHelpImpl;
+		};
+		B292F1A82EB39B5500BB5F4C /* WAApImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B292F1A32EB39B5500BB5F4C /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAApImpl;
+		};
+		B292F1AA2EB39B5500BB5F4C /* WAFbImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B292F1A32EB39B5500BB5F4C /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAFbImpl;
+		};
+		B292F1AC2EB39B5500BB5F4C /* WAFirebaseImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B292F1A32EB39B5500BB5F4C /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAFirebaseImpl;
+		};
+		B292F1AE2EB39B5500BB5F4C /* WAPushImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B292F1A32EB39B5500BB5F4C /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAPushImpl;
+		};
+		B292F1B02EB39B5500BB5F4C /* WASdkImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B292F1A32EB39B5500BB5F4C /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WASdkImpl;
+		};
+		B292F1B22EB39B5500BB5F4C /* WASdkIntf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B292F1A32EB39B5500BB5F4C /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
 			productName = WASdkIntf;
 		};
 		B2976AFF2E15064600384D7F /* WAAfImpl */ = {

@@ -269,5 +269,9 @@ Recharge with discount</string>
 	<string>ความยินยอม</string>
 	<key>wa_sdk_not_remind_next_time</key>
 	<string>ไม่ต้องเตือนอีกครั้ง</string>
+	<key>wa_sdk_login_fail_conent</key>
+	<string>เข้าสู่ระบบล้มเหลว กรุณาติดต่อฝ่ายบริการลูกค้าเพื่อขอความช่วยเหลือ</string>
+	<key>wa_sdk_login_fail_kefu</key>
+	<string>บริการลูกค้า</string>
 </dict>
 </plist>

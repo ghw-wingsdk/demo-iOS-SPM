@@ -283,5 +283,9 @@ Recharge with discount</string>
 	<string>Согласие</string>
 	<key>wa_sdk_not_remind_next_time</key>
 	<string>Больше не напоминать</string>
+	<key>wa_sdk_login_fail_conent</key>
+	<string>Ошибка входа. Пожалуйста, свяжитесь со службой поддержки для получения помощи.</string>
+	<key>wa_sdk_login_fail_kefu</key>
+	<string>Поддержка</string>
 </dict>
 </plist>

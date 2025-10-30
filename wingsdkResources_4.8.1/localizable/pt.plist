@@ -331,5 +331,9 @@ Depois que você cancelar sua conta de jogo, suas informações pessoais serão 
 	<string>Consentimento</string>
 	<key>wa_sdk_not_remind_next_time</key>
 	<string>Não lembrar novament</string>
+	<key>wa_sdk_login_fail_conent</key>
+	<string>Falha no login. Por favor, entre em contato com o suporte para obter ajuda.</string>
+	<key>wa_sdk_login_fail_kefu</key>
+	<string>Suporte</string>
 </dict>
 </plist>

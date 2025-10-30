@@ -331,5 +331,9 @@
 	<string>資料使用同意</string>
 	<key>wa_sdk_not_remind_next_time</key>
 	<string>下次不再提醒</string>
+	<key>wa_sdk_login_fail_conent</key>
+	<string>登入失敗，請聯絡客服尋求幫助。</string>
+	<key>wa_sdk_login_fail_kefu</key>
+	<string>客服</string>
 </dict>
 </plist>

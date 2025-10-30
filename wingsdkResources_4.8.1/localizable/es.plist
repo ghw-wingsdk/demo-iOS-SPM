@@ -329,5 +329,9 @@ Tras cancelar tu cuenta de juego, tu información personal será eliminada o hec
 	<string>Consentimiento</string>
 	<key>wa_sdk_not_remind_next_time</key>
 	<string>No volver a recordarme</string>
+	<key>wa_sdk_login_fail_conent</key>
+	<string>Error de inicio de sesión. Por favor, contacta con el servicio de atención al cliente para obtener ayuda.</string>
+	<key>wa_sdk_login_fail_kefu</key>
+	<string>Soporte</string>
 </dict>
 </plist>

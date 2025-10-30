@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <config>
-	<version val="AP4.6.0" />
+	<version val="AP4.8.1" />
     <comps>
         
         <comp module="USR" plaf="APPLE" mandatory="YES" value="WAAPUser" desc="APPLE用户账户" />

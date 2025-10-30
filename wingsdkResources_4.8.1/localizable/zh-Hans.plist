@@ -337,5 +337,9 @@
 	<string>Consent设置</string>
 	<key>wa_sdk_not_remind_next_time</key>
 	<string>下次不再提醒</string>
+	<key>wa_sdk_login_fail_conent</key>
+	<string>登录失败，请联系客服寻求帮助。</string>
+	<key>wa_sdk_login_fail_kefu</key>
+	<string>客服</string>
 </dict>
 </plist>

@@ -283,5 +283,9 @@ Recharge with discount</string>
 	<string>Persetujuan Data</string>
 	<key>wa_sdk_not_remind_next_time</key>
 	<string>Jangan ingatkan lagi</string>
+	<key>wa_sdk_login_fail_conent</key>
+	<string>Gagal masuk. Silakan hubungi layanan pelanggan untuk mendapatkan bantuan.</string>
+	<key>wa_sdk_login_fail_kefu</key>
+	<string>Layanan Pelanggan</string>
 </dict>
 </plist>

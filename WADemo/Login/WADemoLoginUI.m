@@ -227,6 +227,9 @@
     event.channelSwitcherDict = @{WA_PLATFORM_APPSFLYER:@YES,WA_PLATFORM_FACEBOOK:@YES,WA_PLATFORM_WINGA:@YES,WA_PLATFORM_FIREBASE:@YES};
     [event trackEvent];
     
+    
+
+
 
 }
 
