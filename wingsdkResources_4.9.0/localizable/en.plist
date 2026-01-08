@@ -16,12 +16,12 @@
 	<string>SDK Version</string>
 	<key>wasdk_pat_version</key>
 	<string>Pat Version</string>
-	<key>wasdk_login_signinwithapple</key>
-	<string>Sign in with Apple</string>
 	<key>wasdk_has_no_pat</key>
 	<string>None</string>
 	<key>wasdk_login</key>
 	<string>Login</string>
+	<key>wasdk_login_signinwithapple</key>
+	<string>Sign in with Apple</string>
 	<key>wasdk_login_facebook</key>
 	<string>Facebook</string>
 	<key>wasdk_login_game_center</key>
@@ -188,11 +188,11 @@ After you cancel your game account, your personal information will be deleted or
 
 </string>
 	<key>wasdk_ad_finished_content3</key>
-	<string>This account has been applied for account cancellation, which will be completed by %d (server time). If you log in before that time, you will cancel the account cancellation process.</string>
+	<string>Please do not log in or use this account before %d days to ensure the completion of the cancellation, otherwise you will be deemed to have revoked the cancellation application.</string>
 	<key>wasdk_ad_login_alerttitle</key>
 	<string>Notice</string>
 	<key>wasdk_ad_login_alertcontent</key>
-	<string>This account is applying for account cancellation, which will be completed by %d (server time). If you choose to continue login, you will cancel this account cancellation application by default, please note.</string>
+	<string>This account has been applied for account cancellation, which will be completed by %@ (server time). If you log in before that time, you will cancel the account cancellation process.</string>
 	<key>wasdk_ad_login_cancellogin</key>
 	<string>Cancel login</string>
 	<key>wasdk_ad_login_goonlogin</key>
@@ -336,6 +336,16 @@ After you cancel your game account, your personal information will be deleted or
 	<key>wa_sdk_login_fail_conent</key>
 	<string>Login failed. Please contact customer service for assistance.</string>
 	<key>wa_sdk_login_fail_kefu</key>
-	<string>Support</string>
+	<string>contact customer </string>
+	<key>wa_sdk_pass_name_f5</key>
+	<string>F5 VIP</string>
+	<key>wa_sdk_pass_name_ghg</key>
+	<string>GHG PLUS</string>
+	<key>wa_sdk_copy_the_link</key>
+	<string>COPY LINK</string>
+	<key>wa_sdk_check_pass</key>
+	<string>Open this link in a browser to see how many days are left for %@.</string>
+	<key>wa_sdk_join_pass</key>
+	<string>Open this link in your browser to claim your exclusive benefits.</string>
 </dict>
 </plist>

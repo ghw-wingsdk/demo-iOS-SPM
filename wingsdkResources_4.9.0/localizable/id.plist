@@ -287,5 +287,15 @@ Recharge with discount</string>
 	<string>Gagal masuk. Silakan hubungi layanan pelanggan untuk mendapatkan bantuan.</string>
 	<key>wa_sdk_login_fail_kefu</key>
 	<string>Layanan Pelanggan</string>
+	<key>wa_sdk_pass_name_f5</key>
+	<string>F5 VIP</string>
+	<key>wa_sdk_pass_name_ghg</key>
+	<string>GHG PLUS</string>
+	<key>wa_sdk_copy_the_link</key>
+	<string>SALIN TAUTAN</string>
+	<key>wa_sdk_check_pass</key>
+	<string>Buka tautan ini di browser untuk melihat berapa hari yang tersisa untuk %@.</string>
+	<key>wa_sdk_join_pass</key>
+	<string>Buka tautan ini di browser Anda untuk mengklaim keuntungan eksklusif Anda.</string>
 </dict>
 </plist>

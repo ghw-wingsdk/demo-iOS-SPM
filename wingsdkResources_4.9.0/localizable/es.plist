@@ -333,5 +333,15 @@ Tras cancelar tu cuenta de juego, tu información personal será eliminada o hec
 	<string>Error de inicio de sesión. Por favor, contacta con el servicio de atención al cliente para obtener ayuda.</string>
 	<key>wa_sdk_login_fail_kefu</key>
 	<string>Soporte</string>
+	<key>wa_sdk_pass_name_f5</key>
+	<string>F5 VIP</string>
+	<key>wa_sdk_pass_name_ghg</key>
+	<string>GHG PLUS</string>
+	<key>wa_sdk_copy_the_link</key>
+	<string>COPIAR ENLACE</string>
+	<key>wa_sdk_check_pass</key>
+	<string>Abre este enlace en un navegador para ver cuántos días quedan para %@.</string>
+	<key>wa_sdk_join_pass</key>
+	<string>Abre este enlace en tu navegador para reclamar tus beneficios exclusivos.</string>
 </dict>
 </plist>

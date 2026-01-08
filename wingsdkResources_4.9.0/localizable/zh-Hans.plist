@@ -341,5 +341,15 @@
 	<string>登录失败，请联系客服寻求帮助。</string>
 	<key>wa_sdk_login_fail_kefu</key>
 	<string>客服</string>
+	<key>wa_sdk_pass_name_f5</key>
+	<string>F5 VIP</string>
+	<key>wa_sdk_pass_name_ghg</key>
+	<string>GHG PLUS</string>
+	<key>wa_sdk_copy_the_link</key>
+	<string>复制链接</string>
+	<key>wa_sdk_check_pass</key>
+	<string>在浏览器中打开此链接查看%@的剩余天数。</string>
+	<key>wa_sdk_join_pass</key>
+	<string>在浏览器中打开此链接领取专属福利。</string>
 </dict>
 </plist>

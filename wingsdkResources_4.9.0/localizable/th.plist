@@ -273,5 +273,15 @@ Recharge with discount</string>
 	<string>เข้าสู่ระบบล้มเหลว กรุณาติดต่อฝ่ายบริการลูกค้าเพื่อขอความช่วยเหลือ</string>
 	<key>wa_sdk_login_fail_kefu</key>
 	<string>บริการลูกค้า</string>
+	<key>wa_sdk_pass_name_f5</key>
+	<string>F5 VIP</string>
+	<key>wa_sdk_pass_name_ghg</key>
+	<string>GHG PLUS</string>
+	<key>wa_sdk_copy_the_link</key>
+	<string>คัดลอกลิงก์</string>
+	<key>wa_sdk_check_pass</key>
+	<string>เปิดลิงก์นี้ในเบราว์เซอร์เพื่อดูว่าเหลือเวลากี่วันสำหรับ%@</string>
+	<key>wa_sdk_join_pass</key>
+	<string>เปิดลิงก์นี้ในเบราว์เซอร์ของคุณเพื่อรับสิทธิประโยชน์สุดพิเศษ</string>
 </dict>
 </plist>

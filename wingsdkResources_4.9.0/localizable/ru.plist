@@ -287,5 +287,15 @@ Recharge with discount</string>
 	<string>Ошибка входа. Пожалуйста, свяжитесь со службой поддержки для получения помощи.</string>
 	<key>wa_sdk_login_fail_kefu</key>
 	<string>Поддержка</string>
+	<key>wa_sdk_pass_name_f5</key>
+	<string>F5 VIP</string>
+	<key>wa_sdk_pass_name_ghg</key>
+	<string>GHG PLUS</string>
+	<key>wa_sdk_copy_the_link</key>
+	<string>СКОПИРОВАТЬ ССЫЛКУ</string>
+	<key>wa_sdk_check_pass</key>
+	<string>Откройте эту ссылку в браузере, чтобы увидеть, сколько дней осталось для %@.</string>
+	<key>wa_sdk_join_pass</key>
+	<string>Откройте эту ссылку в браузере, чтобы получить эксклюзивные бонусы.</string>
 </dict>
 </plist>

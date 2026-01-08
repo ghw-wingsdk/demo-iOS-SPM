@@ -54,7 +54,6 @@
 
     }];
     
-    [WACoreProxy setDebugMode:YES];
 
     [WACoreProxy initWithCompletionHandler:^{
 
@@ -146,7 +145,7 @@
     NSLog(@"applicationDidBecomeActive===");
     [WACoreProxy applicationDidBecomeActive:application];
     
-    [WAAdMobProxy showInterstitialAdWithViewController:[WADemoUtil getCurrentVC] withDelegate:self];
+//    [WAAdMobProxy showInterstitialAdWithViewController:[WADemoUtil getCurrentVC] withDelegate:self];
 
 }
 
