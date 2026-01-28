@@ -283,5 +283,9 @@ Recharge with discount</string>
 	<string>เปิดลิงก์นี้ในเบราว์เซอร์เพื่อดูว่าเหลือเวลากี่วันสำหรับ%@</string>
 	<key>wa_sdk_join_pass</key>
 	<string>เปิดลิงก์นี้ในเบราว์เซอร์ของคุณเพื่อรับสิทธิประโยชน์สุดพิเศษ</string>
+	<key>wa_sdk_pass_kefu</key>
+	<string>นี่คือข้อเสนอสุดพิเศษสำหรับผู้เล่นคนสำคัญของเรา หากมีคำถามใดๆ โปรดติดต่อฝ่ายบริการลูกค้า</string>
+	<key>wa_sdk_pass_kefu_passuser</key>
+	<string>ติดต่อฝ่ายบริการลูกค้าเพื่อตรวจสอบจำนวนวันที่เหลืออยู่ของ %@.</string>
 </dict>
 </plist>

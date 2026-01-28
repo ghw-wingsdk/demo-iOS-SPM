@@ -297,5 +297,9 @@ Recharge with discount</string>
 	<string>Buka tautan ini di browser untuk melihat berapa hari yang tersisa untuk %@.</string>
 	<key>wa_sdk_join_pass</key>
 	<string>Buka tautan ini di browser Anda untuk mengklaim keuntungan eksklusif Anda.</string>
+	<key>wa_sdk_pass_kefu</key>
+	<string>Ini adalah penawaran eksklusif untuk para pemain setia kami. Jika ada pertanyaan, silakan hubungi layanan pelanggan.</string>
+	<key>wa_sdk_pass_kefu_passuser</key>
+	<string>Hubungi layanan pelanggan untuk memeriksa sisa hari pada %@ Anda.</string>
 </dict>
 </plist>

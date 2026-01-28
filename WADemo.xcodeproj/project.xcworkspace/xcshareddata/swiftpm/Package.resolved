@@ -1,5 +1,5 @@
 {
-  "originHash" : "fa335987656a390058180ee800b1748d1662c7088d06d1b66d37806238149a19",
+  "originHash" : "87eaa2db2fb957ce0757ca8dfdf3564887135c982b30f0bd430748c79fd2ca6b",
   "pins" : [
     {
       "identity" : "waadmobimpl_spm",
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "http://repo.wingsdk.cn:8082/r/wingsdkios_spm.git",
       "state" : {
-        "revision" : "6185badc9f6938ce210c56ca2b5037c561274ec8",
-        "version" : "4.9.0"
+        "revision" : "35b439a88ab80aad7e0f71aabd39edb85da2d327",
+        "version" : "4.9.2"
       }
     }
   ],

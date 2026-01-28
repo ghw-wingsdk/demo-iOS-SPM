@@ -345,5 +345,9 @@ Depois que você cancelar sua conta de jogo, suas informações pessoais serão 
 	<string>Abra este link em um navegador para ver quantos dias restam para o %@.</string>
 	<key>wa_sdk_join_pass</key>
 	<string>Abra este link no seu navegador para resgatar seus benefícios exclusivos.</string>
+	<key>wa_sdk_pass_kefu</key>
+	<string>Esta é uma oferta exclusiva para nossos jogadores fiéis. Em caso de dúvidas, entre em contato com o suporte ao cliente.</string>
+	<key>wa_sdk_pass_kefu_passuser</key>
+	<string>Entre em contato com o suporte ao cliente para verificar os dias restantes do seu %@.</string>
 </dict>
 </plist>

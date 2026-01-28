@@ -345,5 +345,9 @@
 	<string>在瀏覽器中打開此連結查看%@的剩餘天數</string>
 	<key>wa_sdk_join_pass</key>
 	<string>在瀏覽器中打開此連結領取專屬福利。</string>
+	<key>wa_sdk_pass_kefu</key>
+	<string>忠實玩家專屬。如有任何疑問，請聯繫客服。</string>
+	<key>wa_sdk_pass_kefu_passuser</key>
+	<string>請聯繫客服查詢您 %@ 的剩餘天數。</string>
 </dict>
 </plist>

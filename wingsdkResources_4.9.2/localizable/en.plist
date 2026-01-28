@@ -336,7 +336,7 @@ After you cancel your game account, your personal information will be deleted or
 	<key>wa_sdk_login_fail_conent</key>
 	<string>Login failed. Please contact customer service for assistance.</string>
 	<key>wa_sdk_login_fail_kefu</key>
-	<string>contact customer </string>
+	<string>Support</string>
 	<key>wa_sdk_pass_name_f5</key>
 	<string>F5 VIP</string>
 	<key>wa_sdk_pass_name_ghg</key>
@@ -347,5 +347,9 @@ After you cancel your game account, your personal information will be deleted or
 	<string>Open this link in a browser to see how many days are left for %@.</string>
 	<key>wa_sdk_join_pass</key>
 	<string>Open this link in your browser to claim your exclusive benefits.</string>
+	<key>wa_sdk_pass_kefu</key>
+	<string>Exclusive offer for our loyal players. For any questions, please contact customer service.</string>
+	<key>wa_sdk_pass_kefu_passuser</key>
+	<string>Contact customer service to check the remaining days on your %@.</string>
 </dict>
 </plist>

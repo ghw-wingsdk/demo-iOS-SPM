@@ -54,7 +54,7 @@
 
     }];
     
-
+    [WACoreProxy setDebugMode:YES];
     [WACoreProxy initWithCompletionHandler:^{
 
         [WACoreProxy initAppEventTracker];
