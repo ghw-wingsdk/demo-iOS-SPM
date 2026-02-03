@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B227A7242F31D1BC009CD570 /* WAAfImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A7232F31D1BC009CD570 /* WAAfImpl */; };
+		B227A7262F31D1BC009CD570 /* WAAiHelpImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A7252F31D1BC009CD570 /* WAAiHelpImpl */; };
+		B227A7282F31D1BC009CD570 /* WAApImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A7272F31D1BC009CD570 /* WAApImpl */; };
+		B227A72A2F31D1BC009CD570 /* WAFbImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A7292F31D1BC009CD570 /* WAFbImpl */; };
+		B227A72C2F31D1BC009CD570 /* WAFirebaseImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A72B2F31D1BC009CD570 /* WAFirebaseImpl */; };
+		B227A72E2F31D1BC009CD570 /* WAPushImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A72D2F31D1BC009CD570 /* WAPushImpl */; };
+		B227A7302F31D1BC009CD570 /* WASdkImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A72F2F31D1BC009CD570 /* WASdkImpl */; };
+		B227A7322F31D1BC009CD570 /* WASdkIntf in Frameworks */ = {isa = PBXBuildFile; productRef = B227A7312F31D1BC009CD570 /* WASdkIntf */; };
+		B227A7352F31E7CA009CD570 /* WAAfImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A7342F31E7CA009CD570 /* WAAfImpl */; };
+		B227A7372F31E7CA009CD570 /* WAAiHelpImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A7362F31E7CA009CD570 /* WAAiHelpImpl */; };
+		B227A7392F31E7CA009CD570 /* WAApImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A7382F31E7CA009CD570 /* WAApImpl */; };
+		B227A73B2F31E7CA009CD570 /* WAFbImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A73A2F31E7CA009CD570 /* WAFbImpl */; };
+		B227A73D2F31E7CA009CD570 /* WAFirebaseImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A73C2F31E7CA009CD570 /* WAFirebaseImpl */; };
+		B227A73F2F31E7CA009CD570 /* WAPushImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A73E2F31E7CA009CD570 /* WAPushImpl */; };
+		B227A7412F31E7CA009CD570 /* WASdkImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A7402F31E7CA009CD570 /* WASdkImpl */; };
+		B227A7432F31E7CA009CD570 /* WASdkIntf in Frameworks */ = {isa = PBXBuildFile; productRef = B227A7422F31E7CA009CD570 /* WASdkIntf */; };
+		B227A7462F31EC0E009CD570 /* WAAfImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A7452F31EC0E009CD570 /* WAAfImpl */; };
+		B227A7482F31EC0E009CD570 /* WAAiHelpImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A7472F31EC0E009CD570 /* WAAiHelpImpl */; };
+		B227A74A2F31EC0E009CD570 /* WAApImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A7492F31EC0E009CD570 /* WAApImpl */; };
+		B227A74C2F31EC0E009CD570 /* WAFbImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A74B2F31EC0E009CD570 /* WAFbImpl */; };
+		B227A74E2F31EC0E009CD570 /* WAFirebaseImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A74D2F31EC0E009CD570 /* WAFirebaseImpl */; };
+		B227A7502F31EC0E009CD570 /* WAPushImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A74F2F31EC0E009CD570 /* WAPushImpl */; };
+		B227A7522F31EC0E009CD570 /* WASdkImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B227A7512F31EC0E009CD570 /* WASdkImpl */; };
+		B227A7542F31EC0E009CD570 /* WASdkIntf in Frameworks */ = {isa = PBXBuildFile; productRef = B227A7532F31EC0E009CD570 /* WASdkIntf */; };
 		B23272D72D798FED00051526 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23272D62D798FED00051526 /* PhotosUI.framework */; };
 		B241F6CA2A402BBD00B6D95A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B241F6C92A402BBD00B6D95A /* SceneDelegate.m */; };
 		B24200F72F29A959000F46CE /* WAAfImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B24200F62F29A959000F46CE /* WAAfImpl */; };
@@ -299,41 +323,65 @@
 				B27ED4F92A172EA200DB1772 /* CoreFoundation.framework in Frameworks */,
 				B24201102F29B5F8000F46CE /* WAFirebaseImpl in Frameworks */,
 				B23272D72D798FED00051526 /* PhotosUI.framework in Frameworks */,
+				B227A7322F31D1BC009CD570 /* WASdkIntf in Frameworks */,
 				B243A46C2A287E6E00F404C1 /* SwiftUI.framework in Frameworks */,
+				B227A7462F31EC0E009CD570 /* WAAfImpl in Frameworks */,
 				B298D7B52F14D5AA00D5DA86 /* WAApImpl in Frameworks */,
 				B27ED5012A1730AB00DB1772 /* Accelerate.framework in Frameworks */,
+				B227A7282F31D1BC009CD570 /* WAApImpl in Frameworks */,
 				B242010E2F29B5F8000F46CE /* WAFbImpl in Frameworks */,
+				B227A73F2F31E7CA009CD570 /* WAPushImpl in Frameworks */,
 				B24200FD2F29A959000F46CE /* WAFbImpl in Frameworks */,
 				B24200FB2F29A959000F46CE /* WAApImpl in Frameworks */,
 				B298D7BD2F14D5AA00D5DA86 /* WASdkImpl in Frameworks */,
 				B24200F92F29A959000F46CE /* WAAiHelpImpl in Frameworks */,
 				B24201032F29A959000F46CE /* WASdkImpl in Frameworks */,
+				B227A7392F31E7CA009CD570 /* WAApImpl in Frameworks */,
+				B227A74C2F31EC0E009CD570 /* WAFbImpl in Frameworks */,
 				B242010A2F29B5F8000F46CE /* WAAiHelpImpl in Frameworks */,
+				B227A7542F31EC0E009CD570 /* WASdkIntf in Frameworks */,
 				B24201122F29B5F8000F46CE /* WAPushImpl in Frameworks */,
+				B227A72C2F31D1BC009CD570 /* WAFirebaseImpl in Frameworks */,
+				B227A7432F31E7CA009CD570 /* WASdkIntf in Frameworks */,
 				B27ED4F72A172E9600DB1772 /* libresolv.tbd in Frameworks */,
 				B27ED4F52A172E8C00DB1772 /* libc++.tbd in Frameworks */,
+				B227A7352F31E7CA009CD570 /* WAAfImpl in Frameworks */,
 				B298D7B92F14D5AA00D5DA86 /* WAFirebaseImpl in Frameworks */,
 				B27ED4F32A172E7300DB1772 /* AppTrackingTransparency.framework in Frameworks */,
+				B227A7262F31D1BC009CD570 /* WAAiHelpImpl in Frameworks */,
+				B227A72E2F31D1BC009CD570 /* WAPushImpl in Frameworks */,
 				B298D7C22F14D5C000D5DA86 /* WAGhgpImpl in Frameworks */,
 				B2AA6EA42F14AD6D005E201A /* WAGhgpImpl in Frameworks */,
 				B242010C2F29B5F8000F46CE /* WAApImpl in Frameworks */,
 				B27ED4F12A172E1200DB1772 /* libz.tbd in Frameworks */,
+				B227A7242F31D1BC009CD570 /* WAAfImpl in Frameworks */,
+				B227A72A2F31D1BC009CD570 /* WAFbImpl in Frameworks */,
 				B24200FF2F29A959000F46CE /* WAFirebaseImpl in Frameworks */,
 				B27ED4EF2A172E0A00DB1772 /* libsqlite3.tbd in Frameworks */,
+				B227A7412F31E7CA009CD570 /* WASdkImpl in Frameworks */,
 				B24201052F29A959000F46CE /* WASdkIntf in Frameworks */,
 				B298D7BF2F14D5AA00D5DA86 /* WASdkIntf in Frameworks */,
+				B227A73D2F31E7CA009CD570 /* WAFirebaseImpl in Frameworks */,
+				B227A7502F31EC0E009CD570 /* WAPushImpl in Frameworks */,
 				B298D7B32F14D5AA00D5DA86 /* WAAiHelpImpl in Frameworks */,
 				B24201162F29B5F8000F46CE /* WASdkIntf in Frameworks */,
 				B27ED4ED2A172DD100DB1772 /* UIKit.framework in Frameworks */,
 				B24201082F29B5F8000F46CE /* WAAfImpl in Frameworks */,
+				B227A7482F31EC0E009CD570 /* WAAiHelpImpl in Frameworks */,
 				B24201012F29A959000F46CE /* WAPushImpl in Frameworks */,
+				B227A74E2F31EC0E009CD570 /* WAFirebaseImpl in Frameworks */,
 				B24201142F29B5F8000F46CE /* WASdkImpl in Frameworks */,
 				B24200F72F29A959000F46CE /* WAAfImpl in Frameworks */,
 				B298D7BB2F14D5AA00D5DA86 /* WAPushImpl in Frameworks */,
 				B298D7C52F14D5CF00D5DA86 /* WAGhglImpl in Frameworks */,
+				B227A7302F31D1BC009CD570 /* WASdkImpl in Frameworks */,
+				B227A7372F31E7CA009CD570 /* WAAiHelpImpl in Frameworks */,
 				B27ED4EB2A172DC000DB1772 /* Foundation.framework in Frameworks */,
+				B227A74A2F31EC0E009CD570 /* WAApImpl in Frameworks */,
 				B298D7B72F14D5AA00D5DA86 /* WAFbImpl in Frameworks */,
 				B279EC942DB9DDB200162B5F /* StoreKit.framework in Frameworks */,
+				B227A73B2F31E7CA009CD570 /* WAFbImpl in Frameworks */,
+				B227A7522F31EC0E009CD570 /* WASdkImpl in Frameworks */,
 				B298D7B12F14D5AA00D5DA86 /* WAAfImpl in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,7 +392,7 @@
 		B27ED32B2A17196E00DB1772 = {
 			isa = PBXGroup;
 			children = (
-				B2CD02E32F18F90E003E2B71 /* wingsdkResources_4.9.2 */,
+				B2CD02E32F18F90E003E2B71 /* wingsdkResources_4.10.0 */,
 				B2ABFE002E2F867A00894F67 /* admob&webResources */,
 				B26B633B2A6A1A51007C46DB /* WADemo-Bridging-Header.h */,
 				B26B63392A6A1A29007C46DB /* File.swift */,
@@ -696,7 +744,7 @@
 			path = localizable;
 			sourceTree = "<group>";
 		};
-		B2CD02E32F18F90E003E2B71 /* wingsdkResources_4.9.2 */ = {
+		B2CD02E32F18F90E003E2B71 /* wingsdkResources_4.10.0 */ = {
 			isa = PBXGroup;
 			children = (
 				B2CD02D62F18F90E003E2B71 /* localizable */,
@@ -713,7 +761,7 @@
 				B2CD02E12F18F90E003E2B71 /* wa_sdk_track_config.plist */,
 				B2CD02E22F18F90E003E2B71 /* WASDK-Resource.bundle */,
 			);
-			path = wingsdkResources_4.9.2;
+			path = wingsdkResources_4.10.0;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -764,7 +812,7 @@
 				B298D7C02F14D5C000D5DA86 /* XCRemoteSwiftPackageReference "WAGhgpImpl_spm" */,
 				B298D7C32F14D5CF00D5DA86 /* XCRemoteSwiftPackageReference "WAGhglImpl_spm" */,
 				B298D7C62F14D5D900D5DA86 /* XCRemoteSwiftPackageReference "WAAdmobImpl_spm" */,
-				B24201062F29B5F8000F46CE /* XCRemoteSwiftPackageReference "wingsdkios_spm" */,
+				B227A7442F31EC0E009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */,
 			);
 			productRefGroup = B27ED3352A17196E00DB1772 /* Products */;
 			projectDirPath = "";
@@ -1035,7 +1083,7 @@
 				CODE_SIGN_ENTITLEMENTS = WADemo/WADemo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = Y8Z2D47ET4;
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1062,7 +1110,7 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WADemo/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = wingsdk_spm4.9.2;
+				INFOPLIST_KEY_CFBundleDisplayName = wingsdk_spm4.10.0;
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Would Like to Access Your Photos";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your info will be used for personalized ads.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1074,7 +1122,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.9.2;
+				MARKETING_VERSION = 4.10.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1169,7 +1217,7 @@
 				CODE_SIGN_ENTITLEMENTS = WADemo/WADemoRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = Y8Z2D47ET4;
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1196,7 +1244,7 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WADemo/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = wingsdk_spm4.9.2;
+				INFOPLIST_KEY_CFBundleDisplayName = wingsdk_spm4.10.0;
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Would Like to Access Your Photos";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your info will be used for personalized ads.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1208,7 +1256,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.9.2;
+				MARKETING_VERSION = 4.10.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1317,6 +1365,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		B227A7222F31D1BC009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://172.16.100.58:7070/r/wingsdkios_spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.10.0;
+			};
+		};
+		B227A7332F31E7CA009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://repo.wingsdk.cn:8082/r/wingsdkios_spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.2;
+			};
+		};
+		B227A7442F31EC0E009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://repo.wingsdk.cn:8082/r/wingsdkios_spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.10.0;
+			};
+		};
 		B24200F52F29A959000F46CE /* XCRemoteSwiftPackageReference "wingsdkios_spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "http://172.16.100.58:7070/r/wingsdkios_spm.git";
@@ -1376,6 +1448,126 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B227A7232F31D1BC009CD570 /* WAAfImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7222F31D1BC009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAAfImpl;
+		};
+		B227A7252F31D1BC009CD570 /* WAAiHelpImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7222F31D1BC009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAAiHelpImpl;
+		};
+		B227A7272F31D1BC009CD570 /* WAApImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7222F31D1BC009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAApImpl;
+		};
+		B227A7292F31D1BC009CD570 /* WAFbImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7222F31D1BC009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAFbImpl;
+		};
+		B227A72B2F31D1BC009CD570 /* WAFirebaseImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7222F31D1BC009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAFirebaseImpl;
+		};
+		B227A72D2F31D1BC009CD570 /* WAPushImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7222F31D1BC009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAPushImpl;
+		};
+		B227A72F2F31D1BC009CD570 /* WASdkImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7222F31D1BC009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WASdkImpl;
+		};
+		B227A7312F31D1BC009CD570 /* WASdkIntf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7222F31D1BC009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WASdkIntf;
+		};
+		B227A7342F31E7CA009CD570 /* WAAfImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7332F31E7CA009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAAfImpl;
+		};
+		B227A7362F31E7CA009CD570 /* WAAiHelpImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7332F31E7CA009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAAiHelpImpl;
+		};
+		B227A7382F31E7CA009CD570 /* WAApImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7332F31E7CA009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAApImpl;
+		};
+		B227A73A2F31E7CA009CD570 /* WAFbImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7332F31E7CA009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAFbImpl;
+		};
+		B227A73C2F31E7CA009CD570 /* WAFirebaseImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7332F31E7CA009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAFirebaseImpl;
+		};
+		B227A73E2F31E7CA009CD570 /* WAPushImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7332F31E7CA009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAPushImpl;
+		};
+		B227A7402F31E7CA009CD570 /* WASdkImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7332F31E7CA009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WASdkImpl;
+		};
+		B227A7422F31E7CA009CD570 /* WASdkIntf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7332F31E7CA009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WASdkIntf;
+		};
+		B227A7452F31EC0E009CD570 /* WAAfImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7442F31EC0E009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAAfImpl;
+		};
+		B227A7472F31EC0E009CD570 /* WAAiHelpImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7442F31EC0E009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAAiHelpImpl;
+		};
+		B227A7492F31EC0E009CD570 /* WAApImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7442F31EC0E009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAApImpl;
+		};
+		B227A74B2F31EC0E009CD570 /* WAFbImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7442F31EC0E009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAFbImpl;
+		};
+		B227A74D2F31EC0E009CD570 /* WAFirebaseImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7442F31EC0E009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAFirebaseImpl;
+		};
+		B227A74F2F31EC0E009CD570 /* WAPushImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7442F31EC0E009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAPushImpl;
+		};
+		B227A7512F31EC0E009CD570 /* WASdkImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7442F31EC0E009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WASdkImpl;
+		};
+		B227A7532F31EC0E009CD570 /* WASdkIntf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B227A7442F31EC0E009CD570 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WASdkIntf;
+		};
 		B24200F62F29A959000F46CE /* WAAfImpl */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B24200F52F29A959000F46CE /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <config>
-	<version val="WA4.9.2" />
+	<version val="WA4.10.0" />
     <comps>
         
         <comp module="USR" plaf="WINGA" mandatory="YES" value="WASdkUser" desc="WINGA用户账户" />
