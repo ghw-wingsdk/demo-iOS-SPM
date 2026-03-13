@@ -301,5 +301,33 @@ Recharge with discount</string>
 	<string>Ini adalah penawaran eksklusif untuk para pemain setia kami. Jika ada pertanyaan, silakan hubungi layanan pelanggan.</string>
 	<key>wa_sdk_pass_kefu_passuser</key>
 	<string>Hubungi layanan pelanggan untuk memeriksa sisa hari pada %@ Anda.</string>
+	<key>wa_sdk_coins_name_f5</key>
+	<string>F5 SPARKS</string>
+	<key>wa_sdk_coins_name_ghg</key>
+	<string>GHG STARS</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_balance</key>
+	<string>Saldo %@:</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_cost</key>
+	<string>Pembelian ini akan dikenakan biaya</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_buy</key>
+	<string>Anda dapat menggunakan %@ untuk membeli</string>
+	<key>wa_sdk_coins_voucher_spend_confirm</key>
+	<string>Konfirmasi pembayaran dengan %@?</string>
+	<key>wa_sdk_coins_not_use</key>
+	<string>Jangan gunakan %@</string>
+	<key>wa_sdk_coins_money_pay</key>
+	<string>Bayar %@</string>
+	<key>wa_sdk_coins_pay_with_discount</key>
+	<string>Bayar dengan diskon</string>
+	<key>wa_sdk_coins_decline_discount</key>
+	<string>Abaikan Diskon</string>
+	<key>wa_sdk_coins_get_coins</key>
+	<string>Dapatkan %@</string>
+	<key>wa_sdk_coins_copy_link</key>
+	<string>Tautan disalin. Buka browser untuk melihat.</string>
+	<key>wa_sdk_coins_claim_free_voucher_desc</key>
+	<string>%@ dapat digunakan untuk membeli item berbayar apa pun di dalam game.</string>
+	<key>wa_sdk_coins_confirm</key>
+	<string>Konfirmasi</string>
 </dict>
 </plist>

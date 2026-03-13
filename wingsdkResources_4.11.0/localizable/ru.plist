@@ -301,5 +301,33 @@ Recharge with discount</string>
 	<string>Это эксклюзивное предложение для наших постоянных игроков. По любым вопросам, пожалуйста, обращайтесь в службу поддержки.</string>
 	<key>wa_sdk_pass_kefu_passuser</key>
 	<string>Свяжитесь со службой поддержки, чтобы проверить оставшиеся дни для вашего %@.</string>
+	<key>wa_sdk_coins_name_f5</key>
+	<string>F5 SPARKS</string>
+	<key>wa_sdk_coins_name_ghg</key>
+	<string>GHG STARS</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_balance</key>
+	<string>Баланс %@:</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_cost</key>
+	<string>Стоимость покупки</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_buy</key>
+	<string>Вы можете использовать %@ для покупки</string>
+	<key>wa_sdk_coins_voucher_spend_confirm</key>
+	<string>Подтвердить оплату с помощью %@?</string>
+	<key>wa_sdk_coins_not_use</key>
+	<string>Не использовать %@</string>
+	<key>wa_sdk_coins_money_pay</key>
+	<string>Оплатить %@</string>
+	<key>wa_sdk_coins_pay_with_discount</key>
+	<string>Оплатить со скидкой</string>
+	<key>wa_sdk_coins_decline_discount</key>
+	<string>Отказаться от скидки</string>
+	<key>wa_sdk_coins_get_coins</key>
+	<string>Получить %@</string>
+	<key>wa_sdk_coins_copy_link</key>
+	<string>Ссылка скопирована. Откройте в браузере.</string>
+	<key>wa_sdk_coins_claim_free_voucher_desc</key>
+	<string>%@ можно использовать для покупки любого платного предмета в игре.</string>
+	<key>wa_sdk_coins_confirm</key>
+	<string>Подтвердить</string>
 </dict>
 </plist>

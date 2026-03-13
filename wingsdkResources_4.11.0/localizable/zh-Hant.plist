@@ -349,5 +349,33 @@
 	<string>忠實玩家專屬。如有任何疑問，請聯繫客服。</string>
 	<key>wa_sdk_pass_kefu_passuser</key>
 	<string>請聯繫客服查詢您 %@ 的剩餘天數。</string>
+	<key>wa_sdk_coins_name_f5</key>
+	<string>F5 SPARKS</string>
+	<key>wa_sdk_coins_name_ghg</key>
+	<string>GHG STARS</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_balance</key>
+	<string>%@ 餘額為：</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_cost</key>
+	<string>本次購買將消耗</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_buy</key>
+	<string>您可以使用%@購買</string>
+	<key>wa_sdk_coins_voucher_spend_confirm</key>
+	<string>是否確認使用%@支付？</string>
+	<key>wa_sdk_coins_not_use</key>
+	<string>不使用%@支付</string>
+	<key>wa_sdk_coins_money_pay</key>
+	<string>支付%@</string>
+	<key>wa_sdk_coins_pay_with_discount</key>
+	<string>優惠支付</string>
+	<key>wa_sdk_coins_decline_discount</key>
+	<string>放棄優惠</string>
+	<key>wa_sdk_coins_get_coins</key>
+	<string>獲取 %@</string>
+	<key>wa_sdk_coins_copy_link</key>
+	<string>已為您複製連結，請打開瀏覽器查看</string>
+	<key>wa_sdk_coins_claim_free_voucher_desc</key>
+	<string>%@ 可在遊戲內購買任意付費商品。</string>
+	<key>wa_sdk_coins_confirm</key>
+	<string>確認</string>
 </dict>
 </plist>

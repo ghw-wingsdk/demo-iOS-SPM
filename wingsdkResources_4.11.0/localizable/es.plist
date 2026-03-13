@@ -347,5 +347,33 @@ Tras cancelar tu cuenta de juego, tu información personal será eliminada o hec
 	<string>Esta es una oferta exclusiva para nuestros jugadores leales. Si tienes alguna pregunta, contacta con el servicio de atención al cliente.</string>
 	<key>wa_sdk_pass_kefu_passuser</key>
 	<string>Contacta con el servicio de atención al cliente para comprobar los días restantes de tu %@.</string>
+	<key>wa_sdk_coins_name_f5</key>
+	<string>F5 SPARKS</string>
+	<key>wa_sdk_coins_name_ghg</key>
+	<string>GHG STARS</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_balance</key>
+	<string>Saldo de %@:</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_cost</key>
+	<string>Esta compra costará</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_buy</key>
+	<string>Puedes usar %@ para comprar</string>
+	<key>wa_sdk_coins_voucher_spend_confirm</key>
+	<string>¿Confirmar el pago con %@?</string>
+	<key>wa_sdk_coins_not_use</key>
+	<string>No usar %@</string>
+	<key>wa_sdk_coins_money_pay</key>
+	<string>Pagar %@</string>
+	<key>wa_sdk_coins_pay_with_discount</key>
+	<string>Pagar con descuento</string>
+	<key>wa_sdk_coins_decline_discount</key>
+	<string>Rechazar descuento</string>
+	<key>wa_sdk_coins_get_coins</key>
+	<string>Obtener %@</string>
+	<key>wa_sdk_coins_copy_link</key>
+	<string>Enlace copiado. Ábrelo en tu navegador.</string>
+	<key>wa_sdk_coins_claim_free_voucher_desc</key>
+	<string>Los %@ se pueden usar para comprar cualquier artículo de pago en el juego.</string>
+	<key>wa_sdk_coins_confirm</key>
+	<string>Confirmar</string>
 </dict>
 </plist>

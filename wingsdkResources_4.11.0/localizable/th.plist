@@ -287,5 +287,33 @@ Recharge with discount</string>
 	<string>นี่คือข้อเสนอสุดพิเศษสำหรับผู้เล่นคนสำคัญของเรา หากมีคำถามใดๆ โปรดติดต่อฝ่ายบริการลูกค้า</string>
 	<key>wa_sdk_pass_kefu_passuser</key>
 	<string>ติดต่อฝ่ายบริการลูกค้าเพื่อตรวจสอบจำนวนวันที่เหลืออยู่ของ %@.</string>
+	<key>wa_sdk_coins_name_f5</key>
+	<string>F5 SPARKS</string>
+	<key>wa_sdk_coins_name_ghg</key>
+	<string>GHG STARS</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_balance</key>
+	<string>ยอดคงเหลือ %@:</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_cost</key>
+	<string>การซื้อนี้จะใช</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_buy</key>
+	<string>คุณสามารถใช้ %@ เพื่อซื้อ</string>
+	<key>wa_sdk_coins_voucher_spend_confirm</key>
+	<string>ยืนยันการชำระเงินด้วย %@ หรือไม่?</string>
+	<key>wa_sdk_coins_not_use</key>
+	<string>ไม่ใช้ %@</string>
+	<key>wa_sdk_coins_money_pay</key>
+	<string>ชำระเงิน  %@</string>
+	<key>wa_sdk_coins_pay_with_discount</key>
+	<string>ชำระเงินด้วยส่วนลด</string>
+	<key>wa_sdk_coins_decline_discount</key>
+	<string>ไม่รับส่วนลด</string>
+	<key>wa_sdk_coins_get_coins</key>
+	<string>รับ %@</string>
+	<key>wa_sdk_coins_copy_link</key>
+	<string>คัดลอกลิงก์แล้ว โปรดเปิดในเบราว์เซอร์เพื่อดู</string>
+	<key>wa_sdk_coins_claim_free_voucher_desc</key>
+	<string>%@ สามารถใช้ซื้อสินค้าที่ต้องชำระเงินใดก็ได้ในเกม</string>
+	<key>wa_sdk_coins_confirm</key>
+	<string>ยืนยัน</string>
 </dict>
 </plist>

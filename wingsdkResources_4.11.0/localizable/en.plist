@@ -16,12 +16,12 @@
 	<string>SDK Version</string>
 	<key>wasdk_pat_version</key>
 	<string>Pat Version</string>
-	<key>wasdk_login_signinwithapple</key>
-	<string>Sign in with Apple</string>
 	<key>wasdk_has_no_pat</key>
 	<string>None</string>
 	<key>wasdk_login</key>
 	<string>Login</string>
+	<key>wasdk_login_signinwithapple</key>
+	<string>Sign in with Apple</string>
 	<key>wasdk_login_facebook</key>
 	<string>Facebook</string>
 	<key>wasdk_login_game_center</key>
@@ -188,11 +188,11 @@ After you cancel your game account, your personal information will be deleted or
 
 </string>
 	<key>wasdk_ad_finished_content3</key>
-	<string>This account has been applied for account cancellation, which will be completed by %d (server time). If you log in before that time, you will cancel the account cancellation process.</string>
+	<string>Please do not log in or use this account before %d days to ensure the completion of the cancellation, otherwise you will be deemed to have revoked the cancellation application.</string>
 	<key>wasdk_ad_login_alerttitle</key>
 	<string>Notice</string>
 	<key>wasdk_ad_login_alertcontent</key>
-	<string>This account is applying for account cancellation, which will be completed by %@ (server time). If you choose to continue login, you will cancel this account cancellation application by default, please note.</string>
+	<string>This account has been applied for account cancellation, which will be completed by %@ (server time). If you log in before that time, you will cancel the account cancellation process.</string>
 	<key>wasdk_ad_login_cancellogin</key>
 	<string>Cancel login</string>
 	<key>wasdk_ad_login_goonlogin</key>
@@ -351,5 +351,33 @@ After you cancel your game account, your personal information will be deleted or
 	<string>Exclusive offer for our loyal players. For any questions, please contact customer service.</string>
 	<key>wa_sdk_pass_kefu_passuser</key>
 	<string>Contact customer service to check the remaining days on your %@.</string>
+	<key>wa_sdk_coins_name_f5</key>
+	<string>F5 SPARKS</string>
+	<key>wa_sdk_coins_name_ghg</key>
+	<string>GHG STARS</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_balance</key>
+	<string>%@ Balance:</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_cost</key>
+	<string>This purchase will cost</string>
+	<key>wa_sdk_coins_voucher_spend_confirm_buy</key>
+	<string>You can use %@ to purchase</string>
+	<key>wa_sdk_coins_voucher_spend_confirm</key>
+	<string>Confirm payment with %@?</string>
+	<key>wa_sdk_coins_not_use</key>
+	<string>Do not use %@</string>
+	<key>wa_sdk_coins_money_pay</key>
+	<string>Pay %@</string>
+	<key>wa_sdk_coins_pay_with_discount</key>
+	<string>Pay with Discount</string>
+	<key>wa_sdk_coins_decline_discount</key>
+	<string>Decline Discount</string>
+	<key>wa_sdk_coins_get_coins</key>
+	<string>Get %@</string>
+	<key>wa_sdk_coins_copy_link</key>
+	<string>Link copied. Open browser to view.</string>
+	<key>wa_sdk_coins_claim_free_voucher_desc</key>
+	<string>%@ can be used to purchase any paid item in the game.</string>
+	<key>wa_sdk_coins_confirm</key>
+	<string>Confirm</string>
 </dict>
 </plist>
