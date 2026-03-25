@@ -139,6 +139,14 @@
 		B298D7C22F14D5C000D5DA86 /* WAGhgpImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B298D7C12F14D5C000D5DA86 /* WAGhgpImpl */; };
 		B298D7C52F14D5CF00D5DA86 /* WAGhglImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B298D7C42F14D5CF00D5DA86 /* WAGhglImpl */; };
 		B298D7C82F14D5D900D5DA86 /* WAAdmobImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B298D7C72F14D5D900D5DA86 /* WAAdmobImpl */; };
+		B2A6EC7D2F722B9C00435FC9 /* WAAfImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B2A6EC7C2F722B9C00435FC9 /* WAAfImpl */; };
+		B2A6EC7F2F722B9C00435FC9 /* WAAiHelpImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B2A6EC7E2F722B9C00435FC9 /* WAAiHelpImpl */; };
+		B2A6EC812F722B9C00435FC9 /* WAApImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B2A6EC802F722B9C00435FC9 /* WAApImpl */; };
+		B2A6EC832F722B9C00435FC9 /* WAFbImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B2A6EC822F722B9C00435FC9 /* WAFbImpl */; };
+		B2A6EC852F722B9C00435FC9 /* WAFirebaseImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B2A6EC842F722B9C00435FC9 /* WAFirebaseImpl */; };
+		B2A6EC872F722B9C00435FC9 /* WAPushImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B2A6EC862F722B9C00435FC9 /* WAPushImpl */; };
+		B2A6EC892F722B9C00435FC9 /* WASdkImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B2A6EC882F722B9C00435FC9 /* WASdkImpl */; };
+		B2A6EC8B2F722B9C00435FC9 /* WASdkIntf in Frameworks */ = {isa = PBXBuildFile; productRef = B2A6EC8A2F722B9C00435FC9 /* WASdkIntf */; };
 		B2AA6EA42F14AD6D005E201A /* WAGhgpImpl in Frameworks */ = {isa = PBXBuildFile; productRef = B2AA6EA32F14AD6D005E201A /* WAGhgpImpl */; };
 		B2ABFE012E2F867A00894F67 /* wa_sdk_impl_config_ghgp.xml in Resources */ = {isa = PBXBuildFile; fileRef = B2ABFDFF2E2F867A00894F67 /* wa_sdk_impl_config_ghgp.xml */; };
 		B2ABFE022E2F867A00894F67 /* wa_sdk_impl_config_ghgl.xml in Resources */ = {isa = PBXBuildFile; fileRef = B2ABFDFE2E2F867A00894F67 /* wa_sdk_impl_config_ghgl.xml */; };
@@ -343,6 +351,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A6EC892F722B9C00435FC9 /* WASdkImpl in Frameworks */,
 				B298D7C82F14D5D900D5DA86 /* WAAdmobImpl in Frameworks */,
 				B27ED4F92A172EA200DB1772 /* CoreFoundation.framework in Frameworks */,
 				B24201102F29B5F8000F46CE /* WAFirebaseImpl in Frameworks */,
@@ -367,7 +376,9 @@
 				B24200FB2F29A959000F46CE /* WAApImpl in Frameworks */,
 				B298D7BD2F14D5AA00D5DA86 /* WASdkImpl in Frameworks */,
 				B2B598AC2F61627E0095A550 /* WAApImpl in Frameworks */,
+				B2A6EC872F722B9C00435FC9 /* WAPushImpl in Frameworks */,
 				B24200F92F29A959000F46CE /* WAAiHelpImpl in Frameworks */,
+				B2A6EC852F722B9C00435FC9 /* WAFirebaseImpl in Frameworks */,
 				B24201032F29A959000F46CE /* WASdkImpl in Frameworks */,
 				B227A7392F31E7CA009CD570 /* WAApImpl in Frameworks */,
 				B227A74C2F31EC0E009CD570 /* WAFbImpl in Frameworks */,
@@ -382,6 +393,7 @@
 				B22476942F63F14600877C00 /* WAAfImpl in Frameworks */,
 				B27ED4F52A172E8C00DB1772 /* libc++.tbd in Frameworks */,
 				B227A7352F31E7CA009CD570 /* WAAfImpl in Frameworks */,
+				B2A6EC812F722B9C00435FC9 /* WAApImpl in Frameworks */,
 				B298D7B92F14D5AA00D5DA86 /* WAFirebaseImpl in Frameworks */,
 				B2B5986A2F611D750095A550 /* WAAfImpl in Frameworks */,
 				B27ED4F32A172E7300DB1772 /* AppTrackingTransparency.framework in Frameworks */,
@@ -391,11 +403,13 @@
 				B227A72E2F31D1BC009CD570 /* WAPushImpl in Frameworks */,
 				B298D7C22F14D5C000D5DA86 /* WAGhgpImpl in Frameworks */,
 				B2AA6EA42F14AD6D005E201A /* WAGhgpImpl in Frameworks */,
+				B2A6EC8B2F722B9C00435FC9 /* WASdkIntf in Frameworks */,
 				B242010C2F29B5F8000F46CE /* WAApImpl in Frameworks */,
 				B27ED4F12A172E1200DB1772 /* libz.tbd in Frameworks */,
 				B227A7242F31D1BC009CD570 /* WAAfImpl in Frameworks */,
 				B227A72A2F31D1BC009CD570 /* WAFbImpl in Frameworks */,
 				B22476A22F63F14600877C00 /* WASdkIntf in Frameworks */,
+				B2A6EC832F722B9C00435FC9 /* WAFbImpl in Frameworks */,
 				B24200FF2F29A959000F46CE /* WAFirebaseImpl in Frameworks */,
 				B27ED4EF2A172E0A00DB1772 /* libsqlite3.tbd in Frameworks */,
 				B227A7412F31E7CA009CD570 /* WASdkImpl in Frameworks */,
@@ -419,6 +433,7 @@
 				B24201142F29B5F8000F46CE /* WASdkImpl in Frameworks */,
 				B24200F72F29A959000F46CE /* WAAfImpl in Frameworks */,
 				B298D7BB2F14D5AA00D5DA86 /* WAPushImpl in Frameworks */,
+				B2A6EC7D2F722B9C00435FC9 /* WAAfImpl in Frameworks */,
 				B2B598B62F61627E0095A550 /* WASdkIntf in Frameworks */,
 				B298D7C52F14D5CF00D5DA86 /* WAGhglImpl in Frameworks */,
 				B227A7302F31D1BC009CD570 /* WASdkImpl in Frameworks */,
@@ -427,6 +442,7 @@
 				B227A74A2F31EC0E009CD570 /* WAApImpl in Frameworks */,
 				B298D7B72F14D5AA00D5DA86 /* WAFbImpl in Frameworks */,
 				B2B598B02F61627E0095A550 /* WAFirebaseImpl in Frameworks */,
+				B2A6EC7F2F722B9C00435FC9 /* WAAiHelpImpl in Frameworks */,
 				B279EC942DB9DDB200162B5F /* StoreKit.framework in Frameworks */,
 				B227A73B2F31E7CA009CD570 /* WAFbImpl in Frameworks */,
 				B227A7522F31EC0E009CD570 /* WASdkImpl in Frameworks */,
@@ -440,7 +456,7 @@
 		B27ED32B2A17196E00DB1772 = {
 			isa = PBXGroup;
 			children = (
-				B2B5988F2F611D960095A550 /* wingsdkResources_4.11.0 */,
+				B2B5988F2F611D960095A550 /* wingsdkResources_4.11.3 */,
 				B2ABFE002E2F867A00894F67 /* admob&webResources */,
 				B26B633B2A6A1A51007C46DB /* WADemo-Bridging-Header.h */,
 				B26B63392A6A1A29007C46DB /* File.swift */,
@@ -792,7 +808,7 @@
 			path = localizable;
 			sourceTree = "<group>";
 		};
-		B2B5988F2F611D960095A550 /* wingsdkResources_4.11.0 */ = {
+		B2B5988F2F611D960095A550 /* wingsdkResources_4.11.3 */ = {
 			isa = PBXGroup;
 			children = (
 				B2B598822F611D960095A550 /* localizable */,
@@ -809,7 +825,7 @@
 				B2B5988D2F611D960095A550 /* wa_sdk_track_config.plist */,
 				B2B5988E2F611D960095A550 /* WASDK-Resource.bundle */,
 			);
-			path = wingsdkResources_4.11.0;
+			path = wingsdkResources_4.11.3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -860,7 +876,7 @@
 				B298D7C02F14D5C000D5DA86 /* XCRemoteSwiftPackageReference "WAGhgpImpl_spm" */,
 				B298D7C32F14D5CF00D5DA86 /* XCRemoteSwiftPackageReference "WAGhglImpl_spm" */,
 				B298D7C62F14D5D900D5DA86 /* XCRemoteSwiftPackageReference "WAAdmobImpl_spm" */,
-				B22476922F63F14600877C00 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */,
+				B27BB41F2F72334400E1606F /* XCRemoteSwiftPackageReference "wingsdkios_spm" */,
 			);
 			productRefGroup = B27ED3352A17196E00DB1772 /* Products */;
 			projectDirPath = "";
@@ -1131,7 +1147,7 @@
 				CODE_SIGN_ENTITLEMENTS = WADemo/WADemo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 23;
 				DEVELOPMENT_TEAM = Y8Z2D47ET4;
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1164,13 +1180,13 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.11.0;
+				MARKETING_VERSION = 4.11.3;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1265,7 +1281,7 @@
 				CODE_SIGN_ENTITLEMENTS = WADemo/WADemoRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 23;
 				DEVELOPMENT_TEAM = Y8Z2D47ET4;
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1298,13 +1314,13 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.11.0;
+				MARKETING_VERSION = 4.11.3;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1461,6 +1477,14 @@
 				minimumVersion = 4.9.2;
 			};
 		};
+		B27BB41F2F72334400E1606F /* XCRemoteSwiftPackageReference "wingsdkios_spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://repo.wingsdk.cn:8082/r/wingsdkios_spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.11.3;
+			};
+		};
 		B298D7AF2F14D5AA00D5DA86 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "http://repo.wingsdk.cn:8082/r/wingsdkios_spm.git";
@@ -1491,6 +1515,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 4.7.0;
+			};
+		};
+		B2A6EC7B2F722B9C00435FC9 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://repo.wingsdk.cn:8082/r/wingsdkios_spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.11.1;
 			};
 		};
 		B2AA6EA22F14AD6D005E201A /* XCRemoteSwiftPackageReference "WAGhgpImpl_spm" */ = {
@@ -1815,6 +1847,46 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B298D7C62F14D5D900D5DA86 /* XCRemoteSwiftPackageReference "WAAdmobImpl_spm" */;
 			productName = WAAdmobImpl;
+		};
+		B2A6EC7C2F722B9C00435FC9 /* WAAfImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2A6EC7B2F722B9C00435FC9 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAAfImpl;
+		};
+		B2A6EC7E2F722B9C00435FC9 /* WAAiHelpImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2A6EC7B2F722B9C00435FC9 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAAiHelpImpl;
+		};
+		B2A6EC802F722B9C00435FC9 /* WAApImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2A6EC7B2F722B9C00435FC9 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAApImpl;
+		};
+		B2A6EC822F722B9C00435FC9 /* WAFbImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2A6EC7B2F722B9C00435FC9 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAFbImpl;
+		};
+		B2A6EC842F722B9C00435FC9 /* WAFirebaseImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2A6EC7B2F722B9C00435FC9 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAFirebaseImpl;
+		};
+		B2A6EC862F722B9C00435FC9 /* WAPushImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2A6EC7B2F722B9C00435FC9 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WAPushImpl;
+		};
+		B2A6EC882F722B9C00435FC9 /* WASdkImpl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2A6EC7B2F722B9C00435FC9 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WASdkImpl;
+		};
+		B2A6EC8A2F722B9C00435FC9 /* WASdkIntf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2A6EC7B2F722B9C00435FC9 /* XCRemoteSwiftPackageReference "wingsdkios_spm" */;
+			productName = WASdkIntf;
 		};
 		B2AA6EA32F14AD6D005E201A /* WAGhgpImpl */ = {
 			isa = XCSwiftPackageProductDependency;

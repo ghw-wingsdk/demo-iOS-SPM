@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "http://repo.wingsdk.cn:8082/r/wingsdkios_spm.git",
       "state" : {
-        "revision" : "65876fbe0bfbe0071c38d08d749e1f53f251b9a4",
-        "version" : "4.11.0"
+        "revision" : "8fdeab769869bb9fa7375e457ba402d91e2ac829",
+        "version" : "4.11.3"
       }
     }
   ],
