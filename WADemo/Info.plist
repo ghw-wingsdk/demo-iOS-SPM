@@ -173,5 +173,7 @@
 	</array>
 	<key>needShowloginUIBackButton</key>
 	<true/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 </dict>
 </plist>
