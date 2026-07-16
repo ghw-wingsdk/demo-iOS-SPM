@@ -383,5 +383,11 @@
 	<string>%@可在游戏内购买任意付费商品</string>
 	<key>wa_sdk_coins_confirm</key>
 	<string>确认</string>
+	<key>wa_sdk_auth_apply_user_info</key>
+	<string>申请使用您的用户信息</string>
+	<key>wa_sdk_auth_apply_login</key>
+	<string>%@ 正在申请登录</string>
+	<key>wa_sdk_auth_faile_alert</key>
+	<string>获取用户信息失败，请登录游戏进服后再试</string>
 </dict>
 </plist>

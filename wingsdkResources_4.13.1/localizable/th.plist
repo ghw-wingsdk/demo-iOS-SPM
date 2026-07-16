@@ -315,5 +315,11 @@ Recharge with discount</string>
 	<string>%@ สามารถใช้ซื้อสินค้าที่ต้องชำระเงินใดก็ได้ในเกม</string>
 	<key>wa_sdk_coins_confirm</key>
 	<string>ยืนยัน</string>
+	<key>wa_sdk_auth_apply_user_info</key>
+	<string>กำลังขอใช้ข้อมูลผู้ใช้ของคุณ</string>
+	<key>wa_sdk_auth_apply_login</key>
+	<string>%@ กำลังขอเข้าสู่ระบบ</string>
+	<key>wa_sdk_auth_faile_alert</key>
+	<string>รับข้อมูลผู้ใช้ล้มเหลว โปรดเข้าสู่ระบบและเข้าสู่เซิร์ฟเวอร์เกมก่อนลองอีกครั้ง</string>
 </dict>
 </plist>

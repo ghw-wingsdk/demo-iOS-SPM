@@ -329,5 +329,11 @@ Recharge with discount</string>
 	<string>%@ dapat digunakan untuk membeli item berbayar apa pun di dalam game.</string>
 	<key>wa_sdk_coins_confirm</key>
 	<string>Konfirmasi</string>
+	<key>wa_sdk_auth_apply_user_info</key>
+	<string>Meminta akses ke profil Anda</string>
+	<key>wa_sdk_auth_apply_login</key>
+	<string>%@ sedang meminta login</string>
+	<key>wa_sdk_auth_faile_alert</key>
+	<string>Gagal mendapatkan info pengguna. Silakan login dan masuk ke server game sebelum mencoba lagi.</string>
 </dict>
 </plist>

@@ -9,6 +9,7 @@
 #import <WASdkIntf/WASdkIntf.h>
 #import <WACommon/WAHelper.h>
 #import "WADemoUtil.h"
+#import "WADeeplinkValidator.h"
 
 @interface AppDelegate ()<UNUserNotificationCenterDelegate,GADFullScreenContentDelegate>
 @end
@@ -157,11 +158,123 @@
 
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
 {
+    NSLog(@"[Deeplink] 收到 openURL 调用: %@", url.absoluteString);
+    
+
+    
     return [WACoreProxy application:app openURL:url options:options];
+}
+
+#pragma mark - Deeplink 处理
+
+- (void)showDeeplinkConfirmDialogWithURL:(NSURL *)url {
+    NSString *urlString = url.absoluteString ?: @"未知 URL";
+    NSString *bundleIdentifier = [NSBundle mainBundle].bundleIdentifier ?: @"未知 Bundle ID";
+    NSString *title = [NSString stringWithFormat:@"Deeplink 验证 (%@)", bundleIdentifier];
+    NSString *message;
+    
+    // 检查是否为网站授权回调链接
+    if ([WADeeplinkValidator isAuthCallbackURL:url]) {
+        NSLog(@"[Deeplink] 检测到网站授权回调链接");
+        NSString *requestId = [WADeeplinkValidator extractRequestIdFromURL:url];
+        if (requestId) {
+            NSLog(@"[Deeplink] 授权请求 ID: %@", requestId);
+        }
+        message = [NSString stringWithFormat:@"%@\n\n通过充值中心特殊授权的deeplink授权成功，是否跳转到充值中心", urlString];
+    } else {
+        message = [NSString stringWithFormat:@"%@\n\n通过普通的deeplink授权成功，是否跳转到充值中心", urlString];
+    }
+    
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title
+                                                                           message:message
+                                                                    preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消"
+                                                           style:UIAlertActionStyleCancel
+                                                         handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"[Deeplink] 用户点击取消，保持当前页面");
+    }];
+    
+    UIAlertAction *confirmAction = [UIAlertAction actionWithTitle:@"确定"
+                                                            style:UIAlertActionStyleDefault
+                                                          handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"[Deeplink] 用户点击确定，跳转到充值中心");
+        [self navigateToPaymentCenter];
+    }];
+    
+    [alertController addAction:cancelAction];
+    [alertController addAction:confirmAction];
+    
+    UIViewController *currentVC = [self currentViewController];
+    if (currentVC) {
+        [currentVC presentViewController:alertController animated:YES completion:nil];
+    } else {
+        NSLog(@"[Deeplink] 无法获取当前视图控制器");
+    }
+}
+
+- (UIViewController *)currentViewController {
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    if (!window) {
+        NSArray *windows = [UIApplication sharedApplication].windows;
+        for (UIWindow *w in windows) {
+            if (w.windowLevel == UIWindowLevelNormal) {
+                window = w;
+                break;
+            }
+        }
+    }
+    
+    UIViewController *rootVC = window.rootViewController;
+    return [self topViewController:rootVC];
+}
+
+- (UIViewController *)topViewController:(UIViewController *)viewController {
+    if ([viewController isKindOfClass:[UINavigationController class]]) {
+        UINavigationController *nav = (UINavigationController *)viewController;
+        return [self topViewController:nav.visibleViewController];
+    }
+    
+    if ([viewController isKindOfClass:[UITabBarController class]]) {
+        UITabBarController *tab = (UITabBarController *)viewController;
+        return [self topViewController:tab.selectedViewController];
+    }
+    
+    if (viewController.presentedViewController) {
+        return [self topViewController:viewController.presentedViewController];
+    }
+    
+    return viewController;
+}
+
+- (void)navigateToPaymentCenter {
+    NSLog(@"[Deeplink] 正在跳转到充值中心...");
+    
+    NSURL *paymentURL = [NSURL URLWithString:@"https://prestore.gamehollywood.com/cid/11k9k9mnh750qf"];
+    if (!paymentURL) {
+        NSLog(@"[Deeplink] 充值中心 URL 格式无效");
+        return;
+    }
+    
+    UIApplication *application = [UIApplication sharedApplication];
+    if ([application canOpenURL:paymentURL]) {
+        [application openURL:paymentURL options:@{} completionHandler:^(BOOL success) {
+            if (success) {
+                NSLog(@"[Deeplink] 成功打开充值中心页面: %@", paymentURL.absoluteString);
+            } else {
+                NSLog(@"[Deeplink] 无法打开充值中心页面");
+            }
+        }];
+    } else {
+        NSLog(@"[Deeplink] 无法打开 URL: %@", paymentURL.absoluteString);
+    }
 }
 
 - (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray<id<UIUserActivityRestoring>> * _Nullable))restorationHandler
 {
+    NSLog(@"[Deeplink] 收到 continueUserActivity 调用");
+    
+
     return [WACoreProxy application:application continueUserActivity:userActivity restorationHandler:restorationHandler];
 }
 

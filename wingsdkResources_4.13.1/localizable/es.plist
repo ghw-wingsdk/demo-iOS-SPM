@@ -375,5 +375,11 @@ Tras cancelar tu cuenta de juego, tu información personal será eliminada o hec
 	<string>Los %@ se pueden usar para comprar cualquier artículo de pago en el juego.</string>
 	<key>wa_sdk_coins_confirm</key>
 	<string>Confirmar</string>
+	<key>wa_sdk_auth_apply_user_info</key>
+	<string>Solicitando acceso a tu información</string>
+	<key>wa_sdk_auth_apply_login</key>
+	<string>%@ está solicitando el inicio de sesión</string>
+	<key>wa_sdk_auth_faile_alert</key>
+	<string>Error al obtener información. Inicia sesión y entra al servidor antes de reintentar.</string>
 </dict>
 </plist>

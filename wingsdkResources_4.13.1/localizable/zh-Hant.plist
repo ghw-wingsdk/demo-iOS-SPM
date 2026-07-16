@@ -377,5 +377,11 @@
 	<string>%@ 可在遊戲內購買任意付費商品。</string>
 	<key>wa_sdk_coins_confirm</key>
 	<string>確認</string>
+	<key>wa_sdk_auth_apply_user_info</key>
+	<string>申請使用您的用戶資訊</string>
+	<key>wa_sdk_auth_apply_login</key>
+	<string>%@ 正在申請登入</string>
+	<key>wa_sdk_auth_faile_alert</key>
+	<string>獲取用戶資訊失敗，請登入遊戲進服後再試</string>
 </dict>
 </plist>

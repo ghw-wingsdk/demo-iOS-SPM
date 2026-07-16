@@ -379,5 +379,11 @@ After you cancel your game account, your personal information will be deleted or
 	<string>%@ can be used to purchase any paid item in the game.</string>
 	<key>wa_sdk_coins_confirm</key>
 	<string>Confirm</string>
+	<key>wa_sdk_auth_apply_user_info</key>
+	<string>Requesting access to your profile</string>
+	<key>wa_sdk_auth_apply_login</key>
+	<string>%@ is requesting login</string>
+	<key>wa_sdk_auth_faile_alert</key>
+	<string>Failed to get user info. Log in and enter the game server before trying again.</string>
 </dict>
 </plist>

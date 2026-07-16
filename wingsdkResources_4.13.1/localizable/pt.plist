@@ -377,5 +377,11 @@ Depois que você cancelar sua conta de jogo, suas informações pessoais serão 
 	<string>%@ podem ser usados para comprar qualquer item pago no jogo.</string>
 	<key>wa_sdk_coins_confirm</key>
 	<string>Confirmar</string>
+	<key>wa_sdk_auth_apply_user_info</key>
+	<string>Solicitando acesso às suas informações</string>
+	<key>wa_sdk_auth_apply_login</key>
+	<string>%@ está solicitando login</string>
+	<key>wa_sdk_auth_faile_alert</key>
+	<string>Falha ao obter informações do usuário. Entre no jogo e no servidor antes de tentar novamente.</string>
 </dict>
 </plist>

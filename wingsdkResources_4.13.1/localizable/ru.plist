@@ -329,5 +329,11 @@ Recharge with discount</string>
 	<string>%@ можно использовать для покупки любого платного предмета в игре.</string>
 	<key>wa_sdk_coins_confirm</key>
 	<string>Подтвердить</string>
+	<key>wa_sdk_auth_apply_user_info</key>
+	<string>Запрос доступа к вашим данным</string>
+	<key>wa_sdk_auth_apply_login</key>
+	<string>%@ запрашивает вход</string>
+	<key>wa_sdk_auth_faile_alert</key>
+	<string>Ошибка получения данных. Войдите в игру и на сервер, затем попробуйте снова.</string>
 </dict>
 </plist>

@@ -289,6 +289,7 @@
     NSString * serverId= @"1110";
     NSString * gameUserId= @"1199110";
     NSString * nickname= @"昵称";
+    nickname = @"测试 用户😊:/?&=;+!@#$()',* {\"ip\":\"1.1.1.1\",\"os\":\"iOS 18\"}";
 
     
     NSTimeInterval interval = [[NSDate date] timeIntervalSince1970] * 1000;

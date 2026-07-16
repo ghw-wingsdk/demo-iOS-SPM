@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "http://repo.wingsdk.cn:8082/r/WAAdmobImpl_spm.git",
       "state" : {
-        "revision" : "1e5242aa56dd1c52c537335ee56d7127d09b24de",
-        "version" : "4.7.0"
+        "revision" : "5c57c740c1a3a7acbb384dcf2557fd129fa7328c",
+        "version" : "4.13.1"
       }
     },
     {
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "http://repo.wingsdk.cn:8082/r/wingsdkios_spm.git",
       "state" : {
-        "revision" : "8fdeab769869bb9fa7375e457ba402d91e2ac829",
-        "version" : "4.11.3"
+        "revision" : "e31f4c7fc08c9ed5f18a56083627cd4ac1c2c719",
+        "version" : "4.13.1"
       }
     }
   ],
