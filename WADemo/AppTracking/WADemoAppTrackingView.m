@@ -96,7 +96,7 @@
     
     
     WADemoButtonMain* btn17 = [[WADemoButtonMain alloc]init];
-    [btn17 setTitle:@"创角" forState:UIControlStateNormal];
+    [btn17 setTitle:@"创角V2" forState:UIControlStateNormal];
     [btn17 addTarget:self action:@selector(userCreate) forControlEvents:UIControlEventTouchUpInside];
     [btns addObject:btn17];
     
@@ -135,6 +135,10 @@
     [btn19 addTarget:self action:@selector(self_lv) forControlEvents:UIControlEventTouchUpInside];
     [btns addObject:btn19];
     
+     btn19 = [[WADemoButtonMain alloc]init];
+    [btn19 setTitle:@"关键关卡" forState:UIControlStateNormal];
+    [btn19 addTarget:self action:@selector(self_stage) forControlEvents:UIControlEventTouchUpInside];
+    [btns addObject:btn19];
     WADemoButtonMain* btn20 = [[WADemoButtonMain alloc]init];
     [btn20 setTitle:@"完成新手任务" forState:UIControlStateNormal];
     [btn20 addTarget:self action:@selector(tutorialCompleted) forControlEvents:UIControlEventTouchUpInside];
@@ -158,7 +162,7 @@
    [btn22 addTarget:self action:@selector(threadSetGameUserid) forControlEvents:UIControlEventTouchUpInside];
    [btns addObject:btn22];
     
-    NSMutableArray* btnLayout = [NSMutableArray arrayWithArray:@[@2,@2,@2,@2,@2,@2,@2,@2,@2]];
+    NSMutableArray* btnLayout = [NSMutableArray arrayWithArray:@[@2,@2,@2,@2,@2,@2,@2,@2,@2,@2]];
     self.title = @"数据收集";
     self.btnLayout = btnLayout;
     self.btns = btns;
@@ -215,6 +219,12 @@
     [event trackEvent];
 
     
+}
+- (void)self_stage{
+    NSString * stage=@"1_1";
+    WAStageEvent * event =[[WAStageEvent alloc] initWithStage:stage];
+    [event trackEvent];
+
 }
 - (void)initiatedPurchase {
 
@@ -289,7 +299,6 @@
     NSString * serverId= @"1110";
     NSString * gameUserId= @"1199110";
     NSString * nickname= @"昵称";
-    nickname = @"测试 用户😊:/?&=;+!@#$()',* {\"ip\":\"1.1.1.1\",\"os\":\"iOS 18\"}";
 
     
     NSTimeInterval interval = [[NSDate date] timeIntervalSince1970] * 1000;
@@ -311,7 +320,7 @@
         };
     
     
-    WAUserCreateEvent * event =[[WAUserCreateEvent alloc] initWithServerId:serverId gameUserId:gameUserId nickname:nickname registerTime:longInterval optionalParameter:optionalParameterDic];
+    WAUserCreateEventV2 * event =[[WAUserCreateEventV2 alloc] initWithServerId:serverId gameUserId:gameUserId nickname:nickname optionalParameter:optionalParameterDic];
     [event trackEvent];
     
 }
@@ -427,7 +436,6 @@ int level =0;
 	
     WAEvent* event = [[WAEvent alloc]init];
     event.defaultEventName =@"custom_event_name";
-    event.defaultValue = 1;
     [event trackEvent];
 }
 

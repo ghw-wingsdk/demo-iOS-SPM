@@ -7,6 +7,7 @@
 //
 
 #import "WADemoUserCenterViewController.h"
+#import "WADemoUtil.h"
 #import <WASdkIntf/WASdkIntf.h>
 #import "WADemoAlertView.h"
 #import <Toast/Toast.h>
@@ -42,7 +43,7 @@
 #pragma mark -- 初始化Bar
 - (void)initTitleViews:(NSString *)title
 {
-    CGRect rectStatus = [[UIApplication sharedApplication] statusBarFrame];
+    CGRect rectStatus = [WADemoUtil statusBarFrame];
     CGFloat heightStatus = rectStatus.size.width > rectStatus.size.height ? rectStatus.size.height : rectStatus.size.width;
     
     _viewTitle = [[UIView alloc] initWithFrame:CGRectMake(0, heightStatus, self.bounds.size.width, 44)];
@@ -77,7 +78,7 @@
 
     [self addSubview:scrollView];
     
-    NSArray *titles = @[@"是否开启中心数据",@"获取用户中心数据", @"打开用户中心界面",@"切换区服"];
+    NSArray *titles = @[@"是否开启中心数据",@"获取用户中心数据", @"打开用户中心界面",@"切换区服",@"获取cid"];
     
     CGFloat left = 10, right = 10, top = 60, bottom = 40, mid_space_h = 10, mid_space_v = 10, btnHeight = 40;
     
@@ -154,7 +155,8 @@
         NSString * nickName = [NSString stringWithFormat:@"青铜%@-%@",serverid,result.userId];
 
         
-        
+//        nickName = @"测试 用户😊:/?&=;+!@#$()',* {\"ip\":\"1.1.1.1\",\"os\":\"iOS 18\"}";
+
         [WACoreProxy setServerId:serverid];
         [WACoreProxy setGameUserId:gameuserid];
         [WACoreProxy setNickName:nickName];
@@ -166,6 +168,20 @@
         [alert show];
         
         
+        
+        
+    }else if (button.tag == 5) //获取cid
+    {
+        [WAUserProxy getCid:^(NSError * _Nullable error, NSString * _Nullable cid) {
+            if (!error) {
+                [self makeToast:[NSString stringWithFormat:@"cid结果为:%@",cid]];
+
+            }else{
+                [self makeToast:[NSString stringWithFormat:@"cid获取失败:%@",error.localizedDescription]];
+
+            }
+        }];
+
         
         
     }

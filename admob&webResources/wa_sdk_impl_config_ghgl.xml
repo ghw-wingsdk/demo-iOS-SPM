@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <config>
-	<version val="WAGHGL4.4.0" />
+	<version val="WAGHGL4.14.0" />
     <comps>
         
         <comp module="CORE" plaf="WEB_LOGIN" mandatory="YES" value="WAGhglCore" desc="WebView登录核心类" />

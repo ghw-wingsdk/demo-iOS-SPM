@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <config>
-	<version val="AdMob4.7.0" />
+	<version val="AdMob4.14.0" />
     <comps>
         
         <comp module="CORE" plaf="ADMOB" mandatory="YES" value="WAAdMobCore" desc="公共模块" />

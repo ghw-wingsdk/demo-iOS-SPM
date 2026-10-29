@@ -4,6 +4,10 @@
 <dict>
 	<key>WaSdkServerUrl</key>
 	<string>http://sdk-test1.gamehollywood.com/sdk_bkd_qa/sdkapi/</string>
+	<key>WaSdkServerUrl-qa</key>
+	<string>http://172.16.100.53/sdk_bkd_qa/sdkapi/</string>
+	<key>WaSdkServerUrl-qa - 2</key>
+	<string>https://api.wingsdk.com/sdkapi/</string>
 	<key>appKey</key>
 	<string>abc</string>
 	<key>appId</key>

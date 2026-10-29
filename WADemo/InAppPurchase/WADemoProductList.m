@@ -19,7 +19,11 @@ static NSString* productCellIdentifier = @"ProductCellIdentifier";
 -(instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
-        self.naviheight = [UIScreen mainScreen].bounds.size.height - frame.size.height;
+        UIWindow *keyWindow = nil;
+        for (UIWindowScene *scene in UIApplication.sharedApplication.connectedScenes) {
+            if (scene.windows.count > 0) { keyWindow = scene.windows.firstObject; break; }
+        }
+        self.naviheight = keyWindow.bounds.size.height - frame.size.height;
         [self registerClass:[UITableViewCell class] forCellReuseIdentifier:productCellIdentifier];
         self.dataSource = self;
 		self.delegate=self;
@@ -119,7 +123,12 @@ static NSString* productCellIdentifier = @"ProductCellIdentifier";
         [extInfo setObject:@"202222ddddadjjdada0099ll111333" forKey:@"orderId"];
 
         NSString * extInfoStr= [WADemoUtil toJSONStringFromDictionary:extInfo];
-        [WAPayProxy payWithProductId:product.productIdentifier extInfo:extInfoStr delegate:self];
+        // 订阅商品（productType=5）走订阅支付接口 paySub，其余商品走普通支付接口
+        if (product.productType == 5) {
+            [WAPayProxy paySub:product.productIdentifier extInfo:extInfoStr delegate:self];
+        } else {
+            [WAPayProxy payWithProductId:product.productIdentifier extInfo:extInfoStr delegate:self];
+        }
     }
 }
 
@@ -139,22 +148,15 @@ static NSString* productCellIdentifier = @"ProductCellIdentifier";
             NSLog(@"%@ 支付成功.", platform);
             NSLog(@"%@ iapResult.productIdentifier.", iapResult.productIdentifier);
 
-            WAEvent* event = [[WAEvent alloc]init];
-            event.defaultEventName =WAEventPurchase;
-            event.defaultParamValues = @{
-                
-                /*必填*/
-                WAEventParameterNameItemName:iapResult.productIdentifier?iapResult.productIdentifier:@"",  //游戏内虚拟物品的名称/ID
-                WAEventParameterNameItemAmount:@1,       //交易的数量
-                WAEventParameterNamePrice:iapResult.defaultAmountMicro?iapResult.defaultAmountMicro:@1      //交易的总价
-
-            };
-            [event trackEvent];
             
             
         }
     }
-    [self.naviView makeToast:msg];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.naviView makeToast:msg];
+
+    });
 }
 -(void)paymentDidFailWithError:(NSError*)error andPlatform:(NSString*)platform{
     if (error) {
